@@ -1,0 +1,4328 @@
+code_domain,code_value,code_desc
+C_AS_SAMP_TYPE,CF,Coarse Fragments
+C_AS_SAMP_TYPE,FE,Fine earth
+C_AS_SAMP_TYPE,WS,Whole soil
+C_CF_DISTRIBUTION,D,Dispersed
+C_CF_DISTRIBUTION,R,Reoriented
+C_CF_DISTRIBUTION,S,Stratified
+C_CF_DISTRIBUTION,U,Undisturbed
+C_CF_SHAPE,A,Angular
+C_CF_SHAPE,AP,Angular platy
+C_CF_SHAPE,AT,Angular tabular
+C_CF_SHAPE,R,Rounded
+C_CF_SHAPE,RP,Rounded platy
+C_CF_SHAPE,RT,Rounded tabular
+C_CF_SHAPE,S,Subangular
+C_CF_SHAPE,SP,Subangular platy
+C_CF_SHAPE,ST,Subangular tabular
+C_CF_SHAPE,U,Subrounded
+C_CF_SHAPE,UP,Subrounded platy
+C_CF_SHAPE,UT,Subrounded tabular
+C_CF_STRENGTH,M,Moderately strong
+C_CF_STRENGTH,S,Strong
+C_CF_STRENGTH,VS,Very strong
+C_CF_STRENGTH,VW,Very weak
+C_SCF_SHAPE,A,Angular
+C_SCF_SHAPE,AP,Angular platy
+C_SCF_SHAPE,AT,Angular tabular
+C_SCF_SHAPE,R,Rounded
+C_SCF_SHAPE,RP,Rounded platy
+C_SCF_SHAPE,RT,Rounded tabular
+C_SCF_SHAPE,S,Subangular
+C_SCF_SHAPE,SP,Subangular platy
+C_SCF_SHAPE,ST,Subangular tabular
+C_SCF_SHAPE,U,Subrounded
+C_SCF_SHAPE,UP,Subrounded platy
+C_SCF_SHAPE,UT,Subrounded tabular
+C_SCF_STRENGTH,M,Moderately strong
+C_SCF_STRENGTH,S,Strong
+C_SCF_STRENGTH,VS,Very strong
+C_SCF_STRENGTH,VW,Very weak
+C_SCF_STRENGTH,W,Weak
+C_CONTRAST,D,Distinct
+C_CONTRAST,F,Faint
+C_CONTRAST,P,Prominent
+C_CUTAN_DISTINCT,D,Distinct
+C_CUTAN_DISTINCT,F,Faint
+C_CUTAN_DISTINCT,P,Prominent
+C_CUTAN_TYPE,C,Clay skins
+C_CUTAN_TYPE,K,Slickensides
+C_CUTAN_TYPE,M,Mangans
+C_CUTAN_TYPE,O,Other cutans
+C_CUTAN_TYPE,S,Stress cutans
+C_CUTAN_TYPE,U,Unspecified
+C_CUTAN_TYPE,Z,Zero or no cutans
+C_DIST_TYPE,0,No effective disturbance. Natural
+C_DIST_TYPE,1,No effective disturbance other than grazing by hoofed animals
+C_DIST_TYPE,2,"Limited clearing, for example selective logging"
+C_DIST_TYPE,3,"Extensive clearing, for example poisoning, ringbarking"
+C_DIST_TYPE,4,"Complete clearing. Pasture, native or improved, but never cultivated"
+C_DIST_TYPE,5,"Complete clearing. Pasture, native or improved, cultivated at some stage"
+C_DIST_TYPE,6,Cultivation. Rainfed
+C_DIST_TYPE,7,"Cultivation. Irrigated, past or present"
+C_DIST_TYPE,8,"Highly disturbed, for example, quarrying, roadworks, mining, landfill, urban"
+C_EX_EXTENT,0,1-10%
+C_EX_EXTENT,1,11-20%
+C_EX_EXTENT,2,21-30%
+C_EX_EXTENT,3,31-40%
+C_EX_EXTENT,4,41-50%
+C_EX_EXTENT,5,51-60%
+C_EX_EXTENT,6,62-70%
+C_EX_EXTENT,7,71-80%
+C_EX_EXTENT,8,81-90%
+C_EX_EXTENT,9,91-100%
+C_EX_SPECIES_CODE,A,Rubber vine
+C_EX_SPECIES_CODE,B,Chinee apple
+C_EX_SPECIES_CODE,C,Prickley acacia
+C_EX_SPECIES_CODE,D,Parthenium
+C_EX_SPECIES_CODE,E,Parkinsonia
+C_EX_SPECIES_CODE,F,Harrisia cactus
+C_EX_SPECIES_CODE,G,Lantana
+C_EX_SPECIES_CODE,H,Mesquites
+C_EX_SPECIES_CODE,J,Sicklepod
+C_EX_SPECIES_CODE,K,Calotropis
+C_EX_SPECIES_CODE,L,Code_L
+C_EX_SPECIES_CODE,X,No exotic weeds
+C_FAB_ABUN,0,No fabric
+C_FAB_ABUN,1,very few
+C_FAB_ABUN,2,few
+C_FAB_ABUN,3,common
+C_FAB_ABUN,4,many
+C_FAB_ABUN,5,abundant
+C_FAB_ABUN,6,very abundant
+C_FAB_TYPE,E,Earthy
+C_FAB_TYPE,G,Sandy (grains prominent)
+C_FAB_TYPE,R,Rough-ped
+C_FAB_TYPE,S,Smooth-ped
+C_GEOMORPH_AGENT,BI,Non-human biological agents; coral
+C_GEOMORPH_AGENT,CH,Channelled stream flow
+C_GEOMORPH_AGENT,DI,Diastrophism; earth movements
+C_GEOMORPH_AGENT,EU,Eustasy; changes in sea level
+C_GEOMORPH_AGENT,FR,"Frost, including freeze-thaw"
+C_GEOMORPH_AGENT,GL,Glacier flow
+C_GEOMORPH_AGENT,GR,Gravity
+C_GEOMORPH_AGENT,HU,Human agents
+C_GEOMORPH_AGENT,IM,Impact by meteors
+C_GEOMORPH_AGENT,OV,"Over bank stream flow, unchannelled"
+C_GEOMORPH_AGENT,SH,"Sheet flow; sheet wash, surface wash"
+C_GEOMORPH_AGENT,SM,Soil moisture status changes: creep
+C_GEOMORPH_AGENT,SO,Solution
+C_GEOMORPH_AGENT,TI,Tides
+C_GEOMORPH_AGENT,VO,Volcanism
+C_GEOMORPH_AGENT,WA,Waves
+C_GEOMORPH_AGENT,WI,Wind
+C_GEOMORPH_AGENT,WM,Water-aided mass movements; landslides
+C_GEOMORPH_MODE,AG,Aggraded
+C_GEOMORPH_MODE,BU,Built up
+C_GEOMORPH_MODE,EA,Eroded Or aggraded
+C_GEOMORPH_MODE,ER,Eroded
+C_GEOMORPH_MODE,EX,Excavated or dug out
+C_GEOMORPH_MODE,HU,Heaved up or elevated
+C_GEOMORPH_MODE,SU,Subsided or depressed
+C_H_BOUND_SHAPE,B,Broken
+C_H_BOUND_SHAPE,I,Irregular
+C_H_BOUND_SHAPE,S,Smooth
+C_H_BOUND_SHAPE,T,Tongued
+C_H_BOUND_SHAPE,W,Wavy
+C_H_CARBONATE_EFF,H,Highly calcareous
+C_H_CARBONATE_EFF,M,Moderately calcareous
+C_H_CARBONATE_EFF,N,Non-calcareous
+C_H_CARBONATE_EFF,S,Slightly calcareous
+C_H_CARBONATE_EFF,V,Very highly calcareous
+C_H_PLASTICITY_DEG,0,Non-plastic
+C_H_PLASTICITY_DEG,1,Slightly plastic
+C_H_PLASTICITY_DEG,2,Moderately plastic
+C_H_PLASTICITY_DEG,3,Very plastic
+C_H_PLASTICITY_TYPE,N,Normal plasticity
+C_H_PLASTICITY_TYPE,S,Superplastic
+C_H_PLASTICITY_TYPE,T,Strongly subplastic
+C_H_PLASTICITY_TYPE,U,Subplastic
+C_H_SOIL_WATER_STAT,D,Dry
+C_H_SOIL_WATER_STAT,M,Moist
+C_H_SOIL_WATER_STAT,T,Moderately moist
+C_H_SOIL_WATER_STAT,W,Wet
+C_H_STICKINESS,0,Non-sticky
+C_H_STICKINESS,1,Slightly sticky
+C_H_STICKINESS,2,Moderately sticky
+C_H_STICKINESS,3,Very sticky
+C_H_TEXTURE,AP,Sapric peat
+C_H_TEXTURE,CFS,Clayey fine sand
+C_H_TEXTURE,CKS,Clayey coarse sand
+C_H_TEXTURE,CL,Clay loam
+C_H_TEXTURE,CLFS,"Clay loam, fine sandy"
+C_H_TEXTURE,CLKS,"Clay loam, coarse sandy"
+C_H_TEXTURE,CLMS,"Clay loam, medium sandy"
+C_H_TEXTURE,CLS,"Clay loam, sandy"
+C_H_TEXTURE,CMS,Clayey medium sand
+C_H_TEXTURE,CP,Clayey peat
+C_H_TEXTURE,CS,Clayey sand
+C_H_TEXTURE,FS,Fine sand
+C_H_TEXTURE,FSC,Fine sandy clay
+C_H_TEXTURE,FSCL,Fine sandy clay loam
+C_H_TEXTURE,FSHC,Fine sandy heavy clay
+C_H_TEXTURE,FSL,Fine sandy loam
+C_H_TEXTURE,FSLC,Fine sandy light clay
+C_H_TEXTURE,FSLMC,Fine sandy light medium clay
+C_H_TEXTURE,FSMC,Fine sandy medium clay
+C_H_TEXTURE,FSMHC,Fine sandy medium heavy clay
+C_H_TEXTURE,FSS,Fine pure sand
+C_H_TEXTURE,GP,Granular peat
+C_H_TEXTURE,GR,Gravel
+C_H_TEXTURE,HC,Heavy clay
+C_H_TEXTURE,HP,Hemic peat
+C_H_TEXTURE,IP,Fibric peat
+C_H_TEXTURE,KS,Coarse sand
+C_H_TEXTURE,KSC,Coarse sandy clay
+C_H_TEXTURE,KSCL,Coarse sandy clay loam
+C_H_TEXTURE,KSHC,Coarse sandy heavy clay
+C_H_TEXTURE,KSL,Coarse sandy loam
+C_H_TEXTURE,KSLC,Coarse sandy light clay
+C_H_TEXTURE,KSLMC,Coarse sandy light medium clay
+C_H_TEXTURE,KSMC,Coarse sandy medium clay
+C_H_TEXTURE,KSMHC,Coarse sandy medium heavy clay
+C_H_TEXTURE,KSS,Coarse pure sand
+C_H_TEXTURE,L,Loam
+C_H_TEXTURE,LC,Light clay
+C_H_TEXTURE,LFS,Loamy fine sand
+C_H_TEXTURE,LKS,Loamy coarse sand
+C_H_TEXTURE,LMC,Light medium clay
+C_H_TEXTURE,LMS,Loamy medium sand
+C_H_TEXTURE,LP,Loamy peat
+C_H_TEXTURE,LS,Loamy sand
+C_H_TEXTURE,MC,Medium clay
+C_H_TEXTURE,MHC,Medium heavy clay
+C_H_TEXTURE,MS,Medium sand
+C_H_TEXTURE,MSC,Medium sandy clay
+C_H_TEXTURE,MSCL,Medium sandy clay loam
+C_H_TEXTURE,MSHC,Medium sandy heavy clay
+C_H_TEXTURE,MSL,Medium sandy loam
+C_H_TEXTURE,MSLC,Medium sandy light clay
+C_H_TEXTURE,MSLMC,Medium sandy light medium clay
+C_H_TEXTURE,MSMC,Medium sandy medium clay
+C_H_TEXTURE,MSMHC,Medium sandy medium heavy clay
+C_H_TEXTURE,MSS,Medium pure sand
+C_H_TEXTURE,S,Sand
+C_H_TEXTURE,SC,Sandy clay
+C_H_TEXTURE,SCL,Sandy clay loam
+C_H_TEXTURE,SCLFS,"Sandy clay loam, fine sand"
+C_H_TEXTURE,SHC,Sandy heavy clay
+C_H_TEXTURE,SL,Sandy loam
+C_H_TEXTURE,SLC,Sandy light clay
+C_H_TEXTURE,SLMC,Sandy light medium clay
+C_H_TEXTURE,SMC,Sandy medium clay
+C_H_TEXTURE,SMHC,Sandy medium heavy clay
+C_H_TEXTURE,SP,Sandy peat
+C_H_TEXTURE,SS,Pure sand
+C_H_TEXTURE,ST,Stones
+C_H_TEXTURE,VWCFS,Very weak clayey fine sand
+C_H_TEXTURE,VWCKS,Very weak clayey coarse sand
+C_H_TEXTURE,VWCMS,Very weak clayey medium sand
+C_H_TEXTURE,VWCS,Very weak clayey sand
+C_H_TEXTURE,WCFS,Weak clayey fine sand
+C_H_TEXTURE,WCKS,Weak clayey coarse sand
+C_H_TEXTURE,WCMS,Weak clayey medium sand
+C_H_TEXTURE,WCS,Weak clayey sand
+C_H_TEXTURE,ZC,Silty clay
+C_H_TEXTURE,ZCL,Silty clay loam
+C_H_TEXTURE,ZHC,Silty heavy clay
+C_H_TEXTURE,ZL,Silty loam
+C_H_TEXTURE,ZLC,Silty light clay
+C_H_TEXTURE,ZLMC,Silty light medium clay
+C_H_TEXTURE,ZMC,Silty medium clay
+C_H_TEXTURE,ZMHC,Silty medium heavy clay
+C_H_TEXTURE_QUAL,-,Light
+C_H_TEXTURE_QUAL,+,Heavy
+C_H_TEXTURE_QUAL,A,Sapric
+C_H_TEXTURE_QUAL,I,Fibric
+C_H_WATER_REPELLENCE,N,Non-repellent
+C_H_WATER_REPELLENCE,R,Water repellent
+C_H_WATER_REPELLENCE,S,Strongly water repellent
+C_LABR_ANALYSIS_TYPE,CHEM,Chemical
+C_LABR_ANALYSIS_TYPE,MIN,Mineral
+C_LABR_ANALYSIS_TYPE,PHYS,Physical
+C_LAND_COVER_REF,FAOV2,FAO Land Cover Version 2
+C_LAND_USE,CC,Cereal crop
+C_LAND_USE,CI,Irrigated field crop
+C_LAND_USE,CL,Grain legume crop
+C_LAND_USE,CO,Other crop
+C_LAND_USE,FB,Bare (fallow/cultivated)
+C_LAND_USE,FO,Forestry
+C_LAND_USE,FT,Trashy (fallow/cultivated)
+C_LAND_USE,HD,Dryland Orchard
+C_LAND_USE,HM,Market garden
+C_LAND_USE,HO,Orchard
+C_LAND_USE,HV,Viticulture
+C_LAND_USE,HX,Dryland viticulture
+C_LAND_USE,NR,Recreation
+C_LAND_USE,NS,Native scrub
+C_LAND_USE,NU,Urban
+C_LAND_USE,NX,Extractive industry
+C_LAND_USE,NZ,Swamps
+C_LAND_USE,PA,Permanent annual pasture (improved)
+C_LAND_USE,PC,Scrubby/woodland pasture (native)
+C_LAND_USE,PF,Fodder pasture (improved)
+C_LAND_USE,PG,Grassland pasture (native)
+C_LAND_USE,PI,Irrigated pasture (improved)
+C_LAND_USE,PL,Dryland lucerne pasture (improved)
+C_LAND_USE,PP,Permanent perenial pasture (improved)
+C_LAND_USE,PR,Annual ley rotation pasture (improved)
+C_LAND_USE,PS,Shrubland pasture (native)
+C_LAND_USE,SB,Burnt stubble
+C_LAND_USE,SC,Cereal stubble
+C_LAND_USE,SO,Other stubble
+C_LAND_USE,ZA,Clovers gone (salt affected land)
+C_LAND_USE,ZB,Sea barley grass dominant (salt affected land)
+C_LAND_USE,ZC,Non-productive halophytes dominant (salt affected land)
+C_LAND_USE,ZD,Bare salt pan (salt affected land)
+C_LAND_USE,0,Unknown
+C_LAND_USE,1,Conservation and Natural Environments
+C_LAND_USE,1.1,Nature conservation
+C_LAND_USE,1.1.0,Nature conservation
+C_LAND_USE,1.1.1,Strict nature reserves
+C_LAND_USE,1.1.2,Wilderness area
+C_LAND_USE,1.1.3,National park
+C_LAND_USE,1.1.4,Natural feature protection
+C_LAND_USE,1.1.5,Habitat/species management area
+C_LAND_USE,1.1.6,Protected landscape
+C_LAND_USE,1.1.7,Other conserved area
+C_LAND_USE,1.2,Managed resource protection
+C_LAND_USE,1.2.0,Managed resource protection
+C_LAND_USE,1.2.1,Biodiversity
+C_LAND_USE,1.2.2,Surface water supply
+C_LAND_USE,1.2.3,Groundwater
+C_LAND_USE,1.2.4,Landscape
+C_LAND_USE,1.2.5,Traditional indigenous uses
+C_LAND_USE,1.3,Other minimal use
+C_LAND_USE,1.3.0,Other minimal use
+C_LAND_USE,1.3.1,Defence land - natural areas
+C_LAND_USE,1.3.2,Stock route
+C_LAND_USE,1.3.3,Residual native cover
+C_LAND_USE,1.3.4,Rehabilitation
+C_LAND_USE,1000,Residential And Accommodation
+C_LAND_USE,1010,Single Residential Dwelling
+C_LAND_USE,1020,Multi Residential Dwelling
+C_LAND_USE,1040,Caravan Park/moble Housing
+C_LAND_USE,1050,Hotel/motel
+C_LAND_USE,1060,Resort Complex
+C_LAND_USE,2,Production from Relatively Natural Environments
+C_LAND_USE,2.1,Grazing native vegetation
+C_LAND_USE,2.1.0,Grazing native vegetation
+C_LAND_USE,2.2,Production forestry
+C_LAND_USE,2.2.0,Production forestry
+C_LAND_USE,2.2.1,Wood production
+C_LAND_USE,2.2.2,Other forest production
+C_LAND_USE,2000,Manufacturing And Industrial
+C_LAND_USE,2190,"Other Manufacturing And Industrial - Food, Textiles, Timber"
+C_LAND_USE,2290,Other Manufacturing And Industrial - Chemical And Metal
+C_LAND_USE,2390,Other Manufacturing And Industrial - Transport And Machinery
+C_LAND_USE,3,Production from Dryland Agriculture and Plantations
+C_LAND_USE,3.1,Plantation forestry
+C_LAND_USE,3.1.0,Plantation forestry
+C_LAND_USE,3.1.1,Hardwood plantation
+C_LAND_USE,3.1.2,Softwood plantation
+C_LAND_USE,3.1.3,Other forest plantation
+C_LAND_USE,3.1.4,Environmental forest plantation
+C_LAND_USE,3.2,Grazing modified pastures
+C_LAND_USE,3.2.0,Grazing modified pastures
+C_LAND_USE,3.2.1,Native/exotic pasture mosaic
+C_LAND_USE,3.2.2,Woody fodder plants 
+C_LAND_USE,3.2.3,Pasture legumes
+C_LAND_USE,3.2.4,Pasture legume/grass mixtures
+C_LAND_USE,3.2.5,Sown grasses
+C_LAND_USE,3.3,Cropping
+C_LAND_USE,3.3.0,Cropping
+C_LAND_USE,3.3.1,Cereals
+C_LAND_USE,3.3.2,Beverage and spice crops
+C_LAND_USE,3.3.3,Hay and silage 
+C_LAND_USE,3.3.4,Oil seeds
+C_LAND_USE,3.3.5,Sugar
+C_LAND_USE,3.3.6,Cotton
+C_LAND_USE,3.3.7,Alkaloid poppies
+C_LAND_USE,3.3.8,Pulses
+C_LAND_USE,3.4,Perennial horticulture
+C_LAND_USE,3.4.0,Perennial horticulture
+C_LAND_USE,3.4.1,Tree fruits
+C_LAND_USE,3.4.2,Oleaginous fruits
+C_LAND_USE,3.4.3,Tree nuts
+C_LAND_USE,3.4.4,Vine fruits
+C_LAND_USE,3.4.5,"Shrub nuts, fruits and berries"
+C_LAND_USE,3.4.6,Perennial flowers and bulbs
+C_LAND_USE,3.4.7,Perennial vegetables and herbs
+C_LAND_USE,3.4.8,Citrus
+C_LAND_USE,3.4.9,Grapes
+C_LAND_USE,3.5,Seasonal horticulture
+C_LAND_USE,3.5.0,Seasonal horticulture
+C_LAND_USE,3.5.1,Seasonal fruits 
+C_LAND_USE,3.5.2,Seasonal nuts
+C_LAND_USE,3.5.3,Seasonal flowers and bulbs
+C_LAND_USE,3.5.4,Seasonal vegetables and herbs
+C_LAND_USE,3.6,Land in transition
+C_LAND_USE,3.6.0,Land in transition
+C_LAND_USE,3.6.1,Degraded land
+C_LAND_USE,3.6.2,Abandoned land
+C_LAND_USE,3.6.3,Land under rehabilitation
+C_LAND_USE,3.6.4,No defined use
+C_LAND_USE,3.6.5,Abandoned perennial horticulture
+C_LAND_USE,3000,Services
+C_LAND_USE,3100,Commercial Services
+C_LAND_USE,3500,Public Services
+C_LAND_USE,3510,Government Services
+C_LAND_USE,3610,Education Services
+C_LAND_USE,3710,Defence Services
+C_LAND_USE,4,Production from Irrigated Agriculture and Plantations
+C_LAND_USE,4.1,Irrigated plantation forestry
+C_LAND_USE,4.1.0,Irrigated plantation forestry
+C_LAND_USE,4.1.1,Irrigated hardwood plantation
+C_LAND_USE,4.1.2,Irrigated softwood plantation
+C_LAND_USE,4.1.3,Irrigated other forest plantation
+C_LAND_USE,4.1.4,Irrigated environmental forest production
+C_LAND_USE,4.2,Grazing irrigated modified pastures
+C_LAND_USE,4.2.0,Grazing irrigated modified pastures
+C_LAND_USE,4.2.1,Irrigated woody fodder plants
+C_LAND_USE,4.2.2,Irrigated pasture legumes
+C_LAND_USE,4.2.3,Irrigated legume/grass mixtures
+C_LAND_USE,4.2.4,Irrigated sown grasses
+C_LAND_USE,4.3,Irrigated cropping
+C_LAND_USE,4.3.0,Irrigated cropping
+C_LAND_USE,4.3.1,Irrigated cereals
+C_LAND_USE,4.3.2,Irrigated beverage and spice crops
+C_LAND_USE,4.3.3,Irrigated hay and silage 
+C_LAND_USE,4.3.4,Irrigated oil seeds
+C_LAND_USE,4.3.5,Irrigated sugar
+C_LAND_USE,4.3.6,Irrigated cotton
+C_LAND_USE,4.3.7,Irrigated alkaloid poppies
+C_LAND_USE,4.3.8,Irrigated pulses
+C_LAND_USE,4.3.9,Irrigated rice
+C_LAND_USE,4.4,Irrigated perennial horticulture
+C_LAND_USE,4.4.0,Irrigated perennial horticulture
+C_LAND_USE,4.4.1,Irrigated tree fruits
+C_LAND_USE,4.4.2,Irrigated oleaginous fruits
+C_LAND_USE,4.4.3,Irrigated tree nuts
+C_LAND_USE,4.4.4,Irrigated vine fruits
+C_LAND_USE,4.4.5,"Irrigated shrub nuts, fruits and berries"
+C_LAND_USE,4.4.6,Irrigated perennial flowers and bulbs
+C_LAND_USE,4.4.7,Irrigated perennial vegetables and herbs
+C_LAND_USE,4.4.8,Irrigated citrus
+C_LAND_USE,4.4.9,Irrigated grapes
+C_LAND_USE,4.5,Irrigated seasonal horticulture
+C_LAND_USE,4.5.0,Irrigated seasonal horticulture
+C_LAND_USE,4.5.1,Irrigated seasonal fruits 
+C_LAND_USE,4.5.2,Irrigated seasonal nuts
+C_LAND_USE,4.5.3,Irrigated seasonal flowers and bulbs
+C_LAND_USE,4.5.4,Irrigated seasonal vegetables and herbs
+C_LAND_USE,4.5.5,Irrigated turf farming
+C_LAND_USE,4.6,Irrigated land in transition
+C_LAND_USE,4.6.0,Irrigated land in transition
+C_LAND_USE,4.6.1,Degraded irrigated land
+C_LAND_USE,4.6.2,Abandoned irrigated land
+C_LAND_USE,4.6.3,Irrigated land under rehabilitation
+C_LAND_USE,4.6.4,No defined use (irrigation)
+C_LAND_USE,4.6.5,Abandoned irrgated perennial horticulture
+C_LAND_USE,4000,Transportation And Storage
+C_LAND_USE,4010,Railway
+C_LAND_USE,4020,"Road, Highway"
+C_LAND_USE,5,Intensive Uses
+C_LAND_USE,5.1,Intensive horticulture
+C_LAND_USE,5.1.0,Intensive horticulture
+C_LAND_USE,5.1.1,Shadehouses
+C_LAND_USE,5.1.2,Glasshouses
+C_LAND_USE,5.1.3,Glasshouses (hydroponic)
+C_LAND_USE,5.1.4,Abandoned intensive horticulture
+C_LAND_USE,5.2,Intensive animal husbandry
+C_LAND_USE,5.2.0,Intensive animal husbandry
+C_LAND_USE,5.2.1,Dairy sheds and yards
+C_LAND_USE,5.2.2,Cattle feedlots
+C_LAND_USE,5.2.3,Sheep feedlots
+C_LAND_USE,5.2.4,Poultry farms
+C_LAND_USE,5.2.5,Piggeries
+C_LAND_USE,5.2.6,Aquaculture
+C_LAND_USE,5.2.7,Horse studs
+C_LAND_USE,5.2.8,Stockyards/saleyards
+C_LAND_USE,5.2.9,Abandoned intensive animal husbandry
+C_LAND_USE,5.3,Manufacturing and industrial
+C_LAND_USE,5.3.0,Manufacturing and industrial
+C_LAND_USE,5.3.1,General purpose factory
+C_LAND_USE,5.3.2,Food processing factory
+C_LAND_USE,5.3.3,Major industrial complex
+C_LAND_USE,5.3.4,Bulk grain storage
+C_LAND_USE,5.3.5,Abattoirs
+C_LAND_USE,5.3.6,Oil refinery
+C_LAND_USE,5.3.7,Sawmill
+C_LAND_USE,5.3.8,Abandoned manufacturing and industrial
+C_LAND_USE,5.4,Residential and farm infrastructure
+C_LAND_USE,5.4.0,Residential and farm infrastructure
+C_LAND_USE,5.4.1,Urban residential
+C_LAND_USE,5.4.2,Rural residential with agriculture
+C_LAND_USE,5.4.3,Rural residential without agriculture
+C_LAND_USE,5.4.4,Remote communities
+C_LAND_USE,5.4.5,Farm buildings/infrastructure
+C_LAND_USE,5.5,Services
+C_LAND_USE,5.5.0,Services
+C_LAND_USE,5.5.1,Commercial services
+C_LAND_USE,5.5.2,Public services
+C_LAND_USE,5.5.3,Recreation and culture
+C_LAND_USE,5.5.4,Defence facilities - urban
+C_LAND_USE,5.5.5,Research facilities
+C_LAND_USE,5.6,Utilities
+C_LAND_USE,5.6.0,Utilities
+C_LAND_USE,5.6.1,Fuel powered electricity generation
+C_LAND_USE,5.6.2,Hydro electricity generation
+C_LAND_USE,5.6.3,Wind farm electricity generation
+C_LAND_USE,5.6.4,Electricity substations and transmission
+C_LAND_USE,5.6.5,"Gas treatment, storage and transmission"
+C_LAND_USE,5.6.6,Water extraction and transmission
+C_LAND_USE,5.7,Transport and communication
+C_LAND_USE,5.7.0,Transport and communication
+C_LAND_USE,5.7.1,Airports/aerodromes
+C_LAND_USE,5.7.2,Roads
+C_LAND_USE,5.7.3,Railways
+C_LAND_USE,5.7.4,Ports and water transport
+C_LAND_USE,5.7.5,Navigation and communication
+C_LAND_USE,5.8,Mining
+C_LAND_USE,5.8.0,Mining
+C_LAND_USE,5.8.1,Mines
+C_LAND_USE,5.8.2,Quarries
+C_LAND_USE,5.8.3,Tailings
+C_LAND_USE,5.8.4,Extractive industry not in use
+C_LAND_USE,5.9,Waste treatment and disposal
+C_LAND_USE,5.9.0,Waste treatment and disposal
+C_LAND_USE,5.9.1,Effluent pond
+C_LAND_USE,5.9.2,Landfill
+C_LAND_USE,5.9.3,Solid garbage
+C_LAND_USE,5.9.4,Incinerators
+C_LAND_USE,5.9.5,Sewage/sewerage
+C_LAND_USE,5000,Utilities And Communication
+C_LAND_USE,5030,Solid And Liquid Waste And Refuse
+C_LAND_USE,6,Water
+C_LAND_USE,6.1,Lake
+C_LAND_USE,6.1.0,Lake
+C_LAND_USE,6.1.1,Lake - conservation
+C_LAND_USE,6.1.2,Lake - production
+C_LAND_USE,6.1.3,Lake - intensive use
+C_LAND_USE,6.2,Reservoir
+C_LAND_USE,6.2.0,Reservoir/dam
+C_LAND_USE,6.2.1,Reservoir
+C_LAND_USE,6.2.2,Water storage - intensive use/farm dams
+C_LAND_USE,6.2.3,Evaporation basin
+C_LAND_USE,6.2.4,Effluent pond
+C_LAND_USE,6.3,River
+C_LAND_USE,6.3.0,River
+C_LAND_USE,6.3.1,River - conservation
+C_LAND_USE,6.3.2,River - production
+C_LAND_USE,6.3.3,River - intensive use
+C_LAND_USE,6.4,Channel/aqueduct
+C_LAND_USE,6.4.0,Channel/aqueduct
+C_LAND_USE,6.4.1,Supply channel/aqueduct
+C_LAND_USE,6.4.2,Drainage channel/aqueduct
+C_LAND_USE,6.4.3,Stormwater
+C_LAND_USE,6.5,Marsh/wetland
+C_LAND_USE,6.5.0,Marsh/wetland
+C_LAND_USE,6.5.1,Marsh/wetland - conservation
+C_LAND_USE,6.5.2,Marsh/wetland - production
+C_LAND_USE,6.5.3,Marsh/wetland - intensive use
+C_LAND_USE,6.5.4,Marsh/wetland - saline
+C_LAND_USE,6.6,Estuary/coastal waters
+C_LAND_USE,6.6.0,Estuary/coastal waters
+C_LAND_USE,6.6.1,Estuary/coastal waters - conservation
+C_LAND_USE,6.6.2,Estuary/coastal waters - production
+C_LAND_USE,6.6.3,Estuary/coastal waters - intensive use
+C_LAND_USE,6000,"Recreation, Entertainment, Culture And Sport"
+C_LAND_USE,6060,Park/natural Conservation Area
+C_LAND_USE,7100,Livestock
+C_LAND_USE,7110,Sheep
+C_LAND_USE,7111,Wool Production
+C_LAND_USE,7112,Fat Lamb Production
+C_LAND_USE,7119,Other
+C_LAND_USE,7120,Cattle
+C_LAND_USE,7121,Extensive Bfef
+C_LAND_USE,7122,Intensive B1w
+C_LAND_USE,7123,Dairying
+C_LAND_USE,7129,Other
+C_LAND_USE,7130,Horses
+C_LAND_USE,7139,Other
+C_LAND_USE,7140,Pigs
+C_LAND_USE,7149,Other
+C_LAND_USE,7150,Avian
+C_LAND_USE,7151,Poultry
+C_LAND_USE,7152,Ducks
+C_LAND_USE,7153,Turkeys
+C_LAND_USE,7154,Geese
+C_LAND_USE,7155,Pheasant
+C_LAND_USE,7156,Emu
+C_LAND_USE,7157,Ostrich
+C_LAND_USE,7159,Other
+C_LAND_USE,7190,Miscellaneous
+C_LAND_USE,7191,Lama
+C_LAND_USE,7192,Dinosaur
+C_LAND_USE,7200,Extensive Cropping
+C_LAND_USE,7210,Cereal Crops
+C_LAND_USE,7211,Wheat
+C_LAND_USE,7212,Barley
+C_LAND_USE,7213,Oats
+C_LAND_USE,7214,Rice
+C_LAND_USE,7215,Maize
+C_LAND_USE,7216,Sorghum
+C_LAND_USE,7217,Rye
+C_LAND_USE,7219,Other
+C_LAND_USE,7220,Oil Seeds
+C_LAND_USE,7221,Sunflower
+C_LAND_USE,7222,Canola
+C_LAND_USE,7223,Soybean
+C_LAND_USE,7224,Rapeseed
+C_LAND_USE,7225,Safflower
+C_LAND_USE,7226,Linseed
+C_LAND_USE,7229,Other
+C_LAND_USE,7230,Fodder Crops
+C_LAND_USE,7231,Lucerne
+C_LAND_USE,7232,Oats
+C_LAND_USE,7233,Lupins
+C_LAND_USE,7234,Vetches
+C_LAND_USE,7239,Other
+C_LAND_USE,7240,Root Crops
+C_LAND_USE,7241,Potatoes
+C_LAND_USE,7242,Peanuts
+C_LAND_USE,7249,Other
+C_LAND_USE,7250,Fibre Crops
+C_LAND_USE,7251,Cotton
+C_LAND_USE,7259,Other
+C_LAND_USE,7290,Miscellaneous
+C_LAND_USE,7291,Sugar
+C_LAND_USE,7292,Tobacco
+C_LAND_USE,7300,Horticulture
+C_LAND_USE,7310,Stone Fruit
+C_LAND_USE,7311,Apricot
+C_LAND_USE,7312,Plum
+C_LAND_USE,7313,Peaches
+C_LAND_USE,7314,Nectarines
+C_LAND_USE,7315,Cherries
+C_LAND_USE,7319,Other
+C_LAND_USE,7320,Citrus Fruit
+C_LAND_USE,7321,Orange
+C_LAND_USE,7322,Lemon
+C_LAND_USE,7323,Mandarin
+C_LAND_USE,7324,Lime
+C_LAND_USE,7325,Grapefruit
+C_LAND_USE,7329,Other
+C_LAND_USE,7330,Vine Fruit
+C_LAND_USE,7331,Grapes
+C_LAND_USE,7332,Kiwifruit
+C_LAND_USE,7333,Hops
+C_LAND_USE,7334,Passionfruit
+C_LAND_USE,7339,Other
+C_LAND_USE,7340,Tropical Fruit
+C_LAND_USE,7341,Pineapples
+C_LAND_USE,7342,Bananas
+C_LAND_USE,7343,Paw Paw
+C_LAND_USE,7344,Avocado
+C_LAND_USE,7345,Mango
+C_LAND_USE,7346,Lychee
+C_LAND_USE,7349,Other
+C_LAND_USE,7350,Berry Fruit
+C_LAND_USE,7351,Strawberry
+C_LAND_USE,7352,Blueberry
+C_LAND_USE,7353,Rasberry
+C_LAND_USE,7354,Mulberry
+C_LAND_USE,7355,Gooseberry
+C_LAND_USE,7359,Other
+C_LAND_USE,7360,Pome Fruit
+C_LAND_USE,7361,Apples
+C_LAND_USE,7362,Pears
+C_LAND_USE,7369,Other
+C_LAND_USE,7370,Vegetables
+C_LAND_USE,7380,Nut Trees
+C_LAND_USE,7381,Macadamia
+C_LAND_USE,7382,Walnut
+C_LAND_USE,7383,Almonds
+C_LAND_USE,7389,Other
+C_LAND_USE,7390,Miscellaneous
+C_LAND_USE,7399,Other
+C_LAND_USE,7400,Forestry
+C_LAND_USE,7410,Forest Nursery
+C_LAND_USE,7419,Other
+C_LAND_USE,7420,Plantation Soft Wood
+C_LAND_USE,7429,Other
+C_LAND_USE,7430,Plantation Hard Wood
+C_LAND_USE,7439,Other
+C_LAND_USE,7440,Native Forest
+C_LAND_USE,7449,Other
+C_LAND_USE,7500,Aquaculture
+C_LAND_USE,7510,Prawns
+C_LAND_USE,7520,Fish
+C_LAND_USE,7530,Crustacean
+C_LAND_USE,7900,Miscellaneous Rural Production
+C_LAND_USE,7901,Pharmaceutical Plant Production
+C_LAND_USE,7902,Flowers
+C_LAND_USE,7903,Turf Farming
+C_LAND_USE,7904,Plant Nursery
+C_LAND_USE,7905,Stock Dip Or Spray Race
+C_LAND_USE,8000,Mining And Other Resource Extraction
+C_LAND_USE_REF,ALUMV5,ALUM Version 5
+C_LAND_USE_REF,ALUMV6,ALUM Version 6
+C_LAND_USE_REF,ALUMV8,ALUM Version 8
+C_LITHOLOGY,SM,Metasandstone
+C_LITHOLOGY,SZ,Metasiltstone
+C_LITHOLOGY,AC,Alcrete (bauxite)
+C_LITHOLOGY,AD,Adamellite
+C_LITHOLOGY,AF,Ash (fine)
+C_LITHOLOGY,AG,Agglomerate
+C_LITHOLOGY,AH,Anhydrite
+C_LITHOLOGY,AL,Alluvium
+C_LITHOLOGY,AM,Amphibolite
+C_LITHOLOGY,AN,Andesite
+C_LITHOLOGY,AP,Aplite
+C_LITHOLOGY,AR,Arkose
+C_LITHOLOGY,AS,Ash (sandy)
+C_LITHOLOGY,BA,Basalt
+C_LITHOLOGY,BB,Bombs (volcanic)
+C_LITHOLOGY,BR,Breccia
+C_LITHOLOGY,BS,Beach sediment
+C_LITHOLOGY,C,Clay
+C_LITHOLOGY,CC,Charcoal
+C_LITHOLOGY,CD,Creep deposit
+C_LITHOLOGY,CG,Conglomerate
+C_LITHOLOGY,CH,Chert
+C_LITHOLOGY,CL,Colluvium
+C_LITHOLOGY,CN,Concrete
+C_LITHOLOGY,CO,Coal
+C_LITHOLOGY,CR,Coral reef
+C_LITHOLOGY,CU,Consolidated rock (unidentified)
+C_LITHOLOGY,DI,Diorite
+C_LITHOLOGY,DM,Dolomite
+C_LITHOLOGY,DR,Dolerite
+C_LITHOLOGY,ES,Eolian sand
+C_LITHOLOGY,FC,Ferricrete
+C_LITHOLOGY,GA,Gabbro
+C_LITHOLOGY,GD,Granodiorite
+C_LITHOLOGY,GE,Greenstone
+C_LITHOLOGY,GN,Granite
+C_LITHOLOGY,GR,Granulite
+C_LITHOLOGY,GS,Gneiss
+C_LITHOLOGY,GV,Gravel
+C_LITHOLOGY,GW,Graywacke
+C_LITHOLOGY,GY,Gypsum
+C_LITHOLOGY,HA,Halite
+C_LITHOLOGY,HO,Hornfels
+C_LITHOLOGY,IG,Igneous rock (unidentified)
+C_LITHOLOGY,IS,Ironstone
+C_LITHOLOGY,JA,Jasper
+C_LITHOLOGY,KA,Calcarenite
+C_LITHOLOGY,KC,Calcrete
+C_LITHOLOGY,KL,Calcilutite
+C_LITHOLOGY,KM,Calcareous mudstone
+C_LITHOLOGY,KR,Calcirudite
+C_LITHOLOGY,KS,Calcareous sand
+C_LITHOLOGY,LA,Lacustrine Sediment
+C_LITHOLOGY,LC,Silcrete
+C_LITHOLOGY,LD,Landslide Deposit
+C_LITHOLOGY,LI,Limestone
+C_LITHOLOGY,LO,Loess
+C_LITHOLOGY,M,Substrate material
+C_LITHOLOGY,MB,Marble
+C_LITHOLOGY,MD,Microdiorite
+C_LITHOLOGY,ME,Metamorphic rock (unidentified)
+C_LITHOLOGY,MF,Mudflow deposit
+C_LITHOLOGY,MG,Microgranite
+C_LITHOLOGY,MI,Migmatite
+C_LITHOLOGY,ML,Marl
+C_LITHOLOGY,MS,Microsyenite
+C_LITHOLOGY,MU,Mudstone
+C_LITHOLOGY,MY,Mylonite
+C_LITHOLOGY,OT,Other
+C_LITHOLOGY,OW,Opalised wood
+C_LITHOLOGY,PA,Parna
+C_LITHOLOGY,PC,Porcellanite
+C_LITHOLOGY,PE,Peridotite
+C_LITHOLOGY,PG,Pegmatite
+C_LITHOLOGY,PH,Phyllite
+C_LITHOLOGY,PL,Phonolite
+C_LITHOLOGY,PO,Porphyry
+C_LITHOLOGY,PT,Peat
+C_LITHOLOGY,PU,Pumice
+C_LITHOLOGY,PY,Pyroxenite
+C_LITHOLOGY,PZ,Pelagic ooze
+C_LITHOLOGY,QP,Quartz porphyry
+C_LITHOLOGY,QS,Quartz sandstone
+C_LITHOLOGY,QU,Quartzite
+C_LITHOLOGY,QZ,Quartz
+C_LITHOLOGY,R,Rock outcrop
+C_LITHOLOGY,RB,Red-brown hardpan
+C_LITHOLOGY,RD,Rock dump
+C_LITHOLOGY,RH,Rhyolite
+C_LITHOLOGY,S,Sand
+C_LITHOLOGY,SA,Sandstone
+C_LITHOLOGY,SD,Detrital sedimentary rock (unidentified)
+C_LITHOLOGY,SE,Scree
+C_LITHOLOGY,SF,Sheetflow deposit
+C_LITHOLOGY,SH,Shale
+C_LITHOLOGY,SK,Scoria
+C_LITHOLOGY,SL,Slate
+C_LITHOLOGY,SO,Stabilised soil
+C_LITHOLOGY,SR,Serpentinite
+C_LITHOLOGY,SS,Shells
+C_LITHOLOGY,ST,Schist
+C_LITHOLOGY,SY,Syenite
+C_LITHOLOGY,TI,Till
+C_LITHOLOGY,TR,Trachyte
+C_LITHOLOGY,TU,Tuff
+C_LITHOLOGY,UC,Unconsolidated material (unidentified)
+C_LITHOLOGY,VB,Volcanic breccia
+C_LITHOLOGY,VG,Volcanic glass
+C_LITHOLOGY,WD,Waste dump
+C_LITHOLOGY,Z,Silt
+C_LITHOLOGY,ZS,Siltstone
+C_MOISTURE_STAT,D,Dry
+C_MOISTURE_STAT,M,Moist
+C_MOTT_BOUN_DISTINCT,C,Clear
+C_MOTT_BOUN_DISTINCT,D,Diffuse
+C_MOTT_BOUN_DISTINCT,S,Sharp
+C_MOTT_COLOUR,B,Brown
+C_MOTT_COLOUR,D,Dark
+C_MOTT_COLOUR,G,Grey
+C_MOTT_COLOUR,L,Gley
+C_MOTT_COLOUR,O,Orange
+C_MOTT_COLOUR,P,Pale
+C_MOTT_COLOUR,R,Red
+C_MOTT_COLOUR,Y,Yellow
+C_MOTT_TYPE,M,Mottles
+C_MOTT_TYPE,X,Biological mixing
+C_MOTT_TYPE,Y,Mechanical
+C_MOTT_TYPE,Z,Substrate influence
+C_MP_CODE,1,Plants / Vegetation
+C_MP_CODE,1.1,Establishment and rehabilitation
+C_MP_CODE,1.1.1,Site selection
+C_MP_CODE,1.1.2,Breeding / selecting
+C_MP_CODE,1.1.3,Pre-planting
+C_MP_CODE,1.1.4,Planting
+C_MP_CODE,1.1.5,Regenerating
+C_MP_CODE,1.2,Maintenance of growth and condition
+C_MP_CODE,1.2.1,Promoting growth
+C_MP_CODE,1.2.2,Controlling disease
+C_MP_CODE,1.2.3,Controlling pests
+C_MP_CODE,1.3,"Plant, product and residue removal"
+C_MP_CODE,1.3.1,Harvesting
+C_MP_CODE,1.3.2,Storage
+C_MP_CODE,1.3.3,Transporting
+C_MP_CODE,1.3.4,Handling residues
+C_MP_CODE,1.3.5,Removing unproductive biomass
+C_MP_CODE,1.3.6,Hazard reduction
+C_MP_CODE,2,Animals
+C_MP_CODE,2.1,Establishment
+C_MP_CODE,2.1.1,Breeding / selecting
+C_MP_CODE,2.2,Growth and development
+C_MP_CODE,2.2.1,Promoting growth
+C_MP_CODE,2.2.2,Controlling and preventing disease
+C_MP_CODE,2.3,"Animal, product and waste removal"
+C_MP_CODE,2.3.1,Harvesting
+C_MP_CODE,2.3.2,Transporting
+C_MP_CODE,2.3.3,Handling effluent
+C_MP_CODE,2.4,Protection
+C_MP_CODE,2.5,Monitoring
+C_MP_CODE,2.5.1,Populations
+C_MP_CODE,2.5.2,Infestations
+C_MP_CODE,3,Soil
+C_MP_CODE,3.1,Site preparation / modification and/or rehabilitation
+C_MP_CODE,3.1.1,Tillage / cultivation / machine operations
+C_MP_CODE,3.2,Maintenance of soil condition
+C_MP_CODE,3.2.1,Amelioration
+C_MP_CODE,3.2.2,Change of use
+C_MP_CODE,3.2.3,Protection
+C_MP_CODE,3.3,"Removal of products, residues and waste"
+C_MP_CODE,3.3.1,Mining / quarrying
+C_MP_CODE,3.3.2,Handling residues
+C_MP_CODE,3.3.3,Surface waste management
+C_MP_CODE,3.4,Monitoring
+C_MP_CODE,3.4.1,Chemical
+C_MP_CODE,3.4.2,Physical
+C_MP_CODE,3.4.3,Biological
+C_MP_CODE,4,Water
+C_MP_CODE,4.1,Interception
+C_MP_CODE,4.1.1,Surface drainage
+C_MP_CODE,4.1.2,Impoundment
+C_MP_CODE,4.1.3,Subsurface drainage
+C_MP_CODE,4.1.4,Condensation
+C_MP_CODE,4.1.5,Extraction
+C_MP_CODE,4.2,Reticulation
+C_MP_CODE,4.2.1,Open surface waterways
+C_MP_CODE,4.2.2,Enclosed canals / drains
+C_MP_CODE,4.2.3,Pipes / aqueducts
+C_MP_CODE,4.2.4,Troughs
+C_MP_CODE,4.3,Application
+C_MP_CODE,4.3.1,Surface irrigation
+C_MP_CODE,4.3.2,Spray (sprinkler) irrigation
+C_MP_CODE,4.3.3,Drip (trickle) irrigation
+C_MP_CODE,4.4,Treatment
+C_MP_CODE,4.4.1,Physical
+C_MP_CODE,4.4.2,Chemical
+C_MP_CODE,4.4.3,Biological
+C_MP_CODE,4.4.4,Technological
+C_MP_CODE,4.5,Monitoring
+C_MP_CODE,4.5.1,Physical
+C_MP_CODE,4.5.2,Chemical
+C_MP_CODE,4.5.3,Biological
+C_MP_CODE,4.5.4,Metering
+C_MP_CODE,4.5.5,Scheduling
+C_MP_CODE,5,Air
+C_MP_CODE,5.1,Treatment / protection
+C_MP_CODE,5.2,Monitoring
+C_MP_CODE,5.2.1,Air quality
+C_MP_CODE,5.2.2,Noise
+C_MP_CODE,6,Business
+C_MP_CODE,6.1,Business establishment
+C_MP_CODE,6.1.1,Business structure
+C_MP_CODE,6.1.2,Business planning
+C_MP_CODE,6.2,Maintenance of business growth and viability
+C_MP_CODE,6.2.1,Inventory
+C_MP_CODE,6.2.2,Access to capital
+C_MP_CODE,6.3,Monitoring system processes and resources
+C_MP_CODE,6.3.1,Finances
+C_MP_CODE,6.3.2,Human resources
+C_MP_CODE,6.3.3,Product quality
+C_MP_CODE,6.4,Risk protection
+C_MP_CODE,6.4.1,Production
+C_MP_CODE,6.4.2,Price or market
+C_MP_CODE,6.4.3,Human or personal
+C_MP_CODE,7,Infrastructure and Built Environment
+C_MP_CODE,7.1,Design and planning
+C_MP_CODE,7.1.1,Site selection and survey
+C_MP_CODE,7.2,Construction
+C_MP_CODE,7.2.1,Site preparation
+C_MP_CODE,7.2.2,Building / facility construction
+C_MP_CODE,7.3,Maintenance
+C_MP_CODE,7.3.1,Building / facility maintenance
+C_MP_CODE,7.3.2,Site maintenance
+C_MP_CODE,7.4,Demolition
+C_MP_CODE,7.4.1,Building / site demolition
+C_MP_CODE,7.4.2,Site cleanup
+C_MP_CODE,7.4.3,Site decontamination
+C_MP_REF,LUMISV1,LUMIS Version 1
+C_MR_BIOTIC_AGENT,A,Ant
+C_MR_BIOTIC_AGENT,B,Bird
+C_MR_BIOTIC_AGENT,M,Man
+C_MR_BIOTIC_AGENT,N,Animal
+C_MR_BIOTIC_AGENT,O,Other
+C_MR_BIOTIC_AGENT,T,Termite
+C_MR_BIOTIC_AGENT,V,Vegetation
+C_MR_BIOTIC_COMP,D,Depression
+C_MR_BIOTIC_COMP,E,Elongate mound
+C_MR_BIOTIC_COMP,H,Hole
+C_MR_BIOTIC_COMP,L,Elongate depression
+C_MR_BIOTIC_COMP,M,Mound
+C_MR_BIOTIC_COMP,O,Other
+C_MR_BIOTIC_COMP,T,Terrace
+C_MR_PROP_GILGAI,A,"Mound=depression,no shelf"
+C_MR_PROP_GILGAI,B,"Mound>depression,no shelf"
+C_MR_PROP_GILGAI,C,"Mound<depression,no shelf"
+C_MR_PROP_GILGAI,D,"Mound, shelf and depressions"
+C_MR_TYPE,A,Lattice gilgai
+C_MR_TYPE,C,Crabhole gilgai
+C_MR_TYPE,D,Debil-debil
+C_MR_TYPE,G,Contour gilgai
+C_MR_TYPE,H,Spring hollow
+C_MR_TYPE,I,Sinkhole
+C_MR_TYPE,K,Karst microrelief
+C_MR_TYPE,L,Linear gilgai
+C_MR_TYPE,M,Melonhole gilgai
+C_MR_TYPE,N,Normal gilgai
+C_MR_TYPE,NR,Microrelief not recored
+C_MR_TYPE,O,Other
+C_MR_TYPE,P,Spring mound
+C_MR_TYPE,R,Terracettes
+C_MR_TYPE,S,Mass movement microrelief
+C_MR_TYPE,T,Contour trench
+C_MR_TYPE,U,Mound/depression microrelief
+C_MR_TYPE,W,Swamp hummock
+C_MR_TYPE,Z,Zero or no microrelief
+C_MUNSELL_COLOUR,10R2.51,Reddish Black
+C_MUNSELL_COLOUR,10R20,Black
+C_MUNSELL_COLOUR,10R21,Reddish black
+C_MUNSELL_COLOUR,10R22,Very dusky red
+C_MUNSELL_COLOUR,10R23,Very dusky red
+C_MUNSELL_COLOUR,10R24,Very dusky red
+C_MUNSELL_COLOUR,10R25,Dark red
+C_MUNSELL_COLOUR,10R26,Dark red
+C_MUNSELL_COLOUR,10R27,Dark red
+C_MUNSELL_COLOUR,10R28,Dark red
+C_MUNSELL_COLOUR,10R30,Very dark grey
+C_MUNSELL_COLOUR,10R31,Dark reddish grey
+C_MUNSELL_COLOUR,10R32,Dusky red
+C_MUNSELL_COLOUR,10R33,Dusky red
+C_MUNSELL_COLOUR,10R34,Dusky red
+C_MUNSELL_COLOUR,10R35,Dark red
+C_MUNSELL_COLOUR,10R36,Dark red
+C_MUNSELL_COLOUR,10R37,Dark red
+C_MUNSELL_COLOUR,10R38,Dark red
+C_MUNSELL_COLOUR,10R40,Dark grey
+C_MUNSELL_COLOUR,10R41,Dark reddish grey
+C_MUNSELL_COLOUR,10R42,Weak red
+C_MUNSELL_COLOUR,10R43,Weak red
+C_MUNSELL_COLOUR,10R44,Weak red
+C_MUNSELL_COLOUR,10R45,Red
+C_MUNSELL_COLOUR,10R46,Red
+C_MUNSELL_COLOUR,10R47,Red
+C_MUNSELL_COLOUR,10R48,Red
+C_MUNSELL_COLOUR,10R50,Grey
+C_MUNSELL_COLOUR,10R51,Reddish grey
+C_MUNSELL_COLOUR,10R52,Weak red
+C_MUNSELL_COLOUR,10R53,Weak red
+C_MUNSELL_COLOUR,10R54,Weak red
+C_MUNSELL_COLOUR,10R55,Red
+C_MUNSELL_COLOUR,10R56,Red
+C_MUNSELL_COLOUR,10R57,Red
+C_MUNSELL_COLOUR,10R58,Red
+C_MUNSELL_COLOUR,10R60,Grey
+C_MUNSELL_COLOUR,10R61,Reddish grey
+C_MUNSELL_COLOUR,10R62,Pale red
+C_MUNSELL_COLOUR,10R63,Pale red
+C_MUNSELL_COLOUR,10R64,Pale red
+C_MUNSELL_COLOUR,10R65,Light red
+C_MUNSELL_COLOUR,10R66,Light red
+C_MUNSELL_COLOUR,10R67,Light red
+C_MUNSELL_COLOUR,10R68,Light red
+C_MUNSELL_COLOUR,10R71,Reddish grey
+C_MUNSELL_COLOUR,10YR20,Black
+C_MUNSELL_COLOUR,10YR21,Black
+C_MUNSELL_COLOUR,10YR22,Very dark brown
+C_MUNSELL_COLOUR,10YR23,Very dark brown
+C_MUNSELL_COLOUR,10YR24,Dark yellowish brown
+C_MUNSELL_COLOUR,10YR25,Dark yellowish brown
+C_MUNSELL_COLOUR,10YR26,Dark yellowish brown
+C_MUNSELL_COLOUR,10YR27,Dark yellowish brown
+C_MUNSELL_COLOUR,10YR28,Dark yellowish brown
+C_MUNSELL_COLOUR,10YR30,Very dark grey
+C_MUNSELL_COLOUR,10YR31,Very dark grey
+C_MUNSELL_COLOUR,10YR32,Very dark greyish brown
+C_MUNSELL_COLOUR,10YR33,Dark brown
+C_MUNSELL_COLOUR,10YR34,Dark yellowish brown
+C_MUNSELL_COLOUR,10YR35,Dark yellowish brown
+C_MUNSELL_COLOUR,10YR36,Dark yellowish brown
+C_MUNSELL_COLOUR,10YR37,Dark yellowish brown
+C_MUNSELL_COLOUR,10YR38,Dark yellowish brown
+C_MUNSELL_COLOUR,10YR40,Dark grey
+C_MUNSELL_COLOUR,10YR41,Dark grey
+C_MUNSELL_COLOUR,10YR42,Dark greyish brown
+C_MUNSELL_COLOUR,10YR43,Brown
+C_MUNSELL_COLOUR,10YR44,Dark yellowish brown
+C_MUNSELL_COLOUR,10YR45,Dark yellowish brown
+C_MUNSELL_COLOUR,10YR46,Dark yellowish brown
+C_MUNSELL_COLOUR,10YR47,Dark yellowish brown
+C_MUNSELL_COLOUR,10YR48,Dark yellowish brown
+C_MUNSELL_COLOUR,10YR50,Grey
+C_MUNSELL_COLOUR,10YR51,Grey
+C_MUNSELL_COLOUR,10YR52,Greyish brown
+C_MUNSELL_COLOUR,10YR53,Brown
+C_MUNSELL_COLOUR,10YR54,Yellowish brown
+C_MUNSELL_COLOUR,10YR55,Yellowish brown
+C_MUNSELL_COLOUR,10YR56,Yellowish brown
+C_MUNSELL_COLOUR,10YR57,Yellowish brown
+C_MUNSELL_COLOUR,10YR58,Yellowish brown
+C_MUNSELL_COLOUR,10YR60,Grey
+C_MUNSELL_COLOUR,10YR61,Grey
+C_MUNSELL_COLOUR,10YR62,Light brownish grey
+C_MUNSELL_COLOUR,10YR63,Pale brown
+C_MUNSELL_COLOUR,10YR64,Light yellowish brown
+C_MUNSELL_COLOUR,10YR65,Brownish yellow
+C_MUNSELL_COLOUR,10YR66,Brownish yellow
+C_MUNSELL_COLOUR,10YR67,Brownish yellow
+C_MUNSELL_COLOUR,10YR68,Brownish yellow
+C_MUNSELL_COLOUR,10YR70,Light grey
+C_MUNSELL_COLOUR,10YR71,Light grey
+C_MUNSELL_COLOUR,10YR72,Light grey
+C_MUNSELL_COLOUR,10YR73,Very pale brown
+C_MUNSELL_COLOUR,10YR74,Very pale brown
+C_MUNSELL_COLOUR,10YR75,Yellow
+C_MUNSELL_COLOUR,10YR76,Yellow
+C_MUNSELL_COLOUR,10YR77,Yellow
+C_MUNSELL_COLOUR,10YR78,Yellow
+C_MUNSELL_COLOUR,10YR80,White
+C_MUNSELL_COLOUR,10YR81,White
+C_MUNSELL_COLOUR,10YR82,White
+C_MUNSELL_COLOUR,10YR83,Very pale brown
+C_MUNSELL_COLOUR,10YR84,Very pale brown
+C_MUNSELL_COLOUR,10YR85,Yellow
+C_MUNSELL_COLOUR,10YR86,Yellow
+C_MUNSELL_COLOUR,10YR87,Yellow
+C_MUNSELL_COLOUR,10YR88,Yellow
+C_MUNSELL_COLOUR,10YR91,White
+C_MUNSELL_COLOUR,2.5R36,Dark Red
+C_MUNSELL_COLOUR,2.5R48,Red
+C_MUNSELL_COLOUR,2.5Y2.51,Black
+C_MUNSELL_COLOUR,2.5Y20,Black
+C_MUNSELL_COLOUR,2.5Y21,Black
+C_MUNSELL_COLOUR,2.5Y22,Black
+C_MUNSELL_COLOUR,2.5Y23,Olive brown
+C_MUNSELL_COLOUR,2.5Y24,Olive brown
+C_MUNSELL_COLOUR,2.5Y25,Olive brown
+C_MUNSELL_COLOUR,2.5Y26,Olive brown
+C_MUNSELL_COLOUR,2.5Y27,Olive brown
+C_MUNSELL_COLOUR,2.5Y28,Olive brown
+C_MUNSELL_COLOUR,2.5Y30,Very dark grey
+C_MUNSELL_COLOUR,2.5Y31,Very dark grey
+C_MUNSELL_COLOUR,2.5Y32,Very dark greyish brown
+C_MUNSELL_COLOUR,2.5Y33,Olive brown
+C_MUNSELL_COLOUR,2.5Y34,Olive brown
+C_MUNSELL_COLOUR,2.5Y35,Olive brown
+C_MUNSELL_COLOUR,2.5Y36,Olive brown
+C_MUNSELL_COLOUR,2.5Y37,Olive brown
+C_MUNSELL_COLOUR,2.5Y38,Olive brown
+C_MUNSELL_COLOUR,2.5Y40,Dark grey
+C_MUNSELL_COLOUR,2.5Y41,Dark grey
+C_MUNSELL_COLOUR,2.5Y42,Dark greyish brown
+C_MUNSELL_COLOUR,2.5Y43,Dark greyish brown
+C_MUNSELL_COLOUR,2.5Y44,Olive brown
+C_MUNSELL_COLOUR,2.5Y45,Olive brown
+C_MUNSELL_COLOUR,2.5Y46,Olive brown
+C_MUNSELL_COLOUR,2.5Y47,Olive brown
+C_MUNSELL_COLOUR,2.5Y48,Olive brown
+C_MUNSELL_COLOUR,2.5Y50,Grey
+C_MUNSELL_COLOUR,2.5Y51,Grey
+C_MUNSELL_COLOUR,2.5Y52,Greyish brown
+C_MUNSELL_COLOUR,2.5Y53,Greyish brown
+C_MUNSELL_COLOUR,2.5Y54,Light olive brown
+C_MUNSELL_COLOUR,2.5Y55,Light olive brown
+C_MUNSELL_COLOUR,2.5Y56,Light olive brown
+C_MUNSELL_COLOUR,2.5Y57,Light olive brown
+C_MUNSELL_COLOUR,2.5Y58,Light olive brown
+C_MUNSELL_COLOUR,2.5Y60,Grey
+C_MUNSELL_COLOUR,2.5Y61,Grey
+C_MUNSELL_COLOUR,2.5Y62,Light brownish grey
+C_MUNSELL_COLOUR,2.5Y63,Light brownish grey
+C_MUNSELL_COLOUR,2.5Y64,Light yellowish brown
+C_MUNSELL_COLOUR,2.5Y65,Olive yellow
+C_MUNSELL_COLOUR,2.5Y66,Olive yellow
+C_MUNSELL_COLOUR,2.5Y67,Olive yellow
+C_MUNSELL_COLOUR,2.5Y68,Olive yellow
+C_MUNSELL_COLOUR,2.5Y70,Light grey
+C_MUNSELL_COLOUR,2.5Y71,Light grey
+C_MUNSELL_COLOUR,2.5Y72,Light grey
+C_MUNSELL_COLOUR,2.5Y73,Pale yellow
+C_MUNSELL_COLOUR,2.5Y74,Pale yellow
+C_MUNSELL_COLOUR,2.5Y75,Yellow
+C_MUNSELL_COLOUR,2.5Y76,Yellow
+C_MUNSELL_COLOUR,2.5Y77,Yellow
+C_MUNSELL_COLOUR,2.5Y78,Yellow
+C_MUNSELL_COLOUR,2.5Y80,White
+C_MUNSELL_COLOUR,2.5Y81,White
+C_MUNSELL_COLOUR,2.5Y82,White
+C_MUNSELL_COLOUR,2.5Y83,Pale yellow
+C_MUNSELL_COLOUR,2.5Y84,Pale yellow
+C_MUNSELL_COLOUR,2.5Y85,Yellow
+C_MUNSELL_COLOUR,2.5Y86,Yellow
+C_MUNSELL_COLOUR,2.5Y87,Yellow
+C_MUNSELL_COLOUR,2.5Y88,Yellow
+C_MUNSELL_COLOUR,2.5YR2.51,Reddish Black
+C_MUNSELL_COLOUR,2.5YR2.52,V. Dusky Red
+C_MUNSELL_COLOUR,2.5YR20,Black
+C_MUNSELL_COLOUR,2.5YR21,Very dusky red
+C_MUNSELL_COLOUR,2.5YR22,Very dusky red
+C_MUNSELL_COLOUR,2.5YR23,Dark reddish brown
+C_MUNSELL_COLOUR,2.5YR24,Dark reddish brown
+C_MUNSELL_COLOUR,2.5YR25,Dark red
+C_MUNSELL_COLOUR,2.5YR26,Dark red
+C_MUNSELL_COLOUR,2.5YR27,Dark red
+C_MUNSELL_COLOUR,2.5YR28,Dark red
+C_MUNSELL_COLOUR,2.5YR30,Very dark grey
+C_MUNSELL_COLOUR,2.5YR31,Dusky red
+C_MUNSELL_COLOUR,2.5YR32,Dusky red
+C_MUNSELL_COLOUR,2.5YR33,Dark reddish brown
+C_MUNSELL_COLOUR,2.5YR34,Dark reddish brown
+C_MUNSELL_COLOUR,2.5YR35,Dark red
+C_MUNSELL_COLOUR,2.5YR36,Dark red
+C_MUNSELL_COLOUR,2.5YR37,Dark red
+C_MUNSELL_COLOUR,2.5YR38,Dark red
+C_MUNSELL_COLOUR,2.5YR40,Dark grey
+C_MUNSELL_COLOUR,2.5YR41,Weak red
+C_MUNSELL_COLOUR,2.5YR42,Weak red
+C_MUNSELL_COLOUR,2.5YR43,Reddish brown
+C_MUNSELL_COLOUR,2.5YR44,Reddish brown
+C_MUNSELL_COLOUR,2.5YR45,Red
+C_MUNSELL_COLOUR,2.5YR46,Red
+C_MUNSELL_COLOUR,2.5YR47,Red
+C_MUNSELL_COLOUR,2.5YR48,Red
+C_MUNSELL_COLOUR,2.5YR50,Grey
+C_MUNSELL_COLOUR,2.5YR51,Weak red
+C_MUNSELL_COLOUR,2.5YR52,Weak red
+C_MUNSELL_COLOUR,2.5YR53,Reddish brown
+C_MUNSELL_COLOUR,2.5YR54,Reddish brown
+C_MUNSELL_COLOUR,2.5YR55,Red
+C_MUNSELL_COLOUR,2.5YR56,Red
+C_MUNSELL_COLOUR,2.5YR57,Red
+C_MUNSELL_COLOUR,2.5YR58,Red
+C_MUNSELL_COLOUR,2.5YR60,Grey
+C_MUNSELL_COLOUR,2.5YR61,Pale red
+C_MUNSELL_COLOUR,2.5YR62,Pale red
+C_MUNSELL_COLOUR,2.5YR63,Light reddish brown
+C_MUNSELL_COLOUR,2.5YR64,Light reddish brown
+C_MUNSELL_COLOUR,2.5YR65,Light red
+C_MUNSELL_COLOUR,2.5YR66,Light red
+C_MUNSELL_COLOUR,2.5YR67,Light red
+C_MUNSELL_COLOUR,2.5YR68,Light red
+C_MUNSELL_COLOUR,2.5YR70,Grey
+C_MUNSELL_COLOUR,2.5YR71,Pale red
+C_MUNSELL_COLOUR,2.5YR72,Pale red
+C_MUNSELL_COLOUR,2.5YR73,Light reddish brown
+C_MUNSELL_COLOUR,2.5YR74,Light reddish brown
+C_MUNSELL_COLOUR,2.5YR75,Light red
+C_MUNSELL_COLOUR,2.5YR76,Light red
+C_MUNSELL_COLOUR,2.5YR77,Light red
+C_MUNSELL_COLOUR,2.5YR78,Light red
+C_MUNSELL_COLOUR,2.5YR80,White
+C_MUNSELL_COLOUR,2.5YR82,Pinkish White
+C_MUNSELL_COLOUR,2.5YR83,Pinkish White
+C_MUNSELL_COLOUR,5B20,Very dark bluish grey
+C_MUNSELL_COLOUR,5B25,Dark bluish grey
+C_MUNSELL_COLOUR,5B30,Dark bluish grey
+C_MUNSELL_COLOUR,5B41,Dark bluish grey
+C_MUNSELL_COLOUR,5B50,Bluish grey
+C_MUNSELL_COLOUR,5B51,Bluish grey
+C_MUNSELL_COLOUR,5B52,Bluish grey
+C_MUNSELL_COLOUR,5B61,Bluish grey
+C_MUNSELL_COLOUR,5B71,Light bluish grey
+C_MUNSELL_COLOUR,5B72,Light bluish grey
+C_MUNSELL_COLOUR,5BG41,Dark greenish grey
+C_MUNSELL_COLOUR,5BG51,Greenish grey
+C_MUNSELL_COLOUR,5BG61,Greenish grey
+C_MUNSELL_COLOUR,5BG71,Light greenish grey
+C_MUNSELL_COLOUR,5G41,Dark greenish grey
+C_MUNSELL_COLOUR,5G42,Greyish green
+C_MUNSELL_COLOUR,5G51,Greenish grey
+C_MUNSELL_COLOUR,5G52,Greyish green
+C_MUNSELL_COLOUR,5G61,Greenish grey
+C_MUNSELL_COLOUR,5G62,Pale green
+C_MUNSELL_COLOUR,5G71,Light greenish grey
+C_MUNSELL_COLOUR,5G72,Pale green
+C_MUNSELL_COLOUR,5GY41,Dark greenish grey
+C_MUNSELL_COLOUR,5GY51,Greenish grey
+C_MUNSELL_COLOUR,5GY61,Greenish grey
+C_MUNSELL_COLOUR,5GY71,Light greenish grey
+C_MUNSELL_COLOUR,5R20,Black
+C_MUNSELL_COLOUR,5R21,Reddish black
+C_MUNSELL_COLOUR,5R22,Very dark red
+C_MUNSELL_COLOUR,5R23,Very dark red
+C_MUNSELL_COLOUR,5R24,Very dark red
+C_MUNSELL_COLOUR,5R25,Very dark red
+C_MUNSELL_COLOUR,5R26,Dark red
+C_MUNSELL_COLOUR,5R27,Dark red
+C_MUNSELL_COLOUR,5R28,Dark red
+C_MUNSELL_COLOUR,5R30,Very dark grey
+C_MUNSELL_COLOUR,5R31,Dark reddish grey
+C_MUNSELL_COLOUR,5R32,Dusky red
+C_MUNSELL_COLOUR,5R33,Dusky red
+C_MUNSELL_COLOUR,5R34,Dusky red
+C_MUNSELL_COLOUR,5R35,Dusky red
+C_MUNSELL_COLOUR,5R36,Dark red
+C_MUNSELL_COLOUR,5R37,Dark red
+C_MUNSELL_COLOUR,5R38,Dark red
+C_MUNSELL_COLOUR,5R40,Dark grey
+C_MUNSELL_COLOUR,5R41,Dark reddish grey
+C_MUNSELL_COLOUR,5R42,Weak red
+C_MUNSELL_COLOUR,5R43,Weak red
+C_MUNSELL_COLOUR,5R44,Weak red
+C_MUNSELL_COLOUR,5R45,Weak red
+C_MUNSELL_COLOUR,5R46,Red
+C_MUNSELL_COLOUR,5R47,Red
+C_MUNSELL_COLOUR,5R48,Red
+C_MUNSELL_COLOUR,5R50,Grey
+C_MUNSELL_COLOUR,5R51,Reddish grey
+C_MUNSELL_COLOUR,5R52,Weak red
+C_MUNSELL_COLOUR,5R53,Weak red
+C_MUNSELL_COLOUR,5R54,Weak red
+C_MUNSELL_COLOUR,5R55,Weak red
+C_MUNSELL_COLOUR,5R56,Red
+C_MUNSELL_COLOUR,5R57,Red
+C_MUNSELL_COLOUR,5R58,Red
+C_MUNSELL_COLOUR,5R60,Grey
+C_MUNSELL_COLOUR,5R61,Reddish grey
+C_MUNSELL_COLOUR,5R62,Pale red
+C_MUNSELL_COLOUR,5R63,Pale red
+C_MUNSELL_COLOUR,5R64,Pale red
+C_MUNSELL_COLOUR,5R65,Pale red
+C_MUNSELL_COLOUR,5R66,Light red
+C_MUNSELL_COLOUR,5R67,Light red
+C_MUNSELL_COLOUR,5R68,Light red
+C_MUNSELL_COLOUR,5Y20,Black
+C_MUNSELL_COLOUR,5Y21,Black
+C_MUNSELL_COLOUR,5Y22,Black
+C_MUNSELL_COLOUR,5Y23,Dark olive
+C_MUNSELL_COLOUR,5Y24,Dark olive
+C_MUNSELL_COLOUR,5Y25,Dark olive
+C_MUNSELL_COLOUR,5Y26,Dark olive
+C_MUNSELL_COLOUR,5Y27,Dark olive
+C_MUNSELL_COLOUR,5Y28,Dark olive
+C_MUNSELL_COLOUR,5Y30,Very dark grey
+C_MUNSELL_COLOUR,5Y31,Very dark grey
+C_MUNSELL_COLOUR,5Y32,Dark olive grey
+C_MUNSELL_COLOUR,5Y33,Dark olive
+C_MUNSELL_COLOUR,5Y34,Dark olive
+C_MUNSELL_COLOUR,5Y35,Dark olive
+C_MUNSELL_COLOUR,5Y36,Dark olive
+C_MUNSELL_COLOUR,5Y37,Dark olive
+C_MUNSELL_COLOUR,5Y38,Dark olive
+C_MUNSELL_COLOUR,5Y40,Dark grey
+C_MUNSELL_COLOUR,5Y41,Dark grey
+C_MUNSELL_COLOUR,5Y42,Olive grey
+C_MUNSELL_COLOUR,5Y43,Olive
+C_MUNSELL_COLOUR,5Y44,Olive
+C_MUNSELL_COLOUR,5Y45,Olive
+C_MUNSELL_COLOUR,5Y46,Olive
+C_MUNSELL_COLOUR,5Y47,Olive
+C_MUNSELL_COLOUR,5Y48,Olive
+C_MUNSELL_COLOUR,5Y50,Grey
+C_MUNSELL_COLOUR,5Y51,Grey
+C_MUNSELL_COLOUR,5Y52,Olive grey
+C_MUNSELL_COLOUR,5Y53,Olive
+C_MUNSELL_COLOUR,5Y54,Olive
+C_MUNSELL_COLOUR,5Y55,Olive
+C_MUNSELL_COLOUR,5Y56,Olive
+C_MUNSELL_COLOUR,5Y57,Olive
+C_MUNSELL_COLOUR,5Y58,Olive
+C_MUNSELL_COLOUR,5Y60,Grey
+C_MUNSELL_COLOUR,5Y61,Grey
+C_MUNSELL_COLOUR,5Y62,Light olive grey
+C_MUNSELL_COLOUR,5Y63,Pale olive
+C_MUNSELL_COLOUR,5Y64,Pale olive
+C_MUNSELL_COLOUR,5Y65,Olive yellow
+C_MUNSELL_COLOUR,5Y66,Olive yellow
+C_MUNSELL_COLOUR,5Y67,Olive yellow
+C_MUNSELL_COLOUR,5Y68,Olive yellow
+C_MUNSELL_COLOUR,5Y70,Light grey
+C_MUNSELL_COLOUR,5Y71,Light grey
+C_MUNSELL_COLOUR,5Y72,Light grey
+C_MUNSELL_COLOUR,5Y73,Pale yellow
+C_MUNSELL_COLOUR,5Y74,Pale yellow
+C_MUNSELL_COLOUR,5Y75,Yellow
+C_MUNSELL_COLOUR,5Y76,Yellow
+C_MUNSELL_COLOUR,5Y77,Yellow
+C_MUNSELL_COLOUR,5Y78,Yellow
+C_MUNSELL_COLOUR,5Y80,White
+C_MUNSELL_COLOUR,5Y81,White
+C_MUNSELL_COLOUR,5Y82,White
+C_MUNSELL_COLOUR,5Y83,Pale yellow
+C_MUNSELL_COLOUR,5Y84,Pale yellow
+C_MUNSELL_COLOUR,5Y85,Yellow
+C_MUNSELL_COLOUR,5Y86,Yellow
+C_MUNSELL_COLOUR,5Y87,Yellow
+C_MUNSELL_COLOUR,5Y88,Yellow
+C_MUNSELL_COLOUR,5YR2.51,Black
+C_MUNSELL_COLOUR,5YR2.52,Dark reddish brown
+C_MUNSELL_COLOUR,5YR20,Black
+C_MUNSELL_COLOUR,5YR21,Black
+C_MUNSELL_COLOUR,5YR22,Dark reddish brown
+C_MUNSELL_COLOUR,5YR23,Dark reddish brown
+C_MUNSELL_COLOUR,5YR24,Dark reddish brown
+C_MUNSELL_COLOUR,5YR25,Yellowish red
+C_MUNSELL_COLOUR,5YR26,Yellowish red
+C_MUNSELL_COLOUR,5YR27,Yellowish red
+C_MUNSELL_COLOUR,5YR28,Yellowish red
+C_MUNSELL_COLOUR,5YR30,Very dark grey
+C_MUNSELL_COLOUR,5YR31,Very dark grey
+C_MUNSELL_COLOUR,5YR32,Dark reddish brown
+C_MUNSELL_COLOUR,5YR33,Dark reddish brown
+C_MUNSELL_COLOUR,5YR34,Dark reddish brown
+C_MUNSELL_COLOUR,5YR35,Yellowish red
+C_MUNSELL_COLOUR,5YR36,Yellowish red
+C_MUNSELL_COLOUR,5YR37,Yellowish red
+C_MUNSELL_COLOUR,5YR38,Yellowish red
+C_MUNSELL_COLOUR,5YR40,Dark grey
+C_MUNSELL_COLOUR,5YR41,Dark grey
+C_MUNSELL_COLOUR,5YR42,Dark reddish grey
+C_MUNSELL_COLOUR,5YR43,Reddish brown
+C_MUNSELL_COLOUR,5YR44,Reddish brown
+C_MUNSELL_COLOUR,5YR45,Yellowish red
+C_MUNSELL_COLOUR,5YR46,Yellowish red
+C_MUNSELL_COLOUR,5YR47,Yellowish red
+C_MUNSELL_COLOUR,5YR48,Yellowish red
+C_MUNSELL_COLOUR,5YR50,Grey
+C_MUNSELL_COLOUR,5YR51,Grey
+C_MUNSELL_COLOUR,5YR52,Reddish grey
+C_MUNSELL_COLOUR,5YR53,Reddish brown
+C_MUNSELL_COLOUR,5YR54,Reddish brown
+C_MUNSELL_COLOUR,5YR55,Yellowish red
+C_MUNSELL_COLOUR,5YR56,Yellowish red
+C_MUNSELL_COLOUR,5YR57,Yellowish red
+C_MUNSELL_COLOUR,5YR58,Yellowish red
+C_MUNSELL_COLOUR,5YR60,Grey
+C_MUNSELL_COLOUR,5YR61,Grey
+C_MUNSELL_COLOUR,5YR62,Pinkish grey
+C_MUNSELL_COLOUR,5YR63,Light reddish brown
+C_MUNSELL_COLOUR,5YR64,Light reddish brown
+C_MUNSELL_COLOUR,5YR65,Reddish yellow
+C_MUNSELL_COLOUR,5YR66,Reddish yellow
+C_MUNSELL_COLOUR,5YR67,Reddish yellow
+C_MUNSELL_COLOUR,5YR68,Reddish yellow
+C_MUNSELL_COLOUR,5YR70,Light grey
+C_MUNSELL_COLOUR,5YR71,Light grey
+C_MUNSELL_COLOUR,5YR72,Pinkish grey
+C_MUNSELL_COLOUR,5YR73,Pink
+C_MUNSELL_COLOUR,5YR74,Pink
+C_MUNSELL_COLOUR,5YR75,Reddish yellow
+C_MUNSELL_COLOUR,5YR76,Reddish yellow
+C_MUNSELL_COLOUR,5YR77,Reddish yellow
+C_MUNSELL_COLOUR,5YR78,Reddish yellow
+C_MUNSELL_COLOUR,5YR80,White
+C_MUNSELL_COLOUR,5YR81,White
+C_MUNSELL_COLOUR,5YR82,Pinkish white
+C_MUNSELL_COLOUR,5YR83,Pink
+C_MUNSELL_COLOUR,5YR84,Pink
+C_MUNSELL_COLOUR,5YR85,Reddish yellow
+C_MUNSELL_COLOUR,5YR86,Reddish yellow
+C_MUNSELL_COLOUR,5YR87,Reddish yellow
+C_MUNSELL_COLOUR,5YR88,Reddish yellow
+C_MUNSELL_COLOUR,7.5R20,Black
+C_MUNSELL_COLOUR,7.5R21,Black
+C_MUNSELL_COLOUR,7.5R22,Very dusky red
+C_MUNSELL_COLOUR,7.5R23,Very dusky red
+C_MUNSELL_COLOUR,7.5R24,Very dusky red
+C_MUNSELL_COLOUR,7.5R25,Dark red
+C_MUNSELL_COLOUR,7.5R26,Dark red
+C_MUNSELL_COLOUR,7.5R27,Dark red
+C_MUNSELL_COLOUR,7.5R28,Dark red
+C_MUNSELL_COLOUR,7.5R30,Very dark grey
+C_MUNSELL_COLOUR,7.5R31,Very dark grey
+C_MUNSELL_COLOUR,7.5R32,Dusky red
+C_MUNSELL_COLOUR,7.5R33,Dusky red
+C_MUNSELL_COLOUR,7.5R34,Dusky red
+C_MUNSELL_COLOUR,7.5R35,Dusky red
+C_MUNSELL_COLOUR,7.5R36,Dark red
+C_MUNSELL_COLOUR,7.5R37,Dark red
+C_MUNSELL_COLOUR,7.5R38,Dark red
+C_MUNSELL_COLOUR,7.5R40,Dark grey
+C_MUNSELL_COLOUR,7.5R41,Dark grey
+C_MUNSELL_COLOUR,7.5R42,Weak red
+C_MUNSELL_COLOUR,7.5R43,Weak red
+C_MUNSELL_COLOUR,7.5R44,Weak red
+C_MUNSELL_COLOUR,7.5R45,Weak red
+C_MUNSELL_COLOUR,7.5R46,Red
+C_MUNSELL_COLOUR,7.5R47,Red
+C_MUNSELL_COLOUR,7.5R48,Red
+C_MUNSELL_COLOUR,7.5R50,Grey
+C_MUNSELL_COLOUR,7.5R51,Grey
+C_MUNSELL_COLOUR,7.5R52,Weak red
+C_MUNSELL_COLOUR,7.5R53,Weak red
+C_MUNSELL_COLOUR,7.5R54,Weak red
+C_MUNSELL_COLOUR,7.5R55,Red
+C_MUNSELL_COLOUR,7.5R56,Red
+C_MUNSELL_COLOUR,7.5R57,Red
+C_MUNSELL_COLOUR,7.5R58,Red
+C_MUNSELL_COLOUR,7.5R60,Grey
+C_MUNSELL_COLOUR,7.5R61,Grey
+C_MUNSELL_COLOUR,7.5R62,Pale red
+C_MUNSELL_COLOUR,7.5R63,Pale red
+C_MUNSELL_COLOUR,7.5R64,Pale red
+C_MUNSELL_COLOUR,7.5R65,Light red
+C_MUNSELL_COLOUR,7.5R66,Light red
+C_MUNSELL_COLOUR,7.5R67,Light red
+C_MUNSELL_COLOUR,7.5R68,Light red
+C_MUNSELL_COLOUR,7.5R70,Grey
+C_MUNSELL_COLOUR,7.5R71,Grey
+C_MUNSELL_COLOUR,7.5R72,Pale red
+C_MUNSELL_COLOUR,7.5R73,Pale red
+C_MUNSELL_COLOUR,7.5R74,Pale red
+C_MUNSELL_COLOUR,7.5R75,Light red
+C_MUNSELL_COLOUR,7.5R76,Light red
+C_MUNSELL_COLOUR,7.5R77,Light red
+C_MUNSELL_COLOUR,7.5R78,Loght red
+C_MUNSELL_COLOUR,7.5Y68,Olive Yellow
+C_MUNSELL_COLOUR,7.5Y78,Yellow
+C_MUNSELL_COLOUR,7.5Y84,Pink
+C_MUNSELL_COLOUR,7.5YR2.51,Black
+C_MUNSELL_COLOUR,7.5YR2.52,V. Dark Brown
+C_MUNSELL_COLOUR,7.5YR2.53,V. Dark Brown
+C_MUNSELL_COLOUR,7.5YR20,Black
+C_MUNSELL_COLOUR,7.5YR21,Black
+C_MUNSELL_COLOUR,7.5YR22,Very dark brown
+C_MUNSELL_COLOUR,7.5YR23,Very dark brown
+C_MUNSELL_COLOUR,7.5YR24,Very dark brown
+C_MUNSELL_COLOUR,7.5YR25,Strong brown
+C_MUNSELL_COLOUR,7.5YR26,Strong brown
+C_MUNSELL_COLOUR,7.5YR27,Strong brown
+C_MUNSELL_COLOUR,7.5YR28,Strong brown
+C_MUNSELL_COLOUR,7.5YR30,Very dark grey
+C_MUNSELL_COLOUR,7.5YR31,Very dark grey
+C_MUNSELL_COLOUR,7.5YR32,Dark brown
+C_MUNSELL_COLOUR,7.5YR33,Dark brown
+C_MUNSELL_COLOUR,7.5YR34,Dark brown
+C_MUNSELL_COLOUR,7.5YR35,Strong brown
+C_MUNSELL_COLOUR,7.5YR36,Strong brown
+C_MUNSELL_COLOUR,7.5YR37,Strong brown
+C_MUNSELL_COLOUR,7.5YR38,Strong brown
+C_MUNSELL_COLOUR,7.5YR40,Dark grey
+C_MUNSELL_COLOUR,7.5YR41,Dark grey
+C_MUNSELL_COLOUR,7.5YR42,Brown
+C_MUNSELL_COLOUR,7.5YR43,Brown
+C_MUNSELL_COLOUR,7.5YR44,Brown
+C_MUNSELL_COLOUR,7.5YR45,Strong brown
+C_MUNSELL_COLOUR,7.5YR46,Strong brown
+C_MUNSELL_COLOUR,7.5YR47,Strong brown
+C_MUNSELL_COLOUR,7.5YR48,Strong brown
+C_MUNSELL_COLOUR,7.5YR50,Grey
+C_MUNSELL_COLOUR,7.5YR51,Grey
+C_MUNSELL_COLOUR,7.5YR52,Brown
+C_MUNSELL_COLOUR,7.5YR53,Brown
+C_MUNSELL_COLOUR,7.5YR54,Brown
+C_MUNSELL_COLOUR,7.5YR55,Strong brown
+C_MUNSELL_COLOUR,7.5YR56,Strong brown
+C_MUNSELL_COLOUR,7.5YR57,Strong brown
+C_MUNSELL_COLOUR,7.5YR58,Strong brown
+C_MUNSELL_COLOUR,7.5YR60,Grey
+C_MUNSELL_COLOUR,7.5YR61,Grey
+C_MUNSELL_COLOUR,7.5YR62,Pinkish grey
+C_MUNSELL_COLOUR,7.5YR63,Pinkish grey
+C_MUNSELL_COLOUR,7.5YR64,Light brown
+C_MUNSELL_COLOUR,7.5YR65,Reddish yellow
+C_MUNSELL_COLOUR,7.5YR66,Reddish yellow
+C_MUNSELL_COLOUR,7.5YR67,Reddish yellow
+C_MUNSELL_COLOUR,7.5YR68,Reddish yellow
+C_MUNSELL_COLOUR,7.5YR70,Light grey
+C_MUNSELL_COLOUR,7.5YR71,Light grey
+C_MUNSELL_COLOUR,7.5YR72,Pinkish grey
+C_MUNSELL_COLOUR,7.5YR73,Pinkish grey
+C_MUNSELL_COLOUR,7.5YR74,Pink
+C_MUNSELL_COLOUR,7.5YR75,Reddish yellow
+C_MUNSELL_COLOUR,7.5YR76,Reddish yellow
+C_MUNSELL_COLOUR,7.5YR77,Reddish yellow
+C_MUNSELL_COLOUR,7.5YR78,Reddish yellow
+C_MUNSELL_COLOUR,7.5YR80,White
+C_MUNSELL_COLOUR,7.5YR81,White
+C_MUNSELL_COLOUR,7.5YR82,Pinkish yellow
+C_MUNSELL_COLOUR,7.5YR83,Pinkish white
+C_MUNSELL_COLOUR,7.5YR84,Pink
+C_MUNSELL_COLOUR,7.5YR85,Reddish yellow
+C_MUNSELL_COLOUR,7.5YR86,Reddish yellow
+C_MUNSELL_COLOUR,7.5YR87,Reddish yellow
+C_MUNSELL_COLOUR,7.5YR88,Reddish yellow
+C_MUNSELL_COLOUR,7.5YR91,White
+C_MUNSELL_COLOUR,N10,Black
+C_MUNSELL_COLOUR,N20,Black
+C_MUNSELL_COLOUR,N30,Very Dark Grey
+C_MUNSELL_COLOUR,N40,Dark Grey
+C_MUNSELL_COLOUR,N50,Grey
+C_MUNSELL_COLOUR,N60,Grey
+C_MUNSELL_COLOUR,N70,Light Grey
+C_MUNSELL_COLOUR,N80,White
+C_MUNSELL_COLOUR,N90,White
+C_O_AGGRADATION,0,No aggradation
+C_O_AGGRADATION,1,Present
+C_O_AGGRADATION,X,Not apparent
+C_O_ASC,AA,Red
+C_O_ASC,AB,Brown
+C_O_ASC,AC,Yellow
+C_O_ASC,AD,Grey
+C_O_ASC,AE,Black
+C_O_ASC,AF,Dystrophic
+C_O_ASC,AG,Mesotrophic
+C_O_ASC,AH,Eutrophic
+C_O_ASC,AI,Acidic
+C_O_ASC,AJ,Acidic-Mottled
+C_O_ASC,AK,Andic
+C_O_ASC,AL,Aeric
+C_O_ASC,AM,Aquic
+C_O_ASC,AN,Anthroposols
+C_O_ASC,AO,Arenic
+C_O_ASC,AP,Argic
+C_O_ASC,AQ,Argillaceous
+C_O_ASC,AR,Basic
+C_O_ASC,AS,Bauxitic
+C_O_ASC,AT,Bleached
+C_O_ASC,AU,Bleached-Acidic
+C_O_ASC,AV,Bleached-Ferric
+C_O_ASC,AW,Bleached-Leptic
+C_O_ASC,AX,Bleached-Magnesic
+C_O_ASC,AY,Bleached-Manganic
+C_O_ASC,AZ,Bleached-Mottled
+C_O_ASC,BA,Bleached-Sodic
+C_O_ASC,BB,Bleached-Vertic
+C_O_ASC,BC,Calcareous
+C_O_ASC,BD,Calcic
+C_O_ASC,BE,Chernic
+C_O_ASC,BF,Chernic-Leptic
+C_O_ASC,BG,Chromosolic
+C_O_ASC,BH,Crusty
+C_O_ASC,BI,Densic
+C_O_ASC,BJ,Duric
+C_O_ASC,BK,Pedaric
+C_O_ASC,BL,Endoacidic
+C_O_ASC,BM,Endic
+C_O_ASC,BN,Episodic
+C_O_ASC,BO,Endic-Pedal
+C_O_ASC,BP,Endohypersodic
+C_O_ASC,BQ,Epic
+C_O_ASC,BR,Epihypersodic
+C_O_ASC,BS,Epic-Pedal
+C_O_ASC,BT,Extratidal
+C_O_ASC,BU,Ferric
+C_O_ASC,BV,Arenaceous
+C_O_ASC,BW,Fibric
+C_O_ASC,BX,Fluvic
+C_O_ASC,BY,Fragic
+C_O_ASC,BZ,Gypsic
+C_O_ASC,CB,Calcarosolic
+C_O_ASC,CC,Halic
+C_O_ASC,CD,Haplic
+C_O_ASC,CE,Hemic
+C_O_ASC,CF,Histic
+C_O_ASC,CG,Humic
+C_O_ASC,CH,Chromosol
+C_O_ASC,CI,Humic/Humosesquic
+C_O_ASC,CJ,Humic/Sesquic
+C_O_ASC,CK,Humose
+C_O_ASC,CL,Humose-Magnesic
+C_O_ASC,CM,Humose-Mottled
+C_O_ASC,CN,Humose-Parapanic
+C_O_ASC,CO,Humosesquic
+C_O_ASC,CP,Hypervescent
+C_O_ASC,CQ,Hypercalcic
+C_O_ASC,CR,Hypernatric
+C_O_ASC,CS,Hypersalic
+C_O_ASC,CU,Epihypersodic-Epiacidic
+C_O_ASC,CV,Hypocalcic
+C_O_ASC,CW,Intertidal
+C_O_ASC,CX,Kurosolic
+C_O_ASC,CY,Leptic
+C_O_ASC,CZ,Lithic
+C_O_ASC,DA,Lithocalcic
+C_O_ASC,DB,Magnesic
+C_O_ASC,DC,Manganic
+C_O_ASC,DD,Marly
+C_O_ASC,DF,Massive
+C_O_ASC,DG,Melacic
+C_O_ASC,DH,Melacic-Magnesic
+C_O_ASC,DI,Melacic-Mottled
+C_O_ASC,DJ,Melacic-Parapanic
+C_O_ASC,DK,Melanic
+C_O_ASC,DL,Melanic-Bleached
+C_O_ASC,DM,Melanic-Mottled
+C_O_ASC,DN,Melanic-Vertic
+C_O_ASC,DO,Mellic
+C_O_ASC,DP,Mesonatric
+C_O_ASC,DQ,Mottled
+C_O_ASC,DR,Subhumose
+C_O_ASC,DS,Orthic
+C_O_ASC,DT,Oxyaquic
+C_O_ASC,DU,Paralithic
+C_O_ASC,DV,Parapanic
+C_O_ASC,DW,Peaty
+C_O_ASC,DX,Peaty-Parapanic
+C_O_ASC,DY,Pedal
+C_O_ASC,DZ,Petrocalcic
+C_O_ASC,EA,Petroferric
+C_O_ASC,EB,Pipey
+C_O_ASC,EC,Placic
+C_O_ASC,ED,Redoxic
+C_O_ASC,EE,Rendic
+C_O_ASC,EF,Reticulate
+C_O_ASC,EG,Salic
+C_O_ASC,EH,Sapric
+C_O_ASC,EI,Self-Mulching
+C_O_ASC,EJ,Semiaquic
+C_O_ASC,EK,Sesquic
+C_O_ASC,EL,Shelly
+C_O_ASC,EM,Silpanic
+C_O_ASC,EN,Snuffy
+C_O_ASC,EO,Sodic
+C_O_ASC,EP,Episodic-Epiacidic
+C_O_ASC,EQ,Sodosolic
+C_O_ASC,ER,Stratic
+C_O_ASC,ES,Subnatric
+C_O_ASC,ET,Subplastic
+C_O_ASC,EU,Sulfidic
+C_O_ASC,EV,Sulfuric
+C_O_ASC,EW,Supratidal
+C_O_ASC,EX,Vertic
+C_O_ASC,EY,Humose-Bleached
+C_O_ASC,EZ,Melacic-Bleached
+C_O_ASC,FA,Siliceous
+C_O_ASC,FB,Supracalcic
+C_O_ASC,FC,Melanic-Calcareous
+C_O_ASC,FD,Natric
+C_O_ASC,FF,Submelacic
+C_O_ASC,FG,Submelanic
+C_O_ASC,FH,Palic
+C_O_ASC,FI,Ochric
+C_O_ASC,FJ,Hypergypsic
+C_O_ASC,FK,Ferric-Duric
+C_O_ASC,FL,Gypsic-Subplastic
+C_O_ASC,FM,Epicalcareous-Epihypersodic
+C_O_ASC,FN,Mottled-Subnatric
+C_O_ASC,FO,Mottled-Mesonatric
+C_O_ASC,FP,Mottled-Hypernatric
+C_O_ASC,FQ,Dermosolic
+C_O_ASC,FR,Kandosolic
+C_O_ASC,FS,Terric
+C_O_ASC,FT,Humose-Basic
+C_O_ASC,FU,Melacic-Basic
+C_O_ASC,FV,Melanic-Acidic
+C_O_ASC,FW,Faunic
+C_O_ASC,FX,Lutaceous
+C_O_ASC,FY,Epicalcareous
+C_O_ASC,FZ,Endocalcareous
+C_O_ASC,GA,Epiacidic
+C_O_ASC,GB,Epicalcareous-Endohypersodic
+C_O_ASC,GC,Melacic-Reticulate
+C_O_ASC,GD,Peaty-Placic
+C_O_ASC,GE,Ferric-Petroferric
+C_O_ASC,GF,Regolithic
+C_O_ASC,GG,Episodic-Endoacidic
+C_O_ASC,GH,Episodic-Epicalcareous
+C_O_ASC,GI,Episodic-Endocalcareous
+C_O_ASC,GJ,Epicalcareous-Endoacidic
+C_O_ASC,GK,Epiacidic-Mottled
+C_O_ASC,GL,Endoacidic-Mottled
+C_O_ASC,GM,Endocalcareous-Endohypersodic
+C_O_ASC,GN,Epihypersodic-Endoacidic
+C_O_ASC,GO,Epihypersodic-Endocalcareous
+C_O_ASC,GP,Magnesic-Natric
+C_O_ASC,GQ,Episodic-Gypsic
+C_O_ASC,GR,Rudosolic
+C_O_ASC,GS,Epipedal
+C_O_ASC,GT,Tenosolic
+C_O_ASC,GU,Humose-Calcareous
+C_O_ASC,GV,Lutic
+C_O_ASC,GW,Ferric-Acidic
+C_O_ASC,GX,Manganic-Acidic
+C_O_ASC,GY,Humose-Acidic
+C_O_ASC,GZ,Bleached-Orthic
+C_O_ASC,HA,Melanic-Sodic
+C_O_ASC,HB,Mottled-Sodic
+C_O_ASC,HC,Ferric-Sodic
+C_O_ASC,HD,Rudaceous
+C_O_ASC,HE,Endocalcareous-Mottled
+C_O_ASC,HF,Tephric
+C_O_ASC,HG,Carbic
+C_O_ASC,HH,Clastic
+C_O_ASC,HI,Colluvic
+C_O_ASC,HJ,Lithosolic
+C_O_ASC,HK,Supravescent
+C_O_ASC,HL,Episulfidic
+C_O_ASC,HM,Episulfidic-Petrocalcic
+C_O_ASC,HN,Densic-Placic
+C_O_ASC,HO,Acidic-Sodic
+C_O_ASC,HP,Palic-Acidic
+C_O_ASC,HQ,Ochric-Acidic
+C_O_ASC,HR,Cumulic
+C_O_ASC,HS,Hortic
+C_O_ASC,HT,Garbic
+C_O_ASC,HU,Urbic
+C_O_ASC,HV,Dredgic
+C_O_ASC,HW,Spolic
+C_O_ASC,HX,Scalpic
+C_O_ASC,HZ,Ashy
+C_O_ASC,IA,Inceptic
+C_O_ASC,IB,Epibasic
+C_O_ASC,IC,Ceteric
+C_O_ASC,ID,Subpeaty
+C_O_ASC,IE,Effervescent
+C_O_ASC,IF,Folic
+C_O_ASC,IG,Humosesquic/Sesquic
+C_O_ASC,IH,Humic/Alsilic
+C_O_ASC,IJ,Modic
+C_O_ASC,IK,Histic-Sulfidic
+C_O_ASC,IL,Sequi-Nodular
+C_O_ASC,IM,Calcenic
+C_O_ASC,IN,Red-Orthic
+C_O_ASC,IO,Brown-Orthic
+C_O_ASC,IP,Yellow-Orthic
+C_O_ASC,IQ,Grey-Orthic
+C_O_ASC,IR,Black-Orthic
+C_O_ASC,IS,Ferric-Reticulate
+C_O_ASC,XX,Available Class Inappropriate
+C_O_ASC,YY,Class Undetermined
+C_O_ASC,ZZ,No Available Class
+C_O_ASC_CONF,-,No confidence level recorded.
+C_O_ASC_CONF,1,All necessary analytical data are available.
+C_O_ASC_CONF,2,Analytical data are incomplete but reasonable confidence.
+C_O_ASC_CONF,3,No analytical data are available but confidence is fair.
+C_O_ASC_CONF,4,No analytical data and little or no knowledge of this soil.
+C_O_ASC_FAM,-,Not recorded
+C_O_ASC_FAM,A,Thin
+C_O_ASC_FAM,B,Medium
+C_O_ASC_FAM,C,Thick
+C_O_ASC_FAM,D,Very thick
+C_O_ASC_FAM,E,Non-gravelly
+C_O_ASC_FAM,F,Slightly gravelly
+C_O_ASC_FAM,G,Gravelly
+C_O_ASC_FAM,H,Moderately gravelly
+C_O_ASC_FAM,I,Very gravelly
+C_O_ASC_FAM,J,Peaty
+C_O_ASC_FAM,K,Sandy
+C_O_ASC_FAM,L,Loamy
+C_O_ASC_FAM,M,Clay-loamy
+C_O_ASC_FAM,N,Silty
+C_O_ASC_FAM,O,Clayey
+C_O_ASC_FAM,P,Granular
+C_O_ASC_FAM,Q,Fine
+C_O_ASC_FAM,R,Medium fine
+C_O_ASC_FAM,S,Very fine
+C_O_ASC_FAM,T,Very shallow
+C_O_ASC_FAM,U,Shallow
+C_O_ASC_FAM,V,Moderately deep
+C_O_ASC_FAM,W,Deep
+C_O_ASC_FAM,X,Very deep
+C_O_ASC_FAM,Y,Giant
+C_O_ASC_ORD,AN,Anthroposol
+C_O_ASC_ORD,CA,Calcarosol
+C_O_ASC_ORD,CH,Chromosol
+C_O_ASC_ORD,DE,Dermosol
+C_O_ASC_ORD,FE,Ferrosol
+C_O_ASC_ORD,HY,Hydrosol
+C_O_ASC_ORD,KA,Kandosol
+C_O_ASC_ORD,KU,Kurosol
+C_O_ASC_ORD,OR,Organosol
+C_O_ASC_ORD,PO,Podosol
+C_O_ASC_ORD,RU,Rudosol
+C_O_ASC_ORD,SO,Sodosol
+C_O_ASC_ORD,TE,Tenosol
+C_O_ASC_ORD,VE,Vertosol
+C_O_ASC_VERSION,2,The Australian Soil Classification 2nd approximation
+C_O_ASC_VERSION,3,The Australian Soil Classification 3rd approximation
+C_O_ASC_VERSION,4,The Australian Soil Classification 1st Edition
+C_O_ASC_VERSION,5,The Australian Soil Classification Revised Edition
+C_O_DATUM,AGD66,Australian Geodetic Datum - AGC Zone 1966
+C_O_DATUM,AGD84,Australian Geodetic Datum - Equiv WGS 1984
+C_O_DATUM,GDA94,Geocentric Datum of Australia 1994
+C_O_DATUM,WGS84,World Geodetic System 1984
+C_O_DEPTH_WATER_PREF,-,Below soil surface
+C_O_DEPTH_WATER_PREF,+,Above soil surface
+C_O_DEPTH_WATER_PREF,0,No free water
+C_O_DRAINAGE,1,Very poorly drained
+C_O_DRAINAGE,2,Poorly drained
+C_O_DRAINAGE,3,Imperfectly drained
+C_O_DRAINAGE,4,Moderately well drained
+C_O_DRAINAGE,5,Well drained
+C_O_DRAINAGE,6,Rapidly drained
+C_O_ER_STATE,A,Active
+C_O_ER_STATE,P,Partially stabilised
+C_O_ER_STATE,S,Stabilised
+C_O_EVALUATION,A,Determined by altimeter
+C_O_EVALUATION,D,Determined by DGPS
+C_O_EVALUATION,E,Estimate
+C_O_EVALUATION,G,Determined by GPS
+C_O_EVALUATION,L,Levelled from survey datum
+C_O_EVALUATION,M,Interpolated from contour map with contour interval of 20 m or less
+C_O_FOREST_TYPE,1,Non-rainforest
+C_O_FOREST_TYPE,2,Rainforest
+C_O_FOREST_TYPE,3,Mixture of rainforest and non-rainforest
+C_O_FOREST_TYPE,4,Plantation
+C_O_FOREST_TYPE,5,No vegetation
+C_O_GSG,A,Alluvial soil
+C_O_GSG,ACP,Acid peat
+C_O_GSG,AH,Alpine humus soil
+C_O_GSG,ALP,Alkaline peat
+C_O_GSG,BC,Brown clay
+C_O_GSG,BE,Black earth
+C_O_GSG,BP,Brown podzolic soil
+C_O_GSG,BRE,Brown earth
+C_O_GSG,C,Chocolate soil
+C_O_GSG,CM,Chernozem
+C_O_GSG,DL,Desert loam
+C_O_GSG,E,Euchrozem
+C_O_GSG,ES,Earthy sand
+C_O_GSG,GBK,Grey-brown calcareous soil
+C_O_GSG,GBP,Grey-brown podzolic soil
+C_O_GSG,GC,Grey clay
+C_O_GSG,GE,Grey earth
+C_O_GSG,GP,Gleyed podzolic soil
+C_O_GSG,HG,Humic gley
+C_O_GSG,HP,Humus podzol
+C_O_GSG,K,Krasnozem
+C_O_GSG,KRE,Calcareous red earth
+C_O_GSG,KS,Calcareous sand
+C_O_GSG,L,Lithosol
+C_O_GSG,LP,Lateritic podzolic soil
+C_O_GSG,NKB,Non-calcic brown soil
+C_O_GSG,NP,Neutral peat
+C_O_GSG,NSG,No suitable group
+C_O_GSG,P,Podzol
+C_O_GSG,PP,Peaty podzol
+C_O_GSG,PS,Prairie soil
+C_O_GSG,R,Rendzina
+C_O_GSG,RBE,Red-brown earth
+C_O_GSG,RBH,Red and brown hardpan soil
+C_O_GSG,RC,Red clay
+C_O_GSG,RE,Red earth
+C_O_GSG,RK,Red calcareous soil
+C_O_GSG,RP,Red podzolic soil
+C_O_GSG,SB,Solonized brown soil
+C_O_GSG,SC,Solodic soil
+C_O_GSG,SDS,Solodized solonetz
+C_O_GSG,SH,Soloth
+C_O_GSG,SK,Solonchak
+C_O_GSG,SS,Siliceous sand
+C_O_GSG,SZ,Solonetz
+C_O_GSG,TR,Terra rossa soil
+C_O_GSG,W,Wiesenboden
+C_O_GSG,X,Xanthozem
+C_O_GSG,YE,Yellow earth
+C_O_GSG,YP,Yellow podzolic soil
+C_O_INUND_FREQ,0,No inundation
+C_O_INUND_FREQ,1,Less than one per 100 years
+C_O_INUND_FREQ,2,One in 50-100 years
+C_O_INUND_FREQ,3,One in 10-50 years
+C_O_INUND_FREQ,4,One in 1-10 years
+C_O_INUND_FREQ,5,More than one per year
+C_O_MAP_UNIT_TYPE,LS,Land sys
+C_O_MAP_UNIT_TYPE,LU,Land unit
+C_O_MAP_UNIT_TYPE,SA,Soil assoc
+C_O_MAP_UNIT_TYPE,SC,Soil cpx
+C_O_MAP_UNIT_TYPE,SL,Soil landscape
+C_O_MASS_DEG,0,No mass movement
+C_O_MASS_DEG,1,Present
+C_O_MR_SAMPLED,D,Depression
+C_O_MR_SAMPLED,E,Elongate mound
+C_O_MR_SAMPLED,F,Flat
+C_O_MR_SAMPLED,K,Hummock
+C_O_MR_SAMPLED,L,Elongate depression
+C_O_MR_SAMPLED,M,Mound
+C_O_MR_SAMPLED,S,Shelf
+C_O_NATURE,C,Characterisation
+C_O_NATURE,M,Composite
+C_O_NATURE,S,Single
+C_O_OTHER_ER_DEG,0,No erosion
+C_O_OTHER_ER_DEG,1,Minor or present
+C_O_OTHER_ER_DEG,2,Moderate
+C_O_OTHER_ER_DEG,3,Severe
+C_O_OTHER_ER_DEG,4,Very severe
+C_O_OTHER_ER_DEG,X,Not apparent
+C_O_RF_COMPLEX,C,Complex
+C_O_RF_COMPLEX,S,Simple
+C_O_RF_COMPLEX,X,Simple-complex
+C_O_RF_EMERGENTS,A,Emergent present is not sclerophyll
+C_O_RF_EMERGENTS,E,Emergent present is sclerophyll
+C_O_RF_FLOR_COMP,M,Mixed
+C_O_RF_FLOR_COMP,S,One or two species
+C_O_RF_FLOR_COMP,X,Mixed + one species
+C_O_RF_INDICATOR,1,Moss
+C_O_RF_INDICATOR,2,Fern
+C_O_RF_INDICATOR,3,Fan palm
+C_O_RF_INDICATOR,4,Feather palm
+C_O_RF_INDICATOR,5,Vine
+C_O_RF_INDICATOR,6,No dominant indicator growth form
+C_O_RF_LEAFSIZE,1,Macrophyll
+C_O_RF_LEAFSIZE,2,Macrophyll-mesophyll
+C_O_RF_LEAFSIZE,3,Mesophyll
+C_O_RF_LEAFSIZE,4,Mesophyll-notophyll
+C_O_RF_LEAFSIZE,5,Notophyll
+C_O_RF_LEAFSIZE,6,Notophyll-microphyll
+C_O_RF_LEAFSIZE,7,Microphyll
+C_O_RF_LEAFSIZE,8,Microphyll-nanophyll
+C_O_RF_LEAFSIZE,9,Nanophyll
+C_O_RILL_DEG,0,No rill erosion
+C_O_RILL_DEG,1,Minor
+C_O_RILL_DEG,2,Moderate
+C_O_RILL_DEG,3,Severe
+C_O_RUNOFF,0,No runoff
+C_O_RUNOFF,1,Very slow
+C_O_RUNOFF,2,Slow
+C_O_RUNOFF,3,Moderately rapid
+C_O_RUNOFF,4,Rapid
+C_O_RUNOFF,5,Very rapid
+C_O_SB_CONFIDENCE,A,Almost certain or certain
+C_O_SB_CONFIDENCE,D,"Dubious, doubtful"
+C_O_SB_CONFIDENCE,N,Not parent material
+C_O_SB_CONFIDENCE,P,Probable
+C_O_SB_MASS_ALT,F,Ferruginized
+C_O_SB_MASS_ALT,K,Calcified
+C_O_SB_MASS_ALT,L,Kaolinized
+C_O_SB_MASS_ALT,O,Other
+C_O_SB_MASS_ALT,S,Silicified
+C_O_SB_MASS_GEN_TYPE,AC,Alcrete (bauxite)
+C_O_SB_MASS_GEN_TYPE,AH,Artificially hardened materials
+C_O_SB_MASS_GEN_TYPE,AL,Alluvial
+C_O_SB_MASS_GEN_TYPE,AT,Anthropic materials
+C_O_SB_MASS_GEN_TYPE,BE,Beach sediment
+C_O_SB_MASS_GEN_TYPE,BG,Biogenic rocks and materials
+C_O_SB_MASS_GEN_TYPE,CD,Creep deposit
+C_O_SB_MASS_GEN_TYPE,CH,Chemically hardened materials
+C_O_SB_MASS_GEN_TYPE,CN,Concrete
+C_O_SB_MASS_GEN_TYPE,CO,Colluvium
+C_O_SB_MASS_GEN_TYPE,DR,Decomposed rock
+C_O_SB_MASS_GEN_TYPE,ED,Eolian sediment
+C_O_SB_MASS_GEN_TYPE,EH,Evaporites
+C_O_SB_MASS_GEN_TYPE,ES,Eolian sand
+C_O_SB_MASS_GEN_TYPE,ET,Eolianite
+C_O_SB_MASS_GEN_TYPE,EV,Other evaporites
+C_O_SB_MASS_GEN_TYPE,FC,Ferricrete
+C_O_SB_MASS_GEN_TYPE,FI,Fill
+C_O_SB_MASS_GEN_TYPE,GY,Gypsum
+C_O_SB_MASS_GEN_TYPE,HA,Halite (rock salt)
+C_O_SB_MASS_GEN_TYPE,IG,Igneous rocks
+C_O_SB_MASS_GEN_TYPE,IN,Ignimbrite
+C_O_SB_MASS_GEN_TYPE,KC,Calcrete
+C_O_SB_MASS_GEN_TYPE,LA,lacustrine sediment
+C_O_SB_MASS_GEN_TYPE,LC,Silcrete
+C_O_SB_MASS_GEN_TYPE,LD,Landslide deposit
+C_O_SB_MASS_GEN_TYPE,LO,Loess
+C_O_SB_MASS_GEN_TYPE,MA,Marine sediment
+C_O_SB_MASS_GEN_TYPE,MD,Mudflow deposit
+C_O_SB_MASS_GEN_TYPE,ME,Metamorphic rocks
+C_O_SB_MASS_GEN_TYPE,MH,Masses hardened in the regolith
+C_O_SB_MASS_GEN_TYPE,PA,Parna
+C_O_SB_MASS_GEN_TYPE,PC,Porcellanite
+C_O_SB_MASS_GEN_TYPE,PL,Plutonic rocks
+C_O_SB_MASS_GEN_TYPE,PW,Partially weathered rock
+C_O_SB_MASS_GEN_TYPE,RB,Red-brown hardpan
+C_O_SB_MASS_GEN_TYPE,SA,Saprolite
+C_O_SB_MASS_GEN_TYPE,SC,Chemical and organic sedimentary rocks
+C_O_SB_MASS_GEN_TYPE,SD,Detrital sedimentary rocks (including eolianite)
+C_O_SB_MASS_GEN_TYPE,SE,Scree
+C_O_SB_MASS_GEN_TYPE,SH,Sheet flow deposit
+C_O_SB_MASS_GEN_TYPE,SO,Stabilized soil
+C_O_SB_MASS_GEN_TYPE,SP,Pyroclastic rocks (including ignimbrite)
+C_O_SB_MASS_GEN_TYPE,SR,Sedimentary rocks
+C_O_SB_MASS_GEN_TYPE,TI,Till
+C_O_SB_MASS_GEN_TYPE,UR,Unweathered rocks of the bedrock zone
+C_O_SB_MASS_GEN_TYPE,US,Unconsolidated sediments
+C_O_SB_MASS_GEN_TYPE,VA,Volcanic ash
+C_O_SB_MASS_GEN_TYPE,VO,Volcanic rocks
+C_O_SB_MASS_GEN_TYPE,WR,Weathered rocks
+C_O_SB_MASS_STRENGTH,E,Earth or soil
+C_O_SB_MASS_STRENGTH,M,Moderately strong rock
+C_O_SB_MASS_STRENGTH,S,Strong rock
+C_O_SB_MASS_STRENGTH,VS,Very strong rock
+C_O_SB_MASS_STRENGTH,VW,Very weak rock
+C_O_SB_MASS_STRENGTH,W,Weak rock
+C_O_SB_OBS_TYPE,A,Auger boring
+C_O_SB_OBS_TYPE,C,Undisturbed soil core
+C_O_SB_OBS_TYPE,E,Existing vertical exposure
+C_O_SB_OBS_TYPE,O,Outcrop
+C_O_SB_OBS_TYPE,P,Soil pit
+C_O_SB_POROSITY,0,"Non-porous, dense"
+C_O_SB_POROSITY,1,Slightly porous
+C_O_SB_POROSITY,2,Porous
+C_O_SB_STRUCTURE,B,Bedded
+C_O_SB_STRUCTURE,C,Concretionary
+C_O_SB_STRUCTURE,F,Fissile
+C_O_SB_STRUCTURE,L,Foliated
+C_O_SB_STRUCTURE,P,Platy
+C_O_SB_STRUCTURE,R,Vermicular
+C_O_SB_STRUCTURE,S,Vesicular
+C_O_SB_STRUCTURE,V,Massive
+C_O_SB_TEXTURE,A,Amorphus
+C_O_SB_TEXTURE,F,Fragmental
+C_O_SB_TEXTURE,P,Porphyritic
+C_O_SB_TEXTURE,X,Crystalline
+C_O_SB_TYPE,A,Auger boring
+C_O_SB_TYPE,C,Undisturbed soil core
+C_O_SB_TYPE,E,Existing vertical exposure
+C_O_SB_TYPE,O,Outcrop
+C_O_SB_TYPE,P,Soil pit
+C_O_SCALD_DEG,0,No scalding
+C_O_SCALD_DEG,1,Minor scalding
+C_O_SCALD_DEG,2,Moderate scalding
+C_O_SCALD_DEG,3,Severe scalding
+C_O_SHEET_DEG,0,No sheet erosion
+C_O_SHEET_DEG,1,Minor
+C_O_SHEET_DEG,2,Moderate
+C_O_SHEET_DEG,3,Severe
+C_O_SHEET_DEG,X,Not apparent
+C_O_SOIL_DISTURBx,1,No significant disturbance apparent
+C_O_SOIL_DISTURBx,2,Disturbance of some of the soil surface
+C_O_SOIL_DISTURBx,3,"Complete soil disturbance by cultivation, heavy grazing or both"
+C_O_SOIL_DISTURB,0,No effective disturbance; natural
+C_O_SOIL_DISTURB,1,No effective disturbance other than grazing by hoofed animals
+C_O_SOIL_DISTURB,2,Limited clearing (e.g. selective logging)
+C_O_SOIL_DISTURB,3,"Complete soil disturbance by cultivation, heavy grazing or both"
+C_O_SOIL_DISTURB,4,"Complete clearing; pasture, native or improved, but never cultivated"
+C_O_SOIL_DISTURB,5,"Complete clearing; pasture, native or improved, cultivated at some stage"
+C_O_SOIL_DISTURB,6,Cultivation; rainfed
+C_O_SOIL_DISTURB,7,"Cultivation; irrigated, past or present"
+C_O_SOIL_DISTURB,8,"Highly disturbed (e.g. quarrying, road works, mining, landfill, urban)"
+C_O_SOIL_TAXONOMY,A,Alfisol
+C_O_SOIL_TAXONOMY,AAQ,Aqualf
+C_O_SOIL_TAXONOMY,AAQAL,Albaqualf
+C_O_SOIL_TAXONOMY,AAQDU,Duraqualf
+C_O_SOIL_TAXONOMY,AAQFR,Fragiaqualf
+C_O_SOIL_TAXONOMY,AAQGL,Glossaqualf
+C_O_SOIL_TAXONOMY,AAQKA,Kandiaqualf
+C_O_SOIL_TAXONOMY,AAQNA,Natraqualf
+C_O_SOIL_TAXONOMY,AAQOC,Ochraqualf
+C_O_SOIL_TAXONOMY,AAQPN,Plinthaqualf
+C_O_SOIL_TAXONOMY,AAQUM,Umbraqualf
+C_O_SOIL_TAXONOMY,ABO,Boralf
+C_O_SOIL_TAXONOMY,ABOCR,Cryoboralf
+C_O_SOIL_TAXONOMY,ABOEU,Eutroboralf
+C_O_SOIL_TAXONOMY,ABOFR,Fragiboralf
+C_O_SOIL_TAXONOMY,ABOGL,Glossoboralf
+C_O_SOIL_TAXONOMY,ABONA,Natriboralf
+C_O_SOIL_TAXONOMY,ABOPA,Paleboralf
+C_O_SOIL_TAXONOMY,AUD,Udalf
+C_O_SOIL_TAXONOMY,AUDAG,Agrudalf
+C_O_SOIL_TAXONOMY,AUDFE,Ferrudalf
+C_O_SOIL_TAXONOMY,AUDFR,Fragiudalf
+C_O_SOIL_TAXONOMY,AUDFS,Fraglossudalf
+C_O_SOIL_TAXONOMY,AUDGL,Glossudalf
+C_O_SOIL_TAXONOMY,AUDHA,Halpludalf
+C_O_SOIL_TAXONOMY,AUDKA,Kandiudalf
+C_O_SOIL_TAXONOMY,AUDKH,Kanhapludalf
+C_O_SOIL_TAXONOMY,AUDNA,Natrudalf
+C_O_SOIL_TAXONOMY,AUDPA,Paleudalf
+C_O_SOIL_TAXONOMY,AUDTR,Tropudalf
+C_O_SOIL_TAXONOMY,AUS,Ustalf
+C_O_SOIL_TAXONOMY,AUSDA,Durustalf
+C_O_SOIL_TAXONOMY,AUSHA,Haplustalf
+C_O_SOIL_TAXONOMY,AUSKA,Kandiustalf
+C_O_SOIL_TAXONOMY,AUSKH,Kanhaplustalf
+C_O_SOIL_TAXONOMY,AUSNA,Natrustalf
+C_O_SOIL_TAXONOMY,AUSPA,Paleustalf
+C_O_SOIL_TAXONOMY,AUSPN,Plinthustalf
+C_O_SOIL_TAXONOMY,AUSRH,Rhodustalf
+C_O_SOIL_TAXONOMY,AXE,Xeralf
+C_O_SOIL_TAXONOMY,AXEDU,Durixeralf
+C_O_SOIL_TAXONOMY,AXEFR,Fragixeralf
+C_O_SOIL_TAXONOMY,AXEHA,Haploxeralf
+C_O_SOIL_TAXONOMY,AXENA,Natrixeralf
+C_O_SOIL_TAXONOMY,AXEPA,Palexeralf
+C_O_SOIL_TAXONOMY,AXEPN,Plinthoxeralf
+C_O_SOIL_TAXONOMY,AXERH,Rhodoxeralf
+C_O_SOIL_TAXONOMY,D,Aridisol
+C_O_SOIL_TAXONOMY,DAR,Argid
+C_O_SOIL_TAXONOMY,DARDU,Durargid
+C_O_SOIL_TAXONOMY,DARHA,Haplargid
+C_O_SOIL_TAXONOMY,DARND,Nadurargid
+C_O_SOIL_TAXONOMY,DARNT,Natrargid
+C_O_SOIL_TAXONOMY,DARPA,Paleargid
+C_O_SOIL_TAXONOMY,DOR,Orthid
+C_O_SOIL_TAXONOMY,DORCL,Calciorthid
+C_O_SOIL_TAXONOMY,DORCM,Camborthid
+C_O_SOIL_TAXONOMY,DORDU,Durorthid
+C_O_SOIL_TAXONOMY,DORGY,Gypsiorthid
+C_O_SOIL_TAXONOMY,DORPA,Paleorthid
+C_O_SOIL_TAXONOMY,DORSA,Salorthid
+C_O_SOIL_TAXONOMY,E,Entisol
+C_O_SOIL_TAXONOMY,EAQ,Aquent
+C_O_SOIL_TAXONOMY,EAQCR,Cryaquent
+C_O_SOIL_TAXONOMY,EAQFL,Fluvaquent
+C_O_SOIL_TAXONOMY,EAQHA,Haplaquent
+C_O_SOIL_TAXONOMY,EAQHY,Hydraquent
+C_O_SOIL_TAXONOMY,EAQPS,Psammaquent
+C_O_SOIL_TAXONOMY,EAQSU,Sulfaquent
+C_O_SOIL_TAXONOMY,EAQTR,Tropaquent
+C_O_SOIL_TAXONOMY,EAR,Arent
+C_O_SOIL_TAXONOMY,EARAR,Arent
+C_O_SOIL_TAXONOMY,EFL,Fluvent
+C_O_SOIL_TAXONOMY,EFLCR,Cryofluvent
+C_O_SOIL_TAXONOMY,EFLTO,Torrifluvent
+C_O_SOIL_TAXONOMY,EFLTR,Tropofluvent
+C_O_SOIL_TAXONOMY,EFLUD,Udifluvent
+C_O_SOIL_TAXONOMY,EFLUS,Ustifluvent
+C_O_SOIL_TAXONOMY,EFLXE,Xerofluvent
+C_O_SOIL_TAXONOMY,EOR,Orthent
+C_O_SOIL_TAXONOMY,EORCR,Cryorthent
+C_O_SOIL_TAXONOMY,EORTO,Torriorthent
+C_O_SOIL_TAXONOMY,EORTR,Troporthent
+C_O_SOIL_TAXONOMY,EORUD,Udorthent
+C_O_SOIL_TAXONOMY,EORUS,Ustorthent
+C_O_SOIL_TAXONOMY,EORXE,Xerorthent
+C_O_SOIL_TAXONOMY,EPS,Psamment
+C_O_SOIL_TAXONOMY,EPSCR,Cryopsamment
+C_O_SOIL_TAXONOMY,EPSQU,Quartzipsamment
+C_O_SOIL_TAXONOMY,EPSTO,Torripsamment
+C_O_SOIL_TAXONOMY,EPSTR,Tropopsamment
+C_O_SOIL_TAXONOMY,EPSUD,Udipsamment
+C_O_SOIL_TAXONOMY,EPSUS,Ustipsamment
+C_O_SOIL_TAXONOMY,EPSXE,Xeropsamment
+C_O_SOIL_TAXONOMY,H,Histosol
+C_O_SOIL_TAXONOMY,HFI,Fibrist
+C_O_SOIL_TAXONOMY,HFIBO,Borofibrist
+C_O_SOIL_TAXONOMY,HFICR,Cryofibrist
+C_O_SOIL_TAXONOMY,HFILU,Luvifibrist
+C_O_SOIL_TAXONOMY,HFIME,Medifibrist
+C_O_SOIL_TAXONOMY,HFISP,Sphagnofibrist
+C_O_SOIL_TAXONOMY,HFITR,Tropofibrist
+C_O_SOIL_TAXONOMY,HFO,Folist
+C_O_SOIL_TAXONOMY,HFOBO,Borofolist
+C_O_SOIL_TAXONOMY,HFOCR,Cryofolist
+C_O_SOIL_TAXONOMY,HFOTR,Tropofolist
+C_O_SOIL_TAXONOMY,HHE,Hemist
+C_O_SOIL_TAXONOMY,HHEBO,Borohemist
+C_O_SOIL_TAXONOMY,HHECR,Cryohemist
+C_O_SOIL_TAXONOMY,HHELU,Luvihemist
+C_O_SOIL_TAXONOMY,HHEME,Medihemist
+C_O_SOIL_TAXONOMY,HHESI,Sulfihemist
+C_O_SOIL_TAXONOMY,HHESO,Sulfohemist
+C_O_SOIL_TAXONOMY,HHETR,Tropohemist
+C_O_SOIL_TAXONOMY,HSA,Saprist
+C_O_SOIL_TAXONOMY,HSABO,Borosaprist
+C_O_SOIL_TAXONOMY,HSACR,Cryosaprist
+C_O_SOIL_TAXONOMY,HSAME,Medisaprist
+C_O_SOIL_TAXONOMY,HSATR,Troposaprist
+C_O_SOIL_TAXONOMY,I,Inceptisol
+C_O_SOIL_TAXONOMY,IAN,Andept
+C_O_SOIL_TAXONOMY,IANCR,Cryandept
+C_O_SOIL_TAXONOMY,IANDU,Durandept
+C_O_SOIL_TAXONOMY,IANDY,Dystrandept
+C_O_SOIL_TAXONOMY,IANEU,Eutrandept
+C_O_SOIL_TAXONOMY,IANHY,Hydrandept
+C_O_SOIL_TAXONOMY,IANPK,Placandept
+C_O_SOIL_TAXONOMY,IANVI,Vitrandept
+C_O_SOIL_TAXONOMY,IAQ,Aqueot
+C_O_SOIL_TAXONOMY,IAQAN,Andaquept
+C_O_SOIL_TAXONOMY,IAQCR,Cryaquept
+C_O_SOIL_TAXONOMY,IAQFR,Fragiaquept
+C_O_SOIL_TAXONOMY,IAQHL,Halaquept
+C_O_SOIL_TAXONOMY,IAQHP,Haplaquept
+C_O_SOIL_TAXONOMY,IAQHU,Humaquept
+C_O_SOIL_TAXONOMY,IAQPK,Placaquept
+C_O_SOIL_TAXONOMY,IAQPN,Plinthaquept
+C_O_SOIL_TAXONOMY,IAQSU,Sulfaquept
+C_O_SOIL_TAXONOMY,IAQTR,Tropaquept
+C_O_SOIL_TAXONOMY,IOC,Ochrept
+C_O_SOIL_TAXONOMY,IOCCR,Cryochrept
+C_O_SOIL_TAXONOMY,IOCDU,Durochrept
+C_O_SOIL_TAXONOMY,IOCDY,Dystrochrept
+C_O_SOIL_TAXONOMY,IOCEU,Eutrochrept
+C_O_SOIL_TAXONOMY,IOCFR,Fragiochrept
+C_O_SOIL_TAXONOMY,IOCUS,Ustochrept
+C_O_SOIL_TAXONOMY,IOCXF,Xerochrept
+C_O_SOIL_TAXONOMY,IPL,Plaggept
+C_O_SOIL_TAXONOMY,IPLPL,Plaggept
+C_O_SOIL_TAXONOMY,ITR,Tropept
+C_O_SOIL_TAXONOMY,ITRDY,Dystropept
+C_O_SOIL_TAXONOMY,ITREU,Eutropept
+C_O_SOIL_TAXONOMY,ITRHU,Humitropept
+C_O_SOIL_TAXONOMY,ITRSO,Sombritropept
+C_O_SOIL_TAXONOMY,ITRUS,Ustroept
+C_O_SOIL_TAXONOMY,IUM,Umbrept
+C_O_SOIL_TAXONOMY,IUMCR,Cryumbrept
+C_O_SOIL_TAXONOMY,IUMFR,Fragiumbrept
+C_O_SOIL_TAXONOMY,IUMHA,Haplumbrept
+C_O_SOIL_TAXONOMY,IUMXF,Xerumbrept
+C_O_SOIL_TAXONOMY,M,Mollisol
+C_O_SOIL_TAXONOMY,MAL,Alboll
+C_O_SOIL_TAXONOMY,MALAR,Argialboll
+C_O_SOIL_TAXONOMY,MALNA,Natralboll
+C_O_SOIL_TAXONOMY,MAQ,Aquoll
+C_O_SOIL_TAXONOMY,MAQAR,Argiaquoll
+C_O_SOIL_TAXONOMY,MAQCA,Calciaquoll
+C_O_SOIL_TAXONOMY,MAQCR,Cryaquoll
+C_O_SOIL_TAXONOMY,MAQDU,Duraquoll
+C_O_SOIL_TAXONOMY,MAQHA,Haplaquoll
+C_O_SOIL_TAXONOMY,MAQNA,Natraquoll
+C_O_SOIL_TAXONOMY,MBO,Boroll
+C_O_SOIL_TAXONOMY,MBOAR,Argiboroll
+C_O_SOIL_TAXONOMY,MBOCA,Calciboroll
+C_O_SOIL_TAXONOMY,MBOCR,Cryoboroll
+C_O_SOIL_TAXONOMY,MBOHA,Haploboroll
+C_O_SOIL_TAXONOMY,MBONA,Natriboroll
+C_O_SOIL_TAXONOMY,MBOPA,Paleboroll
+C_O_SOIL_TAXONOMY,MBOVE,Vermiboroll
+C_O_SOIL_TAXONOMY,MRE,Rendoll
+C_O_SOIL_TAXONOMY,MRERE,Rendoll
+C_O_SOIL_TAXONOMY,MUD,Udoll
+C_O_SOIL_TAXONOMY,MUDAR,Argiudoll
+C_O_SOIL_TAXONOMY,MUDHA,Hapludoll
+C_O_SOIL_TAXONOMY,MUDPA,Paleudoll
+C_O_SOIL_TAXONOMY,MUDVE,Vermudoll
+C_O_SOIL_TAXONOMY,MUS,Ustoll
+C_O_SOIL_TAXONOMY,MUSAR,Argiustoll
+C_O_SOIL_TAXONOMY,MUSCA,Calciustoll
+C_O_SOIL_TAXONOMY,MUSDU,Durustoll
+C_O_SOIL_TAXONOMY,MUSHA,Haplustoll
+C_O_SOIL_TAXONOMY,MUSNA,Natrustoll
+C_O_SOIL_TAXONOMY,MUSPA,Paleustoll
+C_O_SOIL_TAXONOMY,MUSVE,Vermustoll
+C_O_SOIL_TAXONOMY,MXE,Xeroll
+C_O_SOIL_TAXONOMY,MXEAR,Argixeroll
+C_O_SOIL_TAXONOMY,MXECA,Calcixeroll
+C_O_SOIL_TAXONOMY,MXEDU,Durixeroll
+C_O_SOIL_TAXONOMY,MXEHA,Haploxeroll
+C_O_SOIL_TAXONOMY,MXENA,Natrixeroll
+C_O_SOIL_TAXONOMY,MXEPA,Palexeroll
+C_O_SOIL_TAXONOMY,O,Oxisol
+C_O_SOIL_TAXONOMY,OAQ,Aquox
+C_O_SOIL_TAXONOMY,OAQAC,Aeraquox
+C_O_SOIL_TAXONOMY,OAQPN,Plinthaquox
+C_O_SOIL_TAXONOMY,OAQUE,Eutraquox
+C_O_SOIL_TAXONOMY,OAQUM,Umbraquox
+C_O_SOIL_TAXONOMY,OPE,Perox
+C_O_SOIL_TAXONOMY,OPEAC,Acroperox
+C_O_SOIL_TAXONOMY,OPEEU,Eutroperox
+C_O_SOIL_TAXONOMY,OPEHA,Haploperox
+C_O_SOIL_TAXONOMY,OPEKA,Kandiperox
+C_O_SOIL_TAXONOMY,OPESO,Sombriperox
+C_O_SOIL_TAXONOMY,OTO,Torrox
+C_O_SOIL_TAXONOMY,OTOAC,Aerotorox
+C_O_SOIL_TAXONOMY,OTOEU,Eutrotorox
+C_O_SOIL_TAXONOMY,OTOHA,Haplotorox
+C_O_SOIL_TAXONOMY,OUD,Udox
+C_O_SOIL_TAXONOMY,OUDAC,Aerudox
+C_O_SOIL_TAXONOMY,OUDEU,Eutrudox
+C_O_SOIL_TAXONOMY,OUDHA,Hapludox
+C_O_SOIL_TAXONOMY,OUDKA,Kandiudox
+C_O_SOIL_TAXONOMY,OUDSO,Sombriudox
+C_O_SOIL_TAXONOMY,OUS,Ustox
+C_O_SOIL_TAXONOMY,OUSAC,Acrustox
+C_O_SOIL_TAXONOMY,OUSEU,Eutrustox
+C_O_SOIL_TAXONOMY,OUSHA,Haplustox
+C_O_SOIL_TAXONOMY,OUSKA,Kandiustox
+C_O_SOIL_TAXONOMY,OUSSO,Sombriustox
+C_O_SOIL_TAXONOMY,S,Spodosol
+C_O_SOIL_TAXONOMY,SAQ,Aquod
+C_O_SOIL_TAXONOMY,SAQCR,Cryaquod
+C_O_SOIL_TAXONOMY,SAQDU,Duraquod
+C_O_SOIL_TAXONOMY,SAQFR,Fragiaquod
+C_O_SOIL_TAXONOMY,SAQHA,Haplaquod
+C_O_SOIL_TAXONOMY,SAQPK,Placaquod
+C_O_SOIL_TAXONOMY,SAQSI,Sideraquod
+C_O_SOIL_TAXONOMY,SAQTR,Tropaquod
+C_O_SOIL_TAXONOMY,SFE,Ferrod
+C_O_SOIL_TAXONOMY,SFEFE,Ferrod
+C_O_SOIL_TAXONOMY,SHU,Humod
+C_O_SOIL_TAXONOMY,SHUCR,Cryohumod
+C_O_SOIL_TAXONOMY,SHUFR,Fragihumod
+C_O_SOIL_TAXONOMY,SHUHA,Haplohumod
+C_O_SOIL_TAXONOMY,SHUPK,Placohumod
+C_O_SOIL_TAXONOMY,SHUTR,Tropohumod
+C_O_SOIL_TAXONOMY,SOR,Orthod
+C_O_SOIL_TAXONOMY,SORCR,Cryorthod
+C_O_SOIL_TAXONOMY,SORFR,Fragiorthod
+C_O_SOIL_TAXONOMY,SORHA,Haplorthod
+C_O_SOIL_TAXONOMY,SORPK,Placorthod
+C_O_SOIL_TAXONOMY,SORTR,Troporthod
+C_O_SOIL_TAXONOMY,U,Ultisol
+C_O_SOIL_TAXONOMY,UAQ,Aquult
+C_O_SOIL_TAXONOMY,UAQAL,Albaquult
+C_O_SOIL_TAXONOMY,UAQFR,Fragiaquult
+C_O_SOIL_TAXONOMY,UAQKA,Kandiaquult
+C_O_SOIL_TAXONOMY,UAQKH,Kanhaplaquult
+C_O_SOIL_TAXONOMY,UAQOC,Ochraquult
+C_O_SOIL_TAXONOMY,UAQPA,Paleaquult
+C_O_SOIL_TAXONOMY,UAQPN,Plinthaquult
+C_O_SOIL_TAXONOMY,UAQTR,Tropaquult
+C_O_SOIL_TAXONOMY,UAQUM,Umbraquult
+C_O_SOIL_TAXONOMY,UHU,Humult
+C_O_SOIL_TAXONOMY,UHUHA,Haplohumult
+C_O_SOIL_TAXONOMY,UHUKA,Kandihumult
+C_O_SOIL_TAXONOMY,UHUKH,Kanhaplohumult
+C_O_SOIL_TAXONOMY,UHUPN,Plinthohumult
+C_O_SOIL_TAXONOMY,UHUSO,Sombrihumult
+C_O_SOIL_TAXONOMY,UUD,Udult
+C_O_SOIL_TAXONOMY,UUDFR,Fragiudult
+C_O_SOIL_TAXONOMY,UUDHA,Hapludult
+C_O_SOIL_TAXONOMY,UUDKA,Kandiudult
+C_O_SOIL_TAXONOMY,UUDKH,Kanhapludult
+C_O_SOIL_TAXONOMY,UUDPA,Paleudult
+C_O_SOIL_TAXONOMY,UUDPN,Plinthudult
+C_O_SOIL_TAXONOMY,UUDRH,Rhodudult
+C_O_SOIL_TAXONOMY,UUS,Ustult
+C_O_SOIL_TAXONOMY,UUSHA,Haplustult
+C_O_SOIL_TAXONOMY,UUSKA,Kandiustult
+C_O_SOIL_TAXONOMY,UUSKH,Kanhaplustukt
+C_O_SOIL_TAXONOMY,UUSPA,Paleustult
+C_O_SOIL_TAXONOMY,UUSPN,Plinthustult
+C_O_SOIL_TAXONOMY,UUSRH,Rhodustult
+C_O_SOIL_TAXONOMY,UXE,Xerult
+C_O_SOIL_TAXONOMY,UXEHA,Haploxerult
+C_O_SOIL_TAXONOMY,UXEPA,Palexerult
+C_O_SOIL_TAXONOMY,V,Vertisol
+C_O_SOIL_TAXONOMY,VTD,Torrert
+C_O_SOIL_TAXONOMY,VTOTO,Torrert
+C_O_SOIL_TAXONOMY,VUD,Udert
+C_O_SOIL_TAXONOMY,VUDCH,Chromudert
+C_O_SOIL_TAXONOMY,VUDPE,Pelludert
+C_O_SOIL_TAXONOMY,VUS,Ustert
+C_O_SOIL_TAXONOMY,VUSCH,Chromustert
+C_O_SOIL_TAXONOMY,VUSPE,Pellustert
+C_O_SOIL_TAXONOMY,VXE,Xerert
+C_O_SOIL_TAXONOMY,VXECH,Chromoxerert
+C_O_SOIL_TAXONOMY,VXEPE,Pelloxerert
+C_O_STBANK_DEG,0,No stream bank erosion
+C_O_STBANK_DEG,1,Present
+C_O_STBANK_DEG,X,Not apparent
+C_O_TAX_UNIT_TYPE,SPC,Soil profile class
+C_O_TAX_UNIT_TYPE,SS,Soil series
+C_O_TAX_UNIT_TYPE,ST,Soil type
+C_O_TUNNEL_DEG,0,No tunnel erosion
+C_O_TUNNEL_DEG,1,Present
+C_O_TUNNEL_DEG,X,Not apparent
+C_O_TYPE,A,Auger boring
+C_O_TYPE,C,Undisturbed soil core
+C_O_TYPE,E,Existing vertical exposure
+C_O_TYPE,P,Soil pit
+C_O_WAVE_DEG,0,No wave erosion
+C_O_WAVE_DEG,1,Present
+C_O_WAVE_DEG,X,Not apparent
+C_O_WIND_DEG,0,No wind erosion
+C_O_WIND_DEG,1,Minor or present
+C_O_WIND_DEG,2,Moderate
+C_O_WIND_DEG,3,Severe
+C_O_WIND_DEG,4,Very severe
+C_O_WIND_DEG,X,Not apparent
+C_O_WIND_STABILTY,1,Unlikely to erode with >30 km/h wind
+C_O_WIND_STABILTY,2,Likely to erode with >30 km/h wind
+C_O_WIND_VISIBILITY,0,Full visibility
+C_O_WIND_VISIBILITY,1,Visibility >100m
+C_O_WIND_VISIBILITY,2,Visibility <100m
+C_PAN_CEMENTATION,0,Uncemented
+C_PAN_CEMENTATION,1,Weakly cemented
+C_PAN_CEMENTATION,2,Moderately cemented
+C_PAN_CEMENTATION,3,Strongly cemented
+C_PAN_CEMENTATION,4,Very strongly cemented
+C_PAN_CONTINUITY,B,Broken
+C_PAN_CONTINUITY,C,Continuous
+C_PAN_CONTINUITY,D,Discontinuous
+C_PAN_STRUCTURE,C,Concretionary
+C_PAN_STRUCTURE,L,Platy
+C_PAN_STRUCTURE,N,Nodular
+C_PAN_STRUCTURE,R,Vermicular
+C_PAN_STRUCTURE,S,Vesicular
+C_PAN_STRUCTURE,V,Massive
+C_PAN_TYPE,A,Alcrete
+C_PAN_TYPE,C,Organic pan
+C_PAN_TYPE,D,Duripan
+C_PAN_TYPE,E,Ferricrete
+C_PAN_TYPE,F,Fragipan
+C_PAN_TYPE,I,Thin ironpan
+C_PAN_TYPE,K,Calcrete
+C_PAN_TYPE,L,Silcrete
+C_PAN_TYPE,M,Manganiferous pan
+C_PAN_TYPE,N,Densipan
+C_PAN_TYPE,O,Other pans
+C_PAN_TYPE,R,Red-brown hardpan
+C_PAN_TYPE,T,Ortstein
+C_PAN_TYPE,V,Cultivation pan
+C_PAN_TYPE,Z,Zero or no pan
+C_O_PERMEABILITY,1,Very slowly permeable
+C_O_PERMEABILITY,2,Slowly permeable
+C_O_PERMEABILITY,3,Moderately permeable
+C_O_PERMEABILITY,4,Highly permeable
+C_PGM_STAT,B,Barely active to inactive
+C_PGM_STAT,C,Continuously active
+C_PGM_STAT,F,Frequently active
+C_PGM_STAT,R,Relict
+C_PGM_STAT,S,Seldom active
+C_PGM_STAT,U,Unspecified
+C_PH_METHOD,1,Raupach
+C_PH_METHOD,2,pH meter
+C_PPUB_TYPE,ADDITIONAL,Additional publication from the project
+C_PPUB_TYPE,CITATION,The project cites the publication
+C_PPUB_TYPE,PRIMARY,Primary publication of the project
+C_ROOT_ABUN,0,No roots
+C_ROOT_ABUN,1,Few
+C_ROOT_ABUN,2,Common
+C_ROOT_ABUN,3,Many
+C_ROOT_ABUN,4,Abundant
+C_S_DESC_BY,GEEG,G. W. Geeves
+C_S_DESC_BY,MURB,B. Murphy
+C_S_DESC_BY,WILC,C. Wilkinson
+C_S_DESC_BY,HOPD,D. Hopman
+C_S_DESC_BY,JENB,B. Jenkins
+C_S_DESC_BY,PURB,B. Purdie
+C_S_DESC_BY,SPIP,P. Spiers
+C_S_DESC_BY,WILJ,J. Wild
+C_S_DESC_BY,ADAW,"Adams, WH"
+C_S_DESC_BY,ADSK,"Adsett, K (Ken)"
+C_S_DESC_BY,AHEC,"Ahern, C (Col)"
+C_S_DESC_BY,ALDJ,"Aldrick, JM"
+C_S_DESC_BY,ANDH,"Anderson, H (Heather)"
+C_S_DESC_BY,ARMJ,"Armour, J (Jan)"
+C_S_DESC_BY,ARPB,"Aitken, R/Powell, B"
+C_S_DESC_BY,AYRP,"Ayris, P (Peter)"
+C_S_DESC_BY,BAKD,"Baker, DE (Denis)"
+C_S_DESC_BY,BARA,"Barton, AL"
+C_S_DESC_BY,BARE,"Barry, Earl"
+C_S_DESC_BY,BARL,"Barnes, LS"
+C_S_DESC_BY,BAWP,"Biggs, A + Wilson, P (Bundaberg)"
+C_S_DESC_BY,BEAD,"Beal, DJ"
+C_S_DESC_BY,BEAJ,"Beattie, John"
+C_S_DESC_BY,BIGA,"Biggs, A (Andrew)"
+C_S_DESC_BY,BLAD,"Blandford, D (Doug)"
+C_S_DESC_BY,BLEC,"Blet, C"
+C_S_DESC_BY,BOTW,"Bott, W"
+C_S_DESC_BY,BOYD,"Boyland, DE"
+C_S_DESC_BY,BRIE,"Bridges, EM"
+C_S_DESC_BY,BRIJ,"Bright, J (Mitch)"
+C_S_DESC_BY,BRYN,"Bryde, N (Neil)"
+C_S_DESC_BY,BURI,Bur. Inves
+C_S_DESC_BY,BURJ,"Burgess, J"
+C_S_DESC_BY,BUTF,"Butcher, FW"
+C_S_DESC_BY,CAPM,"Capelin, MA (Mike)"
+C_S_DESC_BY,CHRC,"Christian, CS"
+C_S_DESC_BY,CHRN,"Christianos, NG (Nev)"
+C_S_DESC_BY,COAK,"Coase, K (Katreona)"
+C_S_DESC_BY,CO-O,Co-Ordin
+C_S_DESC_BY,COPJ,"Coppi, John"
+C_S_DESC_BY,CRAP,"Crawford, P"
+C_S_DESC_BY,CRII,"Cribb, IB"
+C_S_DESC_BY,CULJ,"Cull, JK"
+C_S_DESC_BY,CUMV,"Cummins, VG"
+C_S_DESC_BY,CURN,"Currie, NT"
+C_S_DESC_BY,CUTJ,"Cutler, JH"
+C_S_DESC_BY,DAWN,"Dawson, NM (Noel)"
+C_S_DESC_BY,DAYK,"Day, KJ (Ken)"
+C_S_DESC_BY,DEAS,"Dear, Sue Ellen"
+C_S_DESC_BY,DELN,"Delaney, NE"
+C_S_DESC_BY,DONT,"Donnollan, TE (Terry)"
+C_S_DESC_BY,DOUN,"Douglas, NJ"
+C_S_DESC_BY,DOWE,"Downes, EG"
+C_S_DESC_BY,DOWT,"Dowling, T"
+C_S_DESC_BY,DPI,Department of Primary Industries
+C_S_DESC_BY,EASM,East Moreton
+C_S_DESC_BY,EDYL,"Edye, Les"
+C_S_DESC_BY,ELLC,"Ellis, CM"
+C_S_DESC_BY,ELPG,"Elphinstone, GD"
+C_S_DESC_BY,ELSJ,"Elsol, JA"
+C_S_DESC_BY,EPWR,"Epworth, RSC"
+C_S_DESC_BY,EVEM,"Everett, ML"
+C_S_DESC_BY,FERI,"Fergus, IF"
+C_S_DESC_BY,FILG,"Filet, GF"
+C_S_DESC_BY,FINM,"Finlay, MC"
+C_S_DESC_BY,FISC,"Fisher, CA (Carol)"
+C_S_DESC_BY,FLEP,"Fleming, PM"
+C_S_DESC_BY,FORB,"Forster, BA (Bruce)"
+C_S_DESC_BY,FRAB,"Frank, BRC"
+C_S_DESC_BY,FRAH,"Franks, HD"
+C_S_DESC_BY,FRED,"Freebairn, D"
+C_S_DESC_BY,GALR,"Galloway, RW"
+C_S_DESC_BY,GILG,"Gill, GRH"
+C_S_DESC_BY,GILJ,"Gillies, JB"
+C_S_DESC_BY,GMSB,"Grundy, Mike & Slater, Brian"
+C_S_DESC_BY,GODM,Godwin M
+C_S_DESC_BY,GRAA,"Graley, A"
+C_S_DESC_BY,GRES,"Greenoff, Sue"
+C_S_DESC_BY,GRUM,"Grundy, MJ (Mike)"
+C_S_DESC_BY,GRUN,"Grundon, N (Noel)"
+C_S_DESC_BY,GUNR,"Gunn, RH"
+C_S_DESC_BY,HALT,"Hall, TJ"
+C_S_DESC_BY,HARB,"Harms, BP (Ben)"
+C_S_DESC_BY,HASC,"Hass, CA (Carol)"
+C_S_DESC_BY,HAWG,"Hawley, GM"
+C_S_DESC_BY,HEII,"Heiner, I (Ian)"
+C_S_DESC_BY,HODA,"Hodge, A"
+C_S_DESC_BY,HOLA,"Holland, AA"
+C_S_DESC_BY,HOLD,"Hollond, D"
+C_S_DESC_BY,HOLG,"Holz, GK"
+C_S_DESC_BY,HOWN,"Howarth, N (Norman)"
+C_S_DESC_BY,HUGK,"Hughes, KK"
+C_S_DESC_BY,ILUC,Isis Land Use Committee
+C_S_DESC_BY,IRVS,"Irvine, S (Scott)"
+C_S_DESC_BY,JOHC,"Johnson, CC"
+C_S_DESC_BY,JOHP,"Johnston, PJM"
+C_S_DESC_BY,KELT,"Kelly, TK"
+C_S_DESC_BY,KEND,"Kent, DJ"
+C_S_DESC_BY,KILJ,"Kilpatrick, J"
+C_S_DESC_BY,KOHP,"Kohn, PB (Phil)"
+C_S_DESC_BY,LEVA,"Leverington, AR"
+C_S_DESC_BY,LOAL,"Loader, L"
+C_S_DESC_BY,LOIJ,"Loi, JK (John)"
+C_S_DESC_BY,LORM,"Lorimer, Mal"
+C_S_DESC_BY,MACS,"Macnish, S (Stuart)"
+C_S_DESC_BY,MAH1,"Mahon, JM"
+C_S_DESC_BY,MAHJ,"Maher, JM (John)"
+C_S_DESC_BY,MALG,"Malcolmson, GH"
+C_S_DESC_BY,MALJ,"Maltby, JE"
+C_S_DESC_BY,MARJ,"Marshall, J (John)"
+C_S_DESC_BY,MARP,"Marsh, Paul"
+C_S_DESC_BY,MAYD,"Mayer, D"
+C_S_DESC_BY,MCAW,"McArthur, WM"
+C_S_DESC_BY,MCCI,"McClement, IN"
+C_S_DESC_BY,MCCJ,"McClurg, JI"
+C_S_DESC_BY,MCCS,"McCarroll, S (Sue)"
+C_S_DESC_BY,MCDJ,"McDonald, J"
+C_S_DESC_BY,MCDR,"McDonald, RC"
+C_S_DESC_BY,MCKP,"McKeague, PJ"
+C_S_DESC_BY,MCKR,"McKeown, RF"
+C_S_DESC_BY,MCLW,"McLaughlin, W"
+C_S_DESC_BY,MCND,"McNee, DAK"
+C_S_DESC_BY,MCST,"McShane, TJ"
+C_S_DESC_BY,MEWG,"Mew, G"
+C_S_DESC_BY,MIDB,"Middleton, BA"
+C_S_DESC_BY,MILJ,"Mills, JR"
+C_S_DESC_BY,MILL,"Milton, L (Lindsay)"
+C_S_DESC_BY,MILR,"Miles, RL"
+C_S_DESC_BY,MILW,"Mills, WD"
+C_S_DESC_BY,MORP,"Mortiss, PD"
+C_S_DESC_BY,MUL1,"Mullaly, JD"
+C_S_DESC_BY,MULJ,"Mullins, JA (John)"
+C_S_DESC_BY,MULP,"Muller, PG"
+C_S_DESC_BY,MYEJ,"Myers, J (John)"
+C_S_DESC_BY,NELV,"Neldner, VJ"
+C_S_DESC_BY,NOBK,"Noble, KE (Kathy)"
+C_S_DESC_BY,NURS,"Nurser, Steve"
+C_S_DESC_BY,OSUT,"O'Sullivan, TE"
+C_S_DESC_BY,PATT,"Paton, TR"
+C_S_DESC_BY,PERR,"Perry, RA"
+C_S_DESC_BY,POIS,"Pointon, S (Shane)"
+C_S_DESC_BY,POWB,"Powell, B (Bernie)"
+C_S_DESC_BY,PURR,"Purdie, R"
+C_S_DESC_BY,QDSW,QDPI-Swart
+C_S_DESC_BY,REER,"Reeve, R"
+C_S_DESC_BY,REIR,"Reid, RE (Bob)"
+C_S_DESC_BY,ROBJ,"Robinson, JM"
+C_S_DESC_BY,ROGG,"Rogers, Gary"
+C_S_DESC_BY,ROMI,"Romano, I"
+C_S_DESC_BY,ROSJ,"Rosser, J"
+C_S_DESC_BY,ROSK,"Rosenthal, KM (Kerry)"
+C_S_DESC_BY,SALM,"Sallaway, M"
+C_S_DESC_BY,SCAJ,"Scanlan, JC"
+C_S_DESC_BY,SCHP,"Schroder, PM"
+C_S_DESC_BY,SDGM,"Smith, Donna & Grundy, Mike"
+C_S_DESC_BY,SETD,"Seton, DHC"
+C_S_DESC_BY,SHAG,"Sharp, Geoff"
+C_S_DESC_BY,SHAR,"Shaw, RJ"
+C_S_DESC_BY,SHIP,"Shields, PG (Peter)"
+C_S_DESC_BY,SKEP,"Skerman, PJ"
+C_S_DESC_BY,SKIF,"Skinner, F"
+C_S_DESC_BY,SMIC,"Smith, CD (Doug)"
+C_S_DESC_BY,SMIR,"Smith, R"
+C_S_DESC_BY,SORP,"Sorby, P (Phil)"
+C_S_DESC_BY,SPEN,"Speck, NH"
+C_S_DESC_BY,STAJ,"Standley, J"
+C_S_DESC_BY,STEM,"Stephens, M"
+C_S_DESC_BY,STEW,"Steentsma, WA"
+C_S_DESC_BY,STOR,"Story, R"
+C_S_DESC_BY,SWAG,"Swartz, G"
+C_S_DESC_BY,SWAI,"Swann, IF"
+C_S_DESC_BY,SWAJ,"Swann, JF"
+C_S_DESC_BY,TAPW,"Tapsall, WR"
+C_S_DESC_BY,TEIJ,"Teitzel, JK"
+C_S_DESC_BY,THOJ,"Thompson, Jim"
+C_S_DESC_BY,THOT,"Thomas, TC"
+C_S_DESC_BY,THOW,"Thompson, WP"
+C_S_DESC_BY,THWR,"Thwaites, R"
+C_S_DESC_BY,TILA,"Tiller, AB"
+C_S_DESC_BY,TUCG,"Tuck, Graham"
+C_S_DESC_BY,TUCR,"Tucker, RJ (Dick)"
+C_S_DESC_BY,TURE,"Turner, EJ"
+C_S_DESC_BY,VANA,"van der Vort, A"
+C_S_DESC_BY,VANB,"Vandersee, B (Brian)"
+C_S_DESC_BY,VANC,"VanWijk, C"
+C_S_DESC_BY,VANP,"VanRosendal, PC"
+C_S_DESC_BY,VERE,"Vester, E (Eben)"
+C_S_DESC_BY,WEBA,"Webb, AA"
+C_S_DESC_BY,WEBI,"Webb, I (Ian)"
+C_S_DESC_BY,WEBT,"Webb, T"
+C_S_DESC_BY,WEEI,"Webb, Ian"
+C_S_DESC_BY,WESD,"West, DFR"
+C_S_DESC_BY,WESE,"Weston, EJ"
+C_S_DESC_BY,WIL1,"Wilson, P (Peter - Mareeba)"
+C_S_DESC_BY,WILA,"Wills, AK"
+C_S_DESC_BY,WILB,"Williams, Brett"
+C_S_DESC_BY,WILP,"Wilson, PR (Peter - B'burg)"
+C_S_DESC_BY,YULD,"Yule, DF"
+C_S_DESC_BY,ZUNP,"Zund, P (Peter)"
+C_S_DESC_BY,BILB,Bruce Billing
+C_S_DESC_BY,BUTP,Peter Butler
+C_S_DESC_BY,CANE,Melissa Cann
+C_S_DESC_BY,CANM,Melissa Cann
+C_S_DESC_BY,CICC,Colin Cichon
+C_S_DESC_BY,HALJ,James Hall
+C_S_DESC_BY,HANJ,Jenny Hanna
+C_S_DESC_BY,HUGB,Brian Hughes
+C_S_DESC_BY,JEFP,Peter Jeffery
+C_S_DESC_BY,MASD,David Maschmedt
+C_S_DESC_BY,MCCA,Andy McCord
+C_S_DESC_BY,POWM,Mark Power
+C_S_DESC_BY,RUDC,Chris Rudd
+C_S_DESC_BY,THOJ,Jocelyn Thomas
+C_S_DESC_BY,THOO,Jocelyn Thomas
+C_S_DESC_BY,WACS,Shane Wachter
+C_S_DESC_BY,WETK,Ken Wetherby
+C_S_DESC_BY,WILT,Tony Wilson
+C_S_DESC_BY,WOOD,David Woodard
+C_S_DESC_BY,WRIM,Malcolm Wright
+C_S_DESC_BY,HINF,F.J. Hingston
+C_S_DESC_BY,GOWL,"Goward, L (Laura)"
+C_S_DESC_BY,HOOR,"Hook, Rosemary"
+C_S_DESC_BY,MCPA,"McPherson, Andrew"
+C_S_DESC_BY,TICJ,"Ticehurst, Jenny"
+C_S_DESC_BY,BECG,G.G. Beckmann
+C_S_DESC_BY,BETE,E. Bettenay
+C_S_DESC_BY,BILB,N.B. Billing
+C_S_DESC_BY,BLAG,G. Blackburn
+C_S_DESC_BY,BOEE,E.W. Boehm
+C_S_DESC_BY,BOWG,G.M. Bowman
+C_S_DESC_BY,BOYP,P.A. Boyd
+C_S_DESC_BY,BRER,R. Brewer
+C_S_DESC_BY,BRIM,M. Bridges
+C_S_DESC_BY,BUTB,B.E. Butler
+C_S_DESC_BY,CANM,M.G. Cannon
+C_S_DESC_BY,CHAC,C.J. Chartres
+C_S_DESC_BY,CHEX,"Chen, XY"
+C_S_DESC_BY,CHUH,H.M. Churchwood
+C_S_DESC_BY,COAJ,J.E. Coaldrake
+C_S_DESC_BY,COVR,R.J. Coventry
+C_S_DESC_BY,DARC,C. Darwin
+C_S_DESC_BY,DECM,M. DeCorte
+C_S_DESC_BY,DEMC,C.J. de Mooy
+C_S_DESC_BY,DIMG,G.M. Dimmock
+C_S_DESC_BY,FITK,K. Fitzgerald
+C_S_DESC_BY,FITR,R.W. Fitzpatrick
+C_S_DESC_BY,GESP,P. Gessler
+C_S_DESC_BY,GIBA,A. Gibson
+C_S_DESC_BY,HARR,R. Hare
+C_S_DESC_BY,HEAM,M.E. Heape
+C_S_DESC_BY,HOLI,I. Hollingsworth
+C_S_DESC_BY,HUBG,G.D. Hubble
+C_S_DESC_BY,HUTJ,J. Hutka
+C_S_DESC_BY,HUTT,J.T. Hutton
+C_S_DESC_BY,ISBR,R.F. Isbell
+C_S_DESC_BY,JACE,E.A. Jackson
+C_S_DESC_BY,JESR,R.W. Jessup
+C_S_DESC_BY,KORM,M. Korevaar
+C_S_DESC_BY,LAFM,M.D. Laffan
+C_S_DESC_BY,LEPI,I. Lepsch
+C_S_DESC_BY,LITW,W.H. Litchfield
+C_S_DESC_BY,LOVJ,J. Loveday
+C_S_DESC_BY,MACW,W.M. MacArthur
+C_S_DESC_BY,MCGD,D. McGarry
+C_S_DESC_BY,MCKD,"McKane, Dermot"
+C_S_DESC_BY,MCKN,N.J. McKenzie
+C_S_DESC_BY,MULM,M.J. Mulcahy
+C_S_DESC_BY,MURG,G.G. Murtha
+C_S_DESC_BY,NANW,I. Nankivell
+C_S_DESC_BY,NICK,K.D. Nicholls
+C_S_DESC_BY,NORK,K.H. Northcote
+C_S_DESC_BY,PATR,R. Paton
+C_S_DESC_BY,PAWC,C. Pawsey
+C_S_DESC_BY,PILB,B.J. Pillans
+C_S_DESC_BY,POUT,T.R. Poutsma
+C_S_DESC_BY,PYML,L.W. Pym
+C_S_DESC_BY,ROBG,G.M. Roberts
+C_S_DESC_BY,ROSD,J.D. Ross
+C_S_DESC_BY,RUSJ,J.S. Russel
+C_S_DESC_BY,RYAP,P. Ryan
+C_S_DESC_BY,SLAB,B. Slater
+C_S_DESC_BY,SLEJ,J.R. Sleeman
+C_S_DESC_BY,SMID,C.D. Smith
+C_S_DESC_BY,SMIG,G. Smith
+C_S_DESC_BY,SMIK,K.J. Smith
+C_S_DESC_BY,STAH,H.C.T. Stace
+C_S_DESC_BY,STEC,C.G. Stephens
+C_S_DESC_BY,STEG,G.A. Stewart
+C_S_DESC_BY,STIG,G.B. Stirk
+C_S_DESC_BY,STOT,T. Stoneman
+C_S_DESC_BY,TAYJ,J.K. Taylor
+C_S_DESC_BY,THOC,C.H. Thompson
+C_S_DESC_BY,TILK,K.G. Tiller
+C_S_DESC_BY,VAND,D.C. van Dijk
+C_S_DESC_BY,VELE,E. Veldhuis
+C_S_DESC_BY,WALP,P.H. Walker
+C_S_DESC_BY,WARW,W.T. Ward
+C_S_DESC_BY,WATC,C.L. Watson
+C_S_DESC_BY,WELC,C.B. Wells
+C_S_DESC_BY,WILI,I.R. Willet
+C_S_DESC_BY,WOOT,T. Wood
+C_S_DESC_BY,WRIM,Malcolm J. Wright
+C_S_ELEM_INC_SLOPE,A,Maximal
+C_S_ELEM_INC_SLOPE,I,Minimal
+C_S_ELEM_INC_SLOPE,N,Waning
+C_S_ELEM_INC_SLOPE,X,Waxing
+C_S_ELEM_LOCATION,B,Bottom third of height of landform element
+C_S_ELEM_LOCATION,M,Middle third of height of landform element
+C_S_ELEM_LOCATION,T,Top third of height of landform element
+C_S_ELEM_TYPE,ALC,Alcove
+C_S_ELEM_TYPE,BAN,Bank
+C_S_ELEM_TYPE,BAR,Bar
+C_S_ELEM_TYPE,BEA,Beach
+C_S_ELEM_TYPE,BEN,Bench
+C_S_ELEM_TYPE,BER,Berm
+C_S_ELEM_TYPE,BKP,Backplain
+C_S_ELEM_TYPE,BOU,Blow out
+C_S_ELEM_TYPE,BRI,Beach ridge
+C_S_ELEM_TYPE,BRK,Breakaway
+C_S_ELEM_TYPE,CBE,Channel bench
+C_S_ELEM_TYPE,CFS,Cliff-foot slope
+C_S_ELEM_TYPE,CIR,Cirque
+C_S_ELEM_TYPE,CLI,Cliff
+C_S_ELEM_TYPE,CON,Cone
+C_S_ELEM_TYPE,COS,Cut-over surface
+C_S_ELEM_TYPE,CRA,Crater
+C_S_ELEM_TYPE,CUT,Cutface
+C_S_ELEM_TYPE,DAM,Dam
+C_S_ELEM_TYPE,DBA,Deflation basin
+C_S_ELEM_TYPE,DDE,Drainage depression
+C_S_ELEM_TYPE,DOC,Collapse doline
+C_S_ELEM_TYPE,DOL,Doline
+C_S_ELEM_TYPE,DUB,Barchan dune
+C_S_ELEM_TYPE,DUC,Dunecrest
+C_S_ELEM_TYPE,DUF,Linear or longitudinal (seif) dune
+C_S_ELEM_TYPE,DUH,Hummocky (weakly oriented) dune
+C_S_ELEM_TYPE,DUN,Dune
+C_S_ELEM_TYPE,DUP,Parabolic dune
+C_S_ELEM_TYPE,DUS,Duneslope
+C_S_ELEM_TYPE,EMB,Embankment
+C_S_ELEM_TYPE,EST,Estuary
+C_S_ELEM_TYPE,FAN,Fan
+C_S_ELEM_TYPE,FIL,Fill-top
+C_S_ELEM_TYPE,FLD,Flood-out
+C_S_ELEM_TYPE,FOO,Footslope
+C_S_ELEM_TYPE,FOR,Foredune
+C_S_ELEM_TYPE,GUL,Gully
+C_S_ELEM_TYPE,HCR,Hillcrest
+C_S_ELEM_TYPE,HSL,Hillslope
+C_S_ELEM_TYPE,ITF,Intertidal flat
+C_S_ELEM_TYPE,LAG,Lagoon
+C_S_ELEM_TYPE,LAK,Lake
+C_S_ELEM_TYPE,LDS,Landslide
+C_S_ELEM_TYPE,LEV,Levee
+C_S_ELEM_TYPE,LUN,Lunette
+C_S_ELEM_TYPE,MAA,Maar
+C_S_ELEM_TYPE,MOU,Mound
+C_S_ELEM_TYPE,OXB,Ox-bow
+C_S_ELEM_TYPE,PED,Pediment
+C_S_ELEM_TYPE,PIT,Pit
+C_S_ELEM_TYPE,PLA,Plain
+C_S_ELEM_TYPE,PLY,Playa
+C_S_ELEM_TYPE,PST,Prior stream
+C_S_ELEM_TYPE,REC,Risecrest
+C_S_ELEM_TYPE,REF,Reef flat
+C_S_ELEM_TYPE,RER,Residual rise
+C_S_ELEM_TYPE,RES,Riseslope
+C_S_ELEM_TYPE,RFL,Rock flat
+C_S_ELEM_TYPE,RPL,Rock platform
+C_S_ELEM_TYPE,SCA,Scarp
+C_S_ELEM_TYPE,SCD,Scald
+C_S_ELEM_TYPE,SCR,Scroll
+C_S_ELEM_TYPE,SFS,Scarp-foot slope
+C_S_ELEM_TYPE,SRP,Scroll plain
+C_S_ELEM_TYPE,STB,Stream bed
+C_S_ELEM_TYPE,STC,Stream channel
+C_S_ELEM_TYPE,STF,Supratidal flat
+C_S_ELEM_TYPE,SUS,Summit surface
+C_S_ELEM_TYPE,SWL,Swale
+C_S_ELEM_TYPE,SWP,Swamp
+C_S_ELEM_TYPE,TAL,Talus
+C_S_ELEM_TYPE,TDC,Tidal creek
+C_S_ELEM_TYPE,TDF,Tidal flat
+C_S_ELEM_TYPE,TEF,Terrace flat
+C_S_ELEM_TYPE,TEP,Terrace plain
+C_S_ELEM_TYPE,TOR,Tor
+C_S_ELEM_TYPE,TRE,Trench
+C_S_ELEM_TYPE,TUM,Tumulus
+C_S_ELEM_TYPE,VLF,Valley flat
+C_S_MAP_REF_TYPE,L,Latitude and longitude
+C_S_MAP_REF_TYPE,M,Australian map grid (metric)
+C_S_MAP_SCALE,1,0.736111111
+C_S_MAP_SCALE,10,GPS
+C_S_MAP_SCALE,11,GPS S.A. Off
+C_S_MAP_SCALE,2,1.777777778
+C_S_MAP_SCALE,3,3.513888889
+C_S_MAP_SCALE,4,1:10000
+C_S_MAP_SCALE,5,1:25000
+C_S_MAP_SCALE,6,1:50000
+C_S_MAP_SCALE,7,1:100000
+C_S_MAP_SCALE,8,1:250000
+C_S_MAP_SCALE,9,DGPS
+C_S_MORPH_TYPE,C,Crest
+C_S_MORPH_TYPE,D,Closed Depression
+C_S_MORPH_TYPE,F,Flat
+C_S_MORPH_TYPE,H,Hillock
+C_S_MORPH_TYPE,L,Lower-slope
+C_S_MORPH_TYPE,M,Mid-slope
+C_S_MORPH_TYPE,R,Ridge
+C_S_MORPH_TYPE,S,Simple-slope
+C_S_MORPH_TYPE,U,Upper-slope
+C_S_MORPH_TYPE,V,Open depression (vale)
+C_S_PATT_TYPE,ALF,Alluvial fan
+C_S_PATT_TYPE,ALP,Alluvial plain
+C_S_PATT_TYPE,ANA,Anastomatic plain
+C_S_PATT_TYPE,BAD,Badlands
+C_S_PATT_TYPE,BAR,Bar plain
+C_S_PATT_TYPE,BEA,Beach ridge plain
+C_S_PATT_TYPE,CAL,Caldera
+C_S_PATT_TYPE,CHE,Chenier plain
+C_S_PATT_TYPE,COR,Coral reef
+C_S_PATT_TYPE,COV,Covered plain
+C_S_PATT_TYPE,DEL,Delta
+C_S_PATT_TYPE,DUN,Dunefield
+C_S_PATT_TYPE,ESC,Escarpment
+C_S_PATT_TYPE,FLO,Flood plain
+C_S_PATT_TYPE,HIL,Hills
+C_S_PATT_TYPE,KAR,Karst
+C_S_PATT_TYPE,LAC,Lacustrine plain
+C_S_PATT_TYPE,LAV,Lava plain
+C_S_PATT_TYPE,LON,Longitudinal dunefield
+C_S_PATT_TYPE,LOW,Low hills
+C_S_PATT_TYPE,MAD,Made land
+C_S_PATT_TYPE,MAR,Marine plain
+C_S_PATT_TYPE,MEA,Meander plain
+C_S_PATT_TYPE,MET,Meteor crater
+C_S_PATT_TYPE,MOU,Mountains
+C_S_PATT_TYPE,PAR,Parabolic dunefield
+C_S_PATT_TYPE,PED,Pediment
+C_S_PATT_TYPE,PEP,Pediplain
+C_S_PATT_TYPE,PLA,Plain
+C_S_PATT_TYPE,PLT,Plateau
+C_S_PATT_TYPE,PLY,Playa plain
+C_S_PATT_TYPE,PNP,Peneplain
+C_S_PATT_TYPE,RIS,Rises
+C_S_PATT_TYPE,SAN,Sand plain
+C_S_PATT_TYPE,SHF,Sheet-flood fan
+C_S_PATT_TYPE,STA,Stagnant alluvial plain
+C_S_PATT_TYPE,TEL,Terraced land (alluvial)
+C_S_PATT_TYPE,TER,Terrace (alluvial)
+C_S_PATT_TYPE,TID,Tidal flat
+C_S_PATT_TYPE,VOL,Volcano
+C_S_REL_MS_CLASS,B,Badlands <9m  >32%
+C_S_REL_MS_CLASS,B1,Badlands 9-30m  >56%
+C_S_REL_MS_CLASS,B2,Badlands 30-90m  >100%
+C_S_REL_MS_CLASS,GP,Gently undulating plains <9m  1-3%
+C_S_REL_MS_CLASS,GR,Gently undulating rises 9-30m  1-3%
+C_S_REL_MS_CLASS,LP,Level plain <9m <1%
+C_S_REL_MS_CLASS,PH,Precipitous hills 90-300m >100%
+C_S_REL_MS_CLASS,PM,Precipitous mountains >300m >100%
+C_S_REL_MS_CLASS,RH,Rolling hills 90-300m 10-32%
+C_S_REL_MS_CLASS,RL,Rolling low hills 30-90m 10-32%
+C_S_REL_MS_CLASS,RM,Rolling mountains >300m 10-32%
+C_S_REL_MS_CLASS,RP,Rolling plains <9m 10-32%
+C_S_REL_MS_CLASS,RR,Rolling rises 9-30m 10-32%
+C_S_REL_MS_CLASS,SH,Steep hills 90-300m 32-56%
+C_S_REL_MS_CLASS,SL,Steep low hills 30-90m 32-56%
+C_S_REL_MS_CLASS,SM,Steep mountains >300m 32-56%
+C_S_REL_MS_CLASS,SR,Steep rises 9-30m 32-56%
+C_S_REL_MS_CLASS,UH,Undulating hills 90-300m 3-10%
+C_S_REL_MS_CLASS,UL,Undulating low hills 30-90m 3-10%
+C_S_REL_MS_CLASS,UP,Undulating plains <9m 3-10%
+C_S_REL_MS_CLASS,UR,Undulating rises 9-30m 3-10%
+C_S_REL_MS_CLASS,VH,Very steep hills 90-300m 56-100%
+C_S_REL_MS_CLASS,VL,Very steep low hills 30-90m 56-100%
+C_S_REL_MS_CLASS,VM,Very steep mountains >300m 56-100%
+C_S_SLOPE_CLASS,CL,Cliffed
+C_S_SLOPE_CLASS,GE,Gently inclined
+C_S_SLOPE_CLASS,LE,Level
+C_S_SLOPE_CLASS,MO,Moderately inclined
+C_S_SLOPE_CLASS,PR,Precipitous
+C_S_SLOPE_CLASS,ST,Steep
+C_S_SLOPE_CLASS,VG,Very gently sloped
+C_S_SLOPE_CLASS,VS,Very steep
+C_S_SLOPE_EVAL,A,Abney level or clinometer and tape
+C_S_SLOPE_EVAL,E,Estimate
+C_S_SLOPE_EVAL,P,Contour plan at 1:10000 or larger scale
+C_S_SLOPE_EVAL,T,Tripod-mounted instument and staff
+C_S_STRM_CH_DEV,A,Alluvial
+C_S_STRM_CH_DEV,E,Erosional
+C_S_STRM_CH_DEV,I,Incipient
+C_S_STRM_CH_DEV,O,Absent
+C_S_STRM_CH_DIR_NET,B,Bidirectional
+C_S_STRM_CH_DIR_NET,C,Convergent
+C_S_STRM_CH_DIR_NET,D,Divergent
+C_S_STRM_CH_DIR_NET,F,Centrifugal
+C_S_STRM_CH_DIR_NET,N,Non-directional
+C_S_STRM_CH_DIR_NET,P,Centripetal
+C_S_STRM_CH_DIR_NET,U,Unidirectional
+C_S_STRM_CH_MIG,F,Fixed
+C_S_STRM_CH_MIG,R,Rapidly migrating
+C_S_STRM_CH_MIG,S,Slowly migrating
+C_S_STRM_CH_NET_INT,D,Disintegrated
+C_S_STRM_CH_NET_INT,I,Integrated
+C_S_STRM_CH_NET_INT,P,Interrupted (partial integration)
+C_S_STRM_CH_PATT,D,Distributary
+C_S_STRM_CH_PATT,N,Non-tributary
+C_S_STRM_CH_PATT,R,Reticulated
+C_S_STRM_CH_PATT,T,Tributary
+C_S_TYPE,F,Free survey site
+C_S_TYPE,G,Grid site
+C_S_TYPE,M,Soil property monitoring
+C_S_TYPE,T,Transect
+C_SB_MINERAL_COMP,C,Carbonaceous material
+C_SB_MINERAL_COMP,D,Dark minerals
+C_SB_MINERAL_COMP,F,Feldspar
+C_SB_MINERAL_COMP,G,Glauconite
+C_SB_MINERAL_COMP,K,Carbonates (react with 1m hcl)
+C_SB_MINERAL_COMP,L,Clays (argillaceous)
+C_SB_MINERAL_COMP,M,Mica
+C_SB_MINERAL_COMP,Q,Quartz
+C_SB_MINERAL_COMP,S,Sesquioxides
+C_SB_MINERAL_COMP,Y,Gypsum
+C_SCON_STAT,C,Surface crust
+C_SCON_STAT,F,Firm
+C_SCON_STAT,G,Cracking
+C_SCON_STAT,H,Hard setting
+C_SCON_STAT,L,Loose
+C_SCON_STAT,M,Self-mulching
+C_SCON_STAT,S,Soft
+C_SCON_STAT,X,Surface flake
+C_SCON_STAT,O,Other
+C_SCON_STAT,P,Poached
+C_SCON_STAT,R,Recently cultivated
+C_SCON_STAT,T,Trampled
+C_SCON_STAT,Y,Cryptogam surface
+C_SCON_STAT,Z,Saline
+C_SEG_FORM,C,Concretions
+C_SEG_FORM,F,Fragments
+C_SEG_FORM,L,Laminae
+C_SEG_FORM,N,Nodules
+C_SEG_FORM,R,Root linings
+C_SEG_FORM,S,Soft segregations
+C_SEG_FORM,T,Tubules
+C_SEG_FORM,V,Veins
+C_SEG_FORM,X,Crystals
+C_SEG_MAGNETIC_ATTR,M,Magnetic
+C_SEG_MAGNETIC_ATTR,N,Non-magnetic
+C_SEG_NATURE,A,Aluminous
+C_SEG_NATURE,E,Earthy
+C_SEG_NATURE,F,Ferruginous
+C_SEG_NATURE,G,Ferruginous-organic
+C_SEG_NATURE,H,Organic (humified)
+C_SEG_NATURE,K,Calcareous
+C_SEG_NATURE,L,Argillaceous
+C_SEG_NATURE,M,Manganiferous
+C_SEG_NATURE,N,Ferromanganiferous
+C_SEG_NATURE,O,Other
+C_SEG_NATURE,S,Sulphurous
+C_SEG_NATURE,U,Unidentified
+C_SEG_NATURE,Y,Gypseous
+C_SEG_NATURE,Z,Saline (visible salt)
+C_SEG_STRENGTH,1,Weak
+C_SEG_STRENGTH,2,Strong
+C_SOIL_WATER,D,Dry
+C_SOIL_WATER,M,Moist
+C_SOIL_WATER,T,Moderately moist
+C_SOIL_WATER,W,Wet
+C_SOIL_WATER_STAT,D,Dry
+C_SOIL_WATER_STAT,M,Moist
+C_SOIL_WATER_STAT,T,Moderately moist
+C_SOIL_WATER_STAT,W,Wet
+C_STR_CLODS_FRAGS,CL,Clod
+C_STR_CLODS_FRAGS,FR,Fragment
+C_STR_COMPOUND_PED,1,Largest peds
+C_STR_COMPOUND_PED,2,Next size peds
+C_STR_COMPOUND_PED,3,Next size peds
+C_STR_PED_GRADE,G,Single grain
+C_STR_PED_GRADE,M,Moderate
+C_STR_PED_GRADE,S,Strong
+C_STR_PED_GRADE,V,Massive
+C_STR_PED_GRADE,W,Weak
+C_STR_PED_TYPE,CL,Clod
+C_STR_PED_TYPE,AB,Angular blocky
+C_STR_PED_TYPE,CA,Cast
+C_STR_PED_TYPE,CO,Columnar
+C_STR_PED_TYPE,GR,Granular
+C_STR_PED_TYPE,LE,Lenticular
+C_STR_PED_TYPE,PL,Platy
+C_STR_PED_TYPE,PO,Polyhedral
+C_STR_PED_TYPE,PR,Prismatic
+C_STR_PED_TYPE,SB,Subangular blocky
+C_STRENGTH,M,Moderately strong
+C_STRENGTH,S,Strong
+C_STRENGTH,VS,Very strong
+C_STRENGTH,VW,Very weak
+C_STRENGTH,W,Weak
+C_STRG_CLASS,0,Loose
+C_STRG_CLASS,1,Very weak
+C_STRG_CLASS,2,Weak
+C_STRG_CLASS,3,Firm
+C_STRG_CLASS,4,Very firm
+C_STRG_CLASS,5,Strong
+C_STRG_CLASS,6,Very strong
+C_STRG_CLASS,7,Rigid
+C_TECHNICAL_REF,1,"Australian Soil and Land Survey, Field Handbook First Edition"
+C_TECHNICAL_REF,2,"Australian Soil and Land Survey, Field Handbook Second Edition"
+C_VSP_CODE,BASP3,Baccharis species
+C_VSP_CODE,BASP4,Baccharis species
+C_VSP_CODE,BRSP3,Bruguiera species
+C_VSP_CODE,BRSP5,Bruguiera species
+C_VSP_CODE,NISP1,Nicotiana species
+C_VSP_CODE,ACMEA,Acacia mearnsii
+C_VSP_CODE,ACPYC,Acacia pycnantha
+C_VSP_CODE,ACRET,Acacia retinoidies
+C_VSP_CODE,ACRUB,Acacia rubida
+C_VSP_CODE,ADGRE,Adansonia gregorii
+C_VSP_CODE,ASCON,Astroloma conostephioides
+C_VSP_CODE,BACRI,Banksia cristata
+C_VSP_CODE,BAMAR,Banksia marginata
+C_VSP_CODE,BRSP4,Bromus species
+C_VSP_CODE,CABRO,Calytrix brownii
+C_VSP_CODE,CAEXS,Calytrix exstipulata
+C_VSP_CODE,CASTR,Casuarina striata
+C_VSP_CODE,CAUMB,Capparis umbonata
+C_VSP_CODE,DASPP,Danthonia species
+C_VSP_CODE,ERAVE,Eriachne avenaceae
+C_VSP_CODE,EUBAX,Eucalyptus baxteri
+C_VSP_CODE,EUBIG,Eucalyptus bigalerita
+C_VSP_CODE,EUCON,Eucalyptus confertiflora
+C_VSP_CODE,EUDIC,Eucalyptus dichromophloia
+C_VSP_CODE,EUFER,Eucalyptus ferruginea
+C_VSP_CODE,EUGLO,Eucalyptus globulus
+C_VSP_CODE,EUGRA,Eucalyptus grandifolia
+C_VSP_CODE,EULEU,Eucalyptus leucoxylon
+C_VSP_CODE,EUMA5,Eucalyptus macrocarpa
+C_VSP_CODE,EUOBL,Eucalyptus obliqua
+C_VSP_CODE,EUODO,Eucalyptus odorata
+C_VSP_CODE,EUOVA,Eucalyptus ovata
+C_VSP_CODE,EUPAR,Eucalyptus parviflora
+C_VSP_CODE,EUPHO,Eucalyptus phoenecia
+C_VSP_CODE,EXPAR,Excoecaria parvifolia
+C_VSP_CODE,GRDIM,Grevillia dimidata
+C_VSP_CODE,HAARB,Hakea arborescens
+C_VSP_CODE,HAULI,Hakea ulicina
+C_VSP_CODE,HESPP,Heteropogon species
+C_VSP_CODE,HOMAR,Hordeum marineum
+C_VSP_CODE,LESP2,Leptospermum species
+C_VSP_CODE,LYCUN,Lysiphyllum cunninghamii
+C_VSP_CODE,MEARG,Melaleuca argentia
+C_VSP_CODE,PEFAL,Persoonia falcuta
+C_VSP_CODE,PHAQU,Phalaris aquatica
+C_VSP_CODE,PISPP,Pinus species
+C_VSP_CODE,SOTIM,Sorghum timorense
+C_VSP_CODE,SPPAR,Spyridium parvifolium
+C_VSP_CODE,TECAN,Terminalia canescens
+C_VSP_CODE,TEVOL,Terminalia volucris
+C_VSP_CODE,?,Unable to identify species
+C_VSP_CODE,ABSP1,Abutilon species
+C_VSP_CODE,ACANC,Acacia ancistrocarpa
+C_VSP_CODE,ACANE,Acacia aneura
+C_VSP_CODE,ACAR1,Acacia ??? (from WARLUS V)
+C_VSP_CODE,ACAR2,Acacia argyrodendron
+C_VSP_CODE,ACAS1,Achyranthes aspera
+C_VSP_CODE,ACAUL,Acacia aulacocarpa
+C_VSP_CODE,ACBAN,Acacia bancroftii
+C_VSP_CODE,ACBID,Acacia bidwillii
+C_VSP_CODE,ACBIV,Acacia bivenosa
+C_VSP_CODE,ACBR1,Acmena brachyandra
+C_VSP_CODE,ACBU1,Acacia burrowii
+C_VSP_CODE,ACCA1,Acacia calcicola
+C_VSP_CODE,ACCA2,Acacia calyculata
+C_VSP_CODE,ACCAM,Acacia cambagei
+C_VSP_CODE,ACCAN,Acacia cana
+C_VSP_CODE,ACCAP,Acalypha capillipes
+C_VSP_CODE,ACCAT,Acacia catenulata
+C_VSP_CODE,ACCLI,Acacia clivicola
+C_VSP_CODE,ACCO1,Acacia conferta
+C_VSP_CODE,ACCO2,Acacia concurrens
+C_VSP_CODE,ACCOM,Acacia complanta
+C_VSP_CODE,ACCOR,Acacia coriacea
+C_VSP_CODE,ACCOW,Acacia cowleana
+C_VSP_CODE,ACCR1,Acacia crassicarpa
+C_VSP_CODE,ACCR2,Acacia crassa
+C_VSP_CODE,ACCRE,Acacia cretata
+C_VSP_CODE,ACCU1,Acacia curvinervia
+C_VSP_CODE,ACCUN,Acacia cunninghamii
+C_VSP_CODE,ACDE1,Acacia decora
+C_VSP_CODE,ACDE2,Acacia deanei
+C_VSP_CODE,ACDE3,Acacia dealbata
+C_VSP_CODE,ACDIC,Acacia dictyophleba
+C_VSP_CODE,ACENS,Acacia ensifolia
+C_VSP_CODE,ACER1,Acalypha eremorum
+C_VSP_CODE,ACEXC,Acacia excelsa
+C_VSP_CODE,ACFA1,Acacia falcata
+C_VSP_CODE,ACFAR,Acacia farnesiana
+C_VSP_CODE,ACFAS,Acacia fasciulifera
+C_VSP_CODE,ACFIM,Acacia fimbriata
+C_VSP_CODE,ACFLA,Acacia flavesens
+C_VSP_CODE,ACGEO,Acacia georginae
+C_VSP_CODE,ACGL1,Acacia glaucocarpa
+C_VSP_CODE,ACHAR,Acacia harpophylla
+C_VSP_CODE,ACHO1,Acacia holosericea
+C_VSP_CODE,ACIRR,Acacia irrorata
+C_VSP_CODE,ACIXI,Acacia ixiophylla
+C_VSP_CODE,ACJUL,Acacia julifera
+C_VSP_CODE,ACJUN,Acacia juncifolia
+C_VSP_CODE,ACKEM,Acacia kempeana
+C_VSP_CODE,ACLAC,Acacia laccata
+C_VSP_CODE,ACLE1,Acacia leiocalyx
+C_VSP_CODE,ACLE2,Acacia leptocarpa
+C_VSP_CODE,ACLE3,Acacia leptostachya
+C_VSP_CODE,ACLO2,Acacia longispicata
+C_VSP_CODE,ACMA1,Acacia maidenii
+C_VSP_CODE,ACMAN,Acacia mangium
+C_VSP_CODE,ACME1,Acacia melvillei
+C_VSP_CODE,ACME2,Acacia melanoxylon
+C_VSP_CODE,ACMI1,Acacia microsperma
+C_VSP_CODE,ACNER,Acacia nervosa
+C_VSP_CODE,ACNIL,Acacia nilotica
+C_VSP_CODE,ACOBT,Acacia obtusifolia
+C_VSP_CODE,ACOMA,Acacia omalophylla
+C_VSP_CODE,ACPE1,Acacia pendula
+C_VSP_CODE,ACPE2,Acacia penninervis
+C_VSP_CODE,ACPE3,Acacia petraea
+C_VSP_CODE,ACPLA,Acacia platycarpa
+C_VSP_CODE,ACPOD,Acacia podalyriifolia
+C_VSP_CODE,ACRA1,Acacia ramulosa
+C_VSP_CODE,ACRH1,Acacia rhodoxylon
+C_VSP_CODE,ACSA1,Acacia salicina
+C_VSP_CODE,ACSHI,Acacia shirleyi
+C_VSP_CODE,ACSP1,Acacia spectabilis
+C_VSP_CODE,ACSP2,Acacia species
+C_VSP_CODE,ACSP3,Acacia sparsiflora
+C_VSP_CODE,ACSP4,Acacia spania
+C_VSP_CODE,ACSP5,Acokanthera spectabilis
+C_VSP_CODE,ACSP6,Acrostichum speciosum
+C_VSP_CODE,ACSP7,Acalypha species
+C_VSP_CODE,ACSP8,Achyranthes species
+C_VSP_CODE,ACST1,Acacia stenophylla
+C_VSP_CODE,ACSUT,Acacia sutherlandii
+C_VSP_CODE,ACTEP,Acacia tephrina
+C_VSP_CODE,ACTET,Acacia tetragonophylla
+C_VSP_CODE,ACTOR,Acacia torulosa
+C_VSP_CODE,ACTRI,Acacia triptera
+C_VSP_CODE,ACVIC,Acacia victoriae
+C_VSP_CODE,AGROB,Agathis robusta
+C_VSP_CODE,AITRI,Ailanthus triphysa
+C_VSP_CODE,AJAUS,Ajuga australis
+C_VSP_CODE,AJSPP,Ajuga species
+C_VSP_CODE,ALANG,Alternanthera angustifolia
+C_VSP_CODE,ALBAS,Albizia basaltica
+C_VSP_CODE,ALCAN,Albizia canescens
+C_VSP_CODE,ALCIM,Alloteropsis cimieina
+C_VSP_CODE,ALCO1,Alectryon connatus
+C_VSP_CODE,ALCO2,Alstonia constricta
+C_VSP_CODE,ALDIV,Alectryon diversifolium
+C_VSP_CODE,ALEXC,Alphitonia excelsa
+C_VSP_CODE,ALIL1,Alchornea ilicifolia
+C_VSP_CODE,ALLEB,Albizia lebbeck
+C_VSP_CODE,ALPRO,Albizia procera
+C_VSP_CODE,ALRUS,Alyxia ruscifolia
+C_VSP_CODE,ALSEM,Alloteropis semialata
+C_VSP_CODE,ALSP1,Alphitonia species
+C_VSP_CODE,ALSP2,Alternanthera species
+C_VSP_CODE,ALSU1,Alectryon subdentatus
+C_VSP_CODE,ALTOM,Alectryon tomentosus
+C_VSP_CODE,AMANT,Amorphospermum antilogum
+C_VSP_CODE,AMCAR,Amphipogon caricinus
+C_VSP_CODE,AMMIT,Amaranthus mitchellii
+C_VSP_CODE,AMQU1,Amyema quandang
+C_VSP_CODE,AMSP1,Amyema species
+C_VSP_CODE,ANCOS,Angophora costata
+C_VSP_CODE,ANFLO,Angophora floribunda
+C_VSP_CODE,ANINT,Angophora intermedia
+C_VSP_CODE,ANSP1,Angophora species
+C_VSP_CODE,ANSU1,Angophora subveltunia
+C_VSP_CODE,ANUNC,Ancistrachne uncinulata
+C_VSP_CODE,ANWOO,Angophora woodsiana
+C_VSP_CODE,APAN1,Apophyllum anomalum
+C_VSP_CODE,APPHI,Aphananthe philippensis
+C_VSP_CODE,ARACT,Argyrodendron actinophyllum
+C_VSP_CODE,ARAMA,Aristida aramata
+C_VSP_CODE,ARANT,Aristida anthoxanthoides
+C_VSP_CODE,ARBEN,Aristida benthamii
+C_VSP_CODE,ARBRO,Aristida browniana
+C_VSP_CODE,ARCA1,Aristida calycina
+C_VSP_CODE,ARCA2,Aristida caput-medusae
+C_VSP_CODE,ARCON,Aristida contorta
+C_VSP_CODE,ARCU1,Araucaria cunninghamii
+C_VSP_CODE,ARDIV,Arytera divaricata
+C_VSP_CODE,ARFOV,Arytera foveolata
+C_VSP_CODE,ARGR1,Aristida gracilipes
+C_VSP_CODE,ARHO2,Arthrocnemum holocnemoides var. pergranul
+C_VSP_CODE,ARINA,Aristida inaequiglumis
+C_VSP_CODE,ARING,Aristida ingrata
+C_VSP_CODE,ARJE1,Aristida jerichoensis var. subspinulifera
+C_VSP_CODE,ARJER,Aristida jerichoensis
+C_VSP_CODE,ARLAT,Aristida latifolia
+C_VSP_CODE,ARLE2,Arthrocnemum leiostachyum
+C_VSP_CODE,ARLEP,Aristida leptopoda
+C_VSP_CODE,ARLO1,Aristida longicollis
+C_VSP_CODE,ARNEP,Arundiella nepalensis
+C_VSP_CODE,AROCH,Argemone ochroleuca
+C_VSP_CODE,ARPLA,Aristida platychaeta
+C_VSP_CODE,ARPRU,Aristida prumosa
+C_VSP_CODE,ARRA1,Aristida ramosa
+C_VSP_CODE,ARSP1,Aristida species
+C_VSP_CODE,ARSP2,Argemone species
+C_VSP_CODE,ARTR1,Argyrodendron trifolioatum
+C_VSP_CODE,ASELY,Astrebla elymoides
+C_VSP_CODE,ASLAP,Astrebla lappacea
+C_VSP_CODE,ASPEC,Astrebla pectinata
+C_VSP_CODE,ASSP1,Astrebla species
+C_VSP_CODE,ASSQU,Astrebla squarrosa
+C_VSP_CODE,ATFIS,Atriplex fissivalvis
+C_VSP_CODE,ATHEM,Atalaya hemiglauca
+C_VSP_CODE,ATLIN,Atriplex lindleyi
+C_VSP_CODE,ATMUE,Atriplex muelleri
+C_VSP_CODE,ATNUM,Atriplex nummularia
+C_VSP_CODE,ATSAL,Atalaya salicifolia
+C_VSP_CODE,ATSEM,Atriplex semibaccata
+C_VSP_CODE,ATSP1,Atriplex species
+C_VSP_CODE,ATSP2,Atylosia species
+C_VSP_CODE,ATSPO,Atriplex spongiosa
+C_VSP_CODE,ATVES,Atriplex vesicaria
+C_VSP_CODE,AUBID,Austromyrtus bidwillii
+C_VSP_CODE,AVSAT,Avena sativa
+C_VSP_CODE,BAAEM,Banksia aemula
+C_VSP_CODE,BACAL,Barringtonia calyptrata
+C_VSP_CODE,BACAR,Bauhimia carronii
+C_VSP_CODE,BAHOO,Bauhinia hookeri
+C_VSP_CODE,BAINT,Banksia integrifolia
+C_VSP_CODE,BALUC,Baloghia lucidam
+C_VSP_CODE,BAMYR,Backhousia myrtifolia
+C_VSP_CODE,BAOBL,Banksia oblongifolia
+C_VSP_CODE,BAPOL,Basilicum polystachyon
+C_VSP_CODE,BAROB,Banksia robur
+C_VSP_CODE,BASER,Banksia serrata
+C_VSP_CODE,BASP1,Bassia species
+C_VSP_CODE,BASP2,Basilicum species
+C_VSP_CODE,BASP3,Bauhinia species
+C_VSP_CODE,BASP5,Backhousia species
+C_VSP_CODE,BATE2,Bassia tetracuspis
+C_VSP_CODE,BAVIR,Baeckea virgata
+C_VSP_CODE,BEOBT,Beilschmieidia obtusifolia
+C_VSP_CODE,BIPIL,Bidens pilosa
+C_VSP_CODE,BISP1,Bidens species
+C_VSP_CODE,BOBLA,Bothriochloa bladhii
+C_VSP_CODE,BODE1,Bothriochloa decipiens
+C_VSP_CODE,BODIF,Boerhavia diffusa
+C_VSP_CODE,BOEWA,Bothriochloa ewartiana
+C_VSP_CODE,BOINS,Bothriochloa insculpta
+C_VSP_CODE,BOPER,Bothriochloa pertusa
+C_VSP_CODE,BOSP1,Bothriochloa species
+C_VSP_CODE,BOSP2,Boronia species
+C_VSP_CODE,BRAU1,Brachychiton australis
+C_VSP_CODE,BRAU2,Brunoniella australis
+C_VSP_CODE,BRCI1,Brachyachne ciliaris
+C_VSP_CODE,BRCON,Brachyachne convergens
+C_VSP_CODE,BRDI1,Brachychiton discolor
+C_VSP_CODE,BREX1,Bridelia exaltata
+C_VSP_CODE,BRFOL,Brachiaria foliosa
+C_VSP_CODE,BRGIL,Brachiaria gilesii
+C_VSP_CODE,BRLEI,Bridelia leichhardtii
+C_VSP_CODE,BRMUT,Brachiaria mutica
+C_VSP_CODE,BROBL,Breynia oblongifolia
+C_VSP_CODE,BRPO1,Brachychiton populneus
+C_VSP_CODE,BRPR1,Brachyachne prostrata
+C_VSP_CODE,BRREP,Brachiaria reptans
+C_VSP_CODE,BRRUP,Brachychiton rupestre
+C_VSP_CODE,BRSP1,Brachiaria species
+C_VSP_CODE,BRSP2,Brunoniella species
+C_VSP_CODE,BRSP3,Brachychiton species
+C_VSP_CODE,BRWH1,Brachiaria whiteana
+C_VSP_CODE,BUINC,Bursaria incana
+C_VSP_CODE,BUSPI,Bursaria spinosa
+C_VSP_CODE,CAARB,Capparis arborea
+C_VSP_CODE,CAART,Cassia artemisioides
+C_VSP_CODE,CAAU1,Canarium australianum
+C_VSP_CODE,CAAU2,Castanospermum australe
+C_VSP_CODE,CAAU3,Cassine australis
+C_VSP_CODE,CABA1,Callitris baileyi
+C_VSP_CODE,CABR1,Cassia brewsteri
+C_VSP_CODE,CABUX,Canthium buxifolium
+C_VSP_CODE,CACO1,Callitris columellaris
+C_VSP_CODE,CACR1,Casuarina cristata
+C_VSP_CODE,CACU1,Casuarina cunninghamiana
+C_VSP_CODE,CADES,Cassia desolata
+C_VSP_CODE,CAEQU,Casuarina equisetifolia
+C_VSP_CODE,CAERI,Calotis erinacea
+C_VSP_CODE,CAGL2,Callitris glaucophylla
+C_VSP_CODE,CAGR1,Calyptochloa gracillima
+C_VSP_CODE,CAHEL,Cassia helmsii
+C_VSP_CODE,CAIN1,Casuarina inophloia
+C_VSP_CODE,CAINT,Callitris intratropica
+C_VSP_CODE,CALA1,Carissa lanceolata
+C_VSP_CODE,CALAE,Cassia laevis
+C_VSP_CODE,CALAS,Cappharis lasiantha
+C_VSP_CODE,CALIT,Casuarina littoralis
+C_VSP_CODE,CALOR,Capparis loranthifolia
+C_VSP_CODE,CALU1,Casuarina leuhmannii
+C_VSP_CODE,CAMI1,Capparis mitchellii
+C_VSP_CODE,CAMU1,Casearia multinervosa
+C_VSP_CODE,CANEM,Cassia nemophila
+C_VSP_CODE,CAOBT,Cassia obtusifolia
+C_VSP_CODE,CAOD1,Canthium odoratum
+C_VSP_CODE,CAOL1,Cassia oligophylla
+C_VSP_CODE,CAOLE,Canthium oleifolium
+C_VSP_CODE,CAOVA,Carissa ovata
+C_VSP_CODE,CAPE1,Cadellia pentastylis
+C_VSP_CODE,CAPHY,Cassia phyllodinea
+C_VSP_CODE,CAPOR,Calotis porphyroglossa
+C_VSP_CODE,CAPRO,Calotropis procera
+C_VSP_CODE,CASC1,Calotis scabiosifolia
+C_VSP_CODE,CASP1,Callitris species
+C_VSP_CODE,CASP2,Casuarina species
+C_VSP_CODE,CASP3,Canthium species
+C_VSP_CODE,CASP4,Cassia species
+C_VSP_CODE,CASP5,Capparis species
+C_VSP_CODE,CASP6,Calotis species
+C_VSP_CODE,CASP7,Cassine species
+C_VSP_CODE,CASP8,Caustis species
+C_VSP_CODE,CASTU,Cassia sturtii
+C_VSP_CODE,CASUB,Casuarina suberosa
+C_VSP_CODE,CATO1,Casuarina torulosa
+C_VSP_CODE,CATOM,Cassia tomentella
+C_VSP_CODE,CAVAC,Canthium vaccinifolium
+C_VSP_CODE,CAVIM,Callistemon viminalis
+C_VSP_CODE,CECIL,Cenchrus ciliaris
+C_VSP_CODE,CESP1,Cenchrus species
+C_VSP_CODE,CHAC1,Chloris acicularis
+C_VSP_CODE,CHAU1,Chenopodium auricomum
+C_VSP_CODE,CHBAR,Chloris barbata
+C_VSP_CODE,CHCAN,Choretrum candollei
+C_VSP_CODE,CHCIL,Chloris ciliata
+C_VSP_CODE,CHDIS,Cheilanthes distans
+C_VSP_CODE,CHDIV,Chloris divaricata
+C_VSP_CODE,CHFAL,Chrysopogon fallax
+C_VSP_CODE,CHGAY,Chloris gayana
+C_VSP_CODE,CHINF,Chloris inflata
+C_VSP_CODE,CHLEP,Choricarpia leptopetala
+C_VSP_CODE,CHPEC,Chloris pectinata
+C_VSP_CODE,CHSIE,Cheilanthes sieberi
+C_VSP_CODE,CHSP1,Chloris species
+C_VSP_CODE,CHSU1,Choretrum subargentea
+C_VSP_CODE,CHTR1,Chloris truncata
+C_VSP_CODE,CHVEN,Chloris ventricosa
+C_VSP_CODE,CHVIR,Chloris virgata
+C_VSP_CODE,CILIN,Citriobatus linearis
+C_VSP_CODE,CIMOO,Citronella moorei
+C_VSP_CODE,CIPAU,Citriobatus pauciflorus
+C_VSP_CODE,CISPI,Citriobatus spinescens
+C_VSP_CODE,CLCU1,Cleistanthus cunninghamii
+C_VSP_CODE,CLDIC,Clycenia dicotinia
+C_VSP_CODE,CLFLO,Clerodendrum floribundum
+C_VSP_CODE,CLINE,Clerodendrum inerme
+C_VSP_CODE,CLSP1,Cleistochloa species
+C_VSP_CODE,CLSUB,Cleistochloa subjuncea
+C_VSP_CODE,COATT,Codonocarpus attenuatus
+C_VSP_CODE,COBA1,Commersonia bartramia
+C_VSP_CODE,COCOT,Codonocarpus cotinifolius
+C_VSP_CODE,COCYA,Commelina cyanea
+C_VSP_CODE,COPET,Cordyline petiolaris
+C_VSP_CODE,COROT,Coelorhachis rottboelloides
+C_VSP_CODE,COSP1,Conyza species
+C_VSP_CODE,COSP2,Corchorus species
+C_VSP_CODE,COSUM,Conyza sumatrensis
+C_VSP_CODE,COTR1,Corchorus trilocularis
+C_VSP_CODE,CRACI,Crotalaria acicularis
+C_VSP_CODE,CRACR,Croton acrynychioides
+C_VSP_CODE,CRBID,Cryptocarya bidwillii
+C_VSP_CODE,CRDI1,Crotalaria dissitiflora
+C_VSP_CODE,CRER1,Crotalaria eremaea
+C_VSP_CODE,CRGLA,Cryptocarya glaucescens
+C_VSP_CODE,CRGOR,Crotalaria goreensis
+C_VSP_CODE,CRGR1,Cryptostegia grandiflora
+C_VSP_CODE,CRINS,Croton insularis
+C_VSP_CODE,CRMIT,Crotalaria mitchellii
+C_VSP_CODE,CRNOV,Crotalaria novae-hollandiae
+C_VSP_CODE,CROBO,Cryptocarya obovata
+C_VSP_CODE,CRPHE,Croton phebalioides
+C_VSP_CODE,CRPL1,Craspedia pleiocephala
+C_VSP_CODE,CRSP1,Cryspogon species
+C_VSP_CODE,CRSP2,Crotalaria species
+C_VSP_CODE,CRTR1,Cryptocarya triplinervis
+C_VSP_CODE,CUANA,Cupaniopsis anacardioides
+C_VSP_CODE,CUPAR,Cupaniopsis parvifolia
+C_VSP_CODE,CUSER,Cupaniopsis serrata
+C_VSP_CODE,CYBIF,Cyperus bifax
+C_VSP_CODE,CYBOM,Cymbopogon bombycinus
+C_VSP_CODE,CYCAN,Cymbidium canaliculatum
+C_VSP_CODE,CYCOO,Cyathea cooperi
+C_VSP_CODE,CYDA1,Cynodon dactylon
+C_VSP_CODE,CYEXA,Cyperus exaltatus
+C_VSP_CODE,CYGR1,Cyperus gracilis
+C_VSP_CODE,CYME1,Cycas media
+C_VSP_CODE,CYREF,Cymbopogon refractus
+C_VSP_CODE,CYSP1,Cyperus species
+C_VSP_CODE,CYSP2,Cymbopogan species
+C_VSP_CODE,CYSP3,Cyperus sphacelatus
+C_VSP_CODE,CYSP4,Cymbidium species
+C_VSP_CODE,DALON,Danthonia longifolia
+C_VSP_CODE,DAMIC,Daphnandra micrantha
+C_VSP_CODE,DARAD,Dactylocentium radulans
+C_VSP_CODE,DASQU,Daviesia squarrosa
+C_VSP_CODE,DEEXC,Dendrocnide excelsa
+C_VSP_CODE,DEOLE,Denhamia oleaster
+C_VSP_CODE,DEPHO,Dendrocnide photinophylla
+C_VSP_CODE,DEPIT,Denhamia pittosporoides
+C_VSP_CODE,DIANN,Dichanthium annulatum
+C_VSP_CODE,DIARI,Dicanthium aristatum
+C_VSP_CODE,DIAU1,Diospyros australis
+C_VSP_CODE,DIBR1,Digitaria brownii
+C_VSP_CODE,DICA1,Diplospora cameronii
+C_VSP_CODE,DICAE,Dianella caerulea
+C_VSP_CODE,DICIL,Digitaria ciliaris
+C_VSP_CODE,DICO1,Dipteracanthus corynothecus
+C_VSP_CODE,DICUN,Diploglottis cunninghamii
+C_VSP_CODE,DIDID,Digitaria didactyla
+C_VSP_CODE,DIDIV,Digitaria divaricatissima
+C_VSP_CODE,DIFAS,Diospyros fasciulosa
+C_VSP_CODE,DIFEC,Dicanthium fecundum
+C_VSP_CODE,DIFER,Diospyros ferrea
+C_VSP_CODE,DIFUS,Diplachne fusca
+C_VSP_CODE,DIMI1,Dichelachne micrantha
+C_VSP_CODE,DIPE1,Diospyros pentamera
+C_VSP_CODE,DISE1,Dichanthium sericeum
+C_VSP_CODE,DISP1,Dichanthium species
+C_VSP_CODE,DISP2,Digitaria species
+C_VSP_CODE,DITE1,Dichanthium ??? (WARLUS V)
+C_VSP_CODE,DITE2,Dicanthium tenuiculum
+C_VSP_CODE,DOADE,Dodonaea adenophora
+C_VSP_CODE,DOANG,Dodonaea angustissima
+C_VSP_CODE,DOPAL,Doryanthes palmeri
+C_VSP_CODE,DOPET,Dodonaea petiolaris
+C_VSP_CODE,DOSP1,Dodonaea species
+C_VSP_CODE,DOTR1,Dodonaea triangularis
+C_VSP_CODE,DOVIS,Dodonaea viscosa
+C_VSP_CODE,DRAUS,Drypetes australasica
+C_VSP_CODE,DSEP1,Desmodium species
+C_VSP_CODE,DYGLO,Dysphania glomulifera
+C_VSP_CODE,DYMUE,Dysoxylum muelleri
+C_VSP_CODE,DYRUF,Dysoxylum rufum
+C_VSP_CODE,ECCOL,Echinochloa colona
+C_VSP_CODE,ECSP1,Echinochloa species
+C_VSP_CODE,ECTUR,Echinochloa turnerana
+C_VSP_CODE,EHACU,Ehretia acuminata
+C_VSP_CODE,EHMEM,Ehretia membranifolia
+C_VSP_CODE,EHSP1,Ehretia species
+C_VSP_CODE,EINUT,Einadia nutans
+C_VSP_CODE,EISP1,Einadia species
+C_VSP_CODE,ELAUS,Elaeodendron australe
+C_VSP_CODE,ELCI1,Elionurus citreus
+C_VSP_CODE,ELPAL,Eleocharis pallens
+C_VSP_CODE,ELSPI,Elytrophorus spicatus
+C_VSP_CODE,ELXYL,Elattostachys xylocarpa
+C_VSP_CODE,ENACI,Enteropogon acicularis
+C_VSP_CODE,ENAVE,Enneapogon avenaceus
+C_VSP_CODE,ENFLA,Enneapogon Flavescens
+C_VSP_CODE,ENIN1,Enneapogon intermedius
+C_VSP_CODE,ENMUE,Endiandra muelleri
+C_VSP_CODE,ENPA1,Enneapogon pallidus
+C_VSP_CODE,ENPOL,Enneapogon polyphyllus
+C_VSP_CODE,ENRAM,Enteropogon ramosus
+C_VSP_CODE,ENSP1,Enneapogon species
+C_VSP_CODE,ENSP2,Enteropogon species
+C_VSP_CODE,ENTOM,Enchylaena tomentosa
+C_VSP_CODE,ENUNI,Enteropogon unispiceus
+C_VSP_CODE,EPCUN,Epaltes cunninghamii
+C_VSP_CODE,EPSP1,Epacris species
+C_VSP_CODE,ERARM,Eriachne armittii
+C_VSP_CODE,ERAU1,Erythroxylon australe
+C_VSP_CODE,ERBIG,Eremophila bignoniiflora
+C_VSP_CODE,ERBIM,Eremochloa bimaculata
+C_VSP_CODE,ERBOW,Eremophila bowmanii
+C_VSP_CODE,ERCHL,Erthrophleum chlorostachys
+C_VSP_CODE,ERCI1,Eragrostis cilianensis
+C_VSP_CODE,ERCRE,Eriochloa creba
+C_VSP_CODE,ERELD,Eremophila elderi
+C_VSP_CODE,ERELO,Eragrostis elongata
+C_VSP_CODE,ERER1,Eragrostis eriopoda
+C_VSP_CODE,ERFAL,Eragrostis falcata
+C_VSP_CODE,ERGIL,Eremophila gilesii
+C_VSP_CODE,ERGL1,Eremocitrus glauca
+C_VSP_CODE,ERJA1,Eragrostis japonica
+C_VSP_CODE,ERLAC,Eragrostis lacunaria
+C_VSP_CODE,ERLAP,Eragrostis leptocarpa
+C_VSP_CODE,ERLAT,Eremophila latrobei
+C_VSP_CODE,ERLO1,Eremophila longifolia
+C_VSP_CODE,ERMA1,Eremophila macdonnellii
+C_VSP_CODE,ERMA2,Eremophila maculata
+C_VSP_CODE,ERMAR,Eriocereus martinii
+C_VSP_CODE,ERMEG,Eragrostis megalosperma
+C_VSP_CODE,ERMIC,Eragrostis microcarpa
+C_VSP_CODE,ERMIT,Eremophila mitchellii
+C_VSP_CODE,ERMUC,Eriachne mucronata
+C_VSP_CODE,EROBO,Eremophila obovata
+C_VSP_CODE,EROBT,Eriachne obtusa
+C_VSP_CODE,ERPAR,Eragrostis parviflora
+C_VSP_CODE,ERPRO,Eriochloa procera
+C_VSP_CODE,ERPSE,Eriochloa pseudoacrotricha
+C_VSP_CODE,ERPUL,ERiachne pulchella
+C_VSP_CODE,ERSE1,Eragrostis setifolia
+C_VSP_CODE,ERSOR,Eragrostis sororia
+C_VSP_CODE,ERSP1,Eragrostis species
+C_VSP_CODE,ERSP2,Eremophila species
+C_VSP_CODE,ERSP3,Eriochloa species
+C_VSP_CODE,ERSP4,Eriachne species
+C_VSP_CODE,ERSTU,Eremophilia sturtii
+C_VSP_CODE,ERTE1,Eragrostis tenellula
+C_VSP_CODE,ERVE1,Erythrina vespertilio
+C_VSP_CODE,ERXER,Eragrostis xerophila
+C_VSP_CODE,EUABE,Eucalyptus abergiana
+C_VSP_CODE,EUACC,Eucalyptus accendes
+C_VSP_CODE,EUACM,Eucalyptus acmenoides
+C_VSP_CODE,EUAGG,Eucalyptus agglomerata
+C_VSP_CODE,EUAL1,Eucalyptus alba
+C_VSP_CODE,EUAL2,Eucalyptus albens
+C_VSP_CODE,EUAND,Eucalyptus andrewsii
+C_VSP_CODE,EUAUR,Eulalia aurea
+C_VSP_CODE,EUBA1,Eucalyptus banksii
+C_VSP_CODE,EUBLO,Eucalyptus bloxsomei
+C_VSP_CODE,EUBR1,Eucalyptus brownii
+C_VSP_CODE,EUCA1,Eucalyptus cambageana
+C_VSP_CODE,EUCA2,Eucalyptus camaldulensis
+C_VSP_CODE,EUCIT,Eucalyptus citriodora
+C_VSP_CODE,EUCL1,Eucalyptus clarksoniana
+C_VSP_CODE,EUCOO,Eucalyptus coolibah
+C_VSP_CODE,EUCR1,Eucalyptus crebra
+C_VSP_CODE,EUDE1,Eucalyptus dealbata
+C_VSP_CODE,EUDE2,Eucalyptus deanei
+C_VSP_CODE,EUDEC,Eucalyptus decorticans
+C_VSP_CODE,EUDRE,Eucalyptus drepanophylla
+C_VSP_CODE,EUER1,Eucalyptus erythrophloia
+C_VSP_CODE,EUEUG,Eucalyptus eugenioides
+C_VSP_CODE,EUEXS,Eucalyptus exserta
+C_VSP_CODE,EUFAL,Euroschinus falcata
+C_VSP_CODE,EUFAS,Eucalyptus fastigata
+C_VSP_CODE,EUFIB,Eucalyptus fibrosa
+C_VSP_CODE,EUFU1,Eulalia aurea (ex fulva)
+C_VSP_CODE,EUFU2,Eulalia aurea (ex fulva)
+C_VSP_CODE,EUGR1,Eucalyptus grandis
+C_VSP_CODE,EUGR2,Eucalyptus grandis
+C_VSP_CODE,EUHAU,Eucalyptus haulii
+C_VSP_CODE,EUHEN,Eucalyptus henryi
+C_VSP_CODE,EUHYL,Eucalyptus hylandii
+C_VSP_CODE,EUIN1,Eucalyptus intermedia
+C_VSP_CODE,EUIN2,Eucalyptus intertexta
+C_VSP_CODE,EULAR,Eucalytpus largiflorens
+C_VSP_CODE,EULAU,Eupomatia laurina
+C_VSP_CODE,EULEI,Eucalyptis leichardtii
+C_VSP_CODE,EULEP,Eucalyptus leptophleba
+C_VSP_CODE,EUMA1,Eucalyptus maculata
+C_VSP_CODE,EUMA2,Eulalia mackinlayi
+C_VSP_CODE,EUMA3,Euphorbia macgillivrayi
+C_VSP_CODE,EUMA4,Eurybiopsis macrorhiza
+C_VSP_CODE,EUMAJ,Eucalyptus major
+C_VSP_CODE,EUME1,Eucalyptus melanophloia
+C_VSP_CODE,EUME2,Eucalyptus melliodora
+C_VSP_CODE,EUMI1,Eucalyptus microtheca
+C_VSP_CODE,EUMI2,Eucalyptus microcarpa
+C_VSP_CODE,EUMI3,Eucalyptus microneura
+C_VSP_CODE,EUMI4,Eucalyptus microcorys
+C_VSP_CODE,EUMIN,Eucalyptus miniata
+C_VSP_CODE,EUMOL,Eucalyptus moluccana
+C_VSP_CODE,EUNES,Eucalyptus nesophila
+C_VSP_CODE,EUNIG,Eucalyptus nigra
+C_VSP_CODE,EUNOR,Eucalyptus normantonensis
+C_VSP_CODE,EUOCH,Eucalyptus ochrophloia
+C_VSP_CODE,EUORG,Eucalyptus orgadophylla
+C_VSP_CODE,EUPA1,Eucalyptus pachycalyx
+C_VSP_CODE,EUPA2,Eucalyptus pachyphylla
+C_VSP_CODE,EUPAP,Eucalyptus papuana
+C_VSP_CODE,EUPAU,Eucalyptus pauciflora
+C_VSP_CODE,EUPE1,Eucalyptus peltata
+C_VSP_CODE,EUPE2,Eucalyptus pellita
+C_VSP_CODE,EUPER,Eucalyptus persistens
+C_VSP_CODE,EUPI1,Eucalyptus pilligaensis
+C_VSP_CODE,EUPI2,Eucalyptus pilularis
+C_VSP_CODE,EUPL1,Eucalyptus platyphylla
+C_VSP_CODE,EUPOL,Eucalyptus polycarpa
+C_VSP_CODE,EUPOP,Eucalyptus populnea
+C_VSP_CODE,EUPR1,Eucalyptus propinqua
+C_VSP_CODE,EUPUN,Eucalyptus punctata
+C_VSP_CODE,EUQA1,Eucalyptus quadricostata
+C_VSP_CODE,EURAC,Eucalyptus racemosa
+C_VSP_CODE,EURAV,Eucalyptus raveretiana
+C_VSP_CODE,EURES,Eucalyptus resinifera
+C_VSP_CODE,EUROB,Eucalyptus robusta
+C_VSP_CODE,EUSA1,Eucalyptus saligna
+C_VSP_CODE,EUSEE,Eucalyptus seeana
+C_VSP_CODE,EUSEI,Eucalyptus seiberi
+C_VSP_CODE,EUSET,Eucalyptus setosa
+C_VSP_CODE,EUSHI,Eucalyptus shirleyi
+C_VSP_CODE,EUSID,Eucalyptus sideroxylon
+C_VSP_CODE,EUSIM,Eucalyptus similis
+C_VSP_CODE,EUSP1,Eucalyptus species
+C_VSP_CODE,EUSP2,Ironbark
+C_VSP_CODE,EUSP3,Bloodwood
+C_VSP_CODE,EUSP4,Eulalia species
+C_VSP_CODE,EUSP5,Box (Eucalypt)
+C_VSP_CODE,EUST1,Eucalyptus stockeri
+C_VSP_CODE,EUTE1,Eucalyptus terminalis
+C_VSP_CODE,EUTE2,Eucalyptus tereticornis
+C_VSP_CODE,EUTES,Eucalyptus tessellaris
+C_VSP_CODE,EUTET,Eucalyptus tetrodonta
+C_VSP_CODE,EUTHO,Eucalyptus thozetiana
+C_VSP_CODE,EUTO1,Eucalyptus torelliana
+C_VSP_CODE,EUTRA,Eucalyptus trachyphloia
+C_VSP_CODE,EUTSEI,Eucalyptus seiberi
+C_VSP_CODE,EUUM1,Eucalyptus umbra
+C_VSP_CODE,EUUM2,Eucalyptus umbellata
+C_VSP_CODE,EUUM3,Eucalyptus umbrawarrensis
+C_VSP_CODE,EUVIM,Eucalyptus viminalis
+C_VSP_CODE,EUWAT,Eucalyptus watsoniana
+C_VSP_CODE,EUWHI,Eucalyptus whitei
+C_VSP_CODE,EVALS,Evolvulus alsinoides
+C_VSP_CODE,EVSP1,Evolvulus species
+C_VSP_CODE,EXCUP,Exocarpus cupressiformis
+C_VSP_CODE,EXDAL,Excoecaria dallachyana
+C_VSP_CODE,EXLAT,Exocarpus latifolius
+C_VSP_CODE,FICO1,Ficus coronata
+C_VSP_CODE,FIDIC,Fimbristylis dichotoma
+C_VSP_CODE,FIFRA,Ficus fraseri
+C_VSP_CODE,FIMA1,Ficus macrophylla
+C_VSP_CODE,FIOPP,Ficus opposita
+C_VSP_CODE,FIPLA,Ficus platypoda
+C_VSP_CODE,FIPOL,Fimbristylis polytrichoides
+C_VSP_CODE,FISP1,Ficus species
+C_VSP_CODE,FISP2,Fimbristylis species
+C_VSP_CODE,FIVI1,Ficus virens
+C_VSP_CODE,FLAU1,Flindersia australis
+C_VSP_CODE,FLBEN,Flindersia bennettiana
+C_VSP_CODE,FLCOL,Flindersia collina
+C_VSP_CODE,FLDIS,Flindersia dissosperma
+C_VSP_CODE,FLLEU,Flueggia leucopyrus
+C_VSP_CODE,FLMA1,Flindersia maculosa
+C_VSP_CODE,FLSC1,Flindersia schottiana
+C_VSP_CODE,FLSP1,Flueggia species
+C_VSP_CODE,FLXAN,Flindersia xanthoxyla
+C_VSP_CODE,GAGRA,Gastrolobium grandiflorum
+C_VSP_CODE,GAPA1,Gaura parviflora
+C_VSP_CODE,GASP1,Gaura species
+C_VSP_CODE,GEPAR,Geijera parviflora
+C_VSP_CODE,GESAL,Geijera salicifolia
+C_VSP_CODE,GLFE1,Glochidion ferdinandi
+C_VSP_CODE,GLLOB,Glochidian lobocardum
+C_VSP_CODE,GLSP1,Glycine species
+C_VSP_CODE,GLTAB,Glycine tabacina
+C_VSP_CODE,GLTOM,Glycine tomentella
+C_VSP_CODE,GNFOL,Gnephosia folista
+C_VSP_CODE,GOCEL,Gomphrena celosioides
+C_VSP_CODE,GOFAS,Goodenia fascicularis
+C_VSP_CODE,GOPHY,Gomphocarpus physocarpus
+C_VSP_CODE,GOSP1,Gomphocarpus species
+C_VSP_CODE,GOSP2,Gomphrena species
+C_VSP_CODE,GRGLA,Grevillea glauca
+C_VSP_CODE,GRJU1,Grevillea juncifolia
+C_VSP_CODE,GRPAR,Grevillea parallela
+C_VSP_CODE,GRPTE,Grevillea pteridifolia
+C_VSP_CODE,GRROB,Grevillea robusta
+C_VSP_CODE,GRSCA,Grewia scabrella
+C_VSP_CODE,GRSP1,Grevillea species
+C_VSP_CODE,GRST1,Grevillea stenobotrya
+C_VSP_CODE,GRSTR,Grevillea striata
+C_VSP_CODE,GUSEM,Guioa semiglauca
+C_VSP_CODE,HACHO,Hakea chordophylla
+C_VSP_CODE,HACOR,Haemodorum corymbosum
+C_VSP_CODE,HAFRA,Hakea fraseri
+C_VSP_CODE,HAHIL,Harpullia hillii
+C_VSP_CODE,HALOR,Hakea lorea
+C_VSP_CODE,HAPEN,Harpullia pendula
+C_VSP_CODE,HASP1,Hakea species
+C_VSP_CODE,HASUB,Hakea suberea
+C_VSP_CODE,HEBIV,Hernandia bivalvis
+C_VSP_CODE,HECO1,Heteropogon contortus
+C_VSP_CODE,HECUR,Heliotropium curassavicum
+C_VSP_CODE,HEDI1,Helichrysum diosmifolium
+C_VSP_CODE,HEDIV,Heterodendrum diversifolium
+C_VSP_CODE,HEFLO,Helipterum floribundum
+C_VSP_CODE,HEOLE,Heterodendrum oleifolium
+C_VSP_CODE,HETRI,Heteropogon triticeus
+C_VSP_CODE,HIHET,Hibiscus heterophyllus
+C_VSP_CODE,HISYN,Hibbertia synandra
+C_VSP_CODE,HOLA1,Hovea lanceolata
+C_VSP_CODE,HOLO1,Hovea longipes
+C_VSP_CODE,HOSP1,Hovea species
+C_VSP_CODE,HOVUL,Hordeum vulgare
+C_VSP_CODE,HYENN,Hybanthus enneaspermus
+C_VSP_CODE,HYRUF,Hyparrhenia rufa
+C_VSP_CODE,HYSP1,Hybanthus species
+C_VSP_CODE,IMCYL,Imperata cylindrica
+C_VSP_CODE,IMSP1,Imperata species
+C_VSP_CODE,INPRA,Indigofera pratensis
+C_VSP_CODE,IPLON,Ipomoea lonchophylla
+C_VSP_CODE,ISFR1,Iseilema fragile
+C_VSP_CODE,ISMEM,Iseilema membranaceum
+C_VSP_CODE,ISSP1,Iseilema species
+C_VSP_CODE,ISVAG,Iseilema vaginiflorum
+C_VSP_CODE,ISVIL,Ischaemum villosum
+C_VSP_CODE,JADID,Jasminum didymum
+C_VSP_CODE,JAGOS,Jatropha gossypifolia
+C_VSP_CODE,JAPSE,Jagera pseudorhus
+C_VSP_CODE,JARAM,Jacksonia ramosissima
+C_VSP_CODE,JASCO,Jacksonia scoparia
+C_VSP_CODE,JASP1,Jasminum species
+C_VSP_CODE,JASP2,Jacksonia species
+C_VSP_CODE,JATHE,Jacksonia thesioides
+C_VSP_CODE,JUPRO,Justicia procumbens
+C_VSP_CODE,JUSP1,Justicia species
+C_VSP_CODE,LACAM,Lantana camara
+C_VSP_CODE,LEAT1,Leptospermum attenuatum
+C_VSP_CODE,LECIL,Leptochloa ciliolata
+C_VSP_CODE,LEDI1,Lechenaultia divaricata
+C_VSP_CODE,LEDIG,Leptochloa digitata
+C_VSP_CODE,LEFLA,Leptospermum flavescens
+C_VSP_CODE,LEMI1,Leptospermum microcarpum
+C_VSP_CODE,LEPEA,Leptochloa peacockii
+C_VSP_CODE,LESP1,Leptochloa species
+C_VSP_CODE,LESTE,Leptospermum stellatum
+C_VSP_CODE,LIDEC,Livistonia decipiens
+C_VSP_CODE,LIRA1,Licuala ramsayi
+C_VSP_CODE,LIRA2,Linocieri ramiflora
+C_VSP_CODE,LOCO1,Lophostemon confertus
+C_VSP_CODE,LOLON,Lomandra longifolia
+C_VSP_CODE,LOSP1,Lomandra species
+C_VSP_CODE,LOSU1,Lophostemon suaveolens
+C_VSP_CODE,LOSU2,Lotus suaveolens
+C_VSP_CODE,LUOCT,Ludwigia octovalvis
+C_VSP_CODE,LUSP1,Ludwigia species
+C_VSP_CODE,LYANG,Lysicarpus angustifolius
+C_VSP_CODE,LYCA1,Lysiphillum carronii
+C_VSP_CODE,LYGIL,Lysiphillum gilvum
+C_VSP_CODE,LYHOO,Lysiphillum hookeri
+C_VSP_CODE,LYSP1,Lysiphyllum species
+C_VSP_CODE,LYSP2,Lysiana species
+C_VSP_CODE,LYSUB,Lysiana subfalcata
+C_VSP_CODE,MAAM1,Malvastrum americanum
+C_VSP_CODE,MAAPH,Maireana aphylla
+C_VSP_CODE,MACLA,Mallotus claoxyloides
+C_VSP_CODE,MACUN,Maytenus cunninghamii
+C_VSP_CODE,MADI1,Mallotus discolor
+C_VSP_CODE,MADIC,Maireana dichoptera
+C_VSP_CODE,MADRU,Marsilea drummondii
+C_VSP_CODE,MALA1,Macroptilium lathyroides
+C_VSP_CODE,MALEI,Macropteranthes leichardtii
+C_VSP_CODE,MAMI1,Maireana microphylla
+C_VSP_CODE,MAPHI,Mallotus philippensis
+C_VSP_CODE,MASP1,Marsilea species
+C_VSP_CODE,MASP2,Maytenus species
+C_VSP_CODE,MAVIL,Maireana villosa
+C_VSP_CODE,MEAZE,Melia azedarach
+C_VSP_CODE,MEBR1,Melaleuca bracteata
+C_VSP_CODE,MECHE,Melaleuca cheelii
+C_VSP_CODE,MEDEA,Melaleuca dealbata
+C_VSP_CODE,MEDEC,Melaleuca decora
+C_VSP_CODE,MEIRB,Melaleuca irbyana
+C_VSP_CODE,MELEU,Melaleuca leucadendron
+C_VSP_CODE,MELIN,Melaleuca linariifolia
+C_VSP_CODE,MEMI1,Melaleuca minutifolia
+C_VSP_CODE,MENE1,Melaleuca nervosa
+C_VSP_CODE,MENE2,Melaleuca nervosa (forma pendulina)
+C_VSP_CODE,MENOD,Melaleuca nodosa
+C_VSP_CODE,MEOBL,Melhania oblongifolia
+C_VSP_CODE,MEPO1,Medicago polymorpha
+C_VSP_CODE,MEQU1,Melaleuca quinquenervia
+C_VSP_CODE,MEQU2,Merremia quinata
+C_VSP_CODE,MEQU3,Merremia quinquefolia
+C_VSP_CODE,MEQUE,Metrosideros queenslandica
+C_VSP_CODE,MERI1,Melines repens
+C_VSP_CODE,MERI2,Medicosma riparia
+C_VSP_CODE,MESAT,Medicago sativa
+C_VSP_CODE,MESP1,Melaleuca species
+C_VSP_CODE,MESP2,Melhania species
+C_VSP_CODE,METAM,Melaleuca tamariscina
+C_VSP_CODE,MEUNC,Melaleuca unicinata
+C_VSP_CODE,MEVI1,Melaleuca viridiflora
+C_VSP_CODE,MIAU1,Microcitrus australis
+C_VSP_CODE,MIHE1,Micromyrtus hexamera
+C_VSP_CODE,MIPUD,Mimosa Pudica
+C_VSP_CODE,MISP1,Micromyrtus species
+C_VSP_CODE,MOPA1,Monachather paradoxa
+C_VSP_CODE,MUCUN,Muehlenbeckia cunninghamii
+C_VSP_CODE,MUGR1,Murdannia graminea
+C_VSP_CODE,MUMAD,Mukia maderaspatana
+C_VSP_CODE,MUSP1,Mukia species
+C_VSP_CODE,MUSP2,Murdannia species
+C_VSP_CODE,MYACU,Myoporum acuminatum
+C_VSP_CODE,MYDEB,Myoporum debile
+C_VSP_CODE,MYDES,Myoporum deserti
+C_VSP_CODE,MYMON,Myoporum montananum
+C_VSP_CODE,MYSP1,Myoporum species
+C_VSP_CODE,NAORI,Nauclea orientalis
+C_VSP_CODE,NEAUS,Neolitsea australiensis
+C_VSP_CODE,NEDEA,Neolitsea dealbata
+C_VSP_CODE,NEGRA,Neptunia gracilis
+C_VSP_CODE,NESP1,Neptunia species
+C_VSP_CODE,NEWIG,Neonotonia wightii
+C_VSP_CODE,NOLON,Notelea longifolia
+C_VSP_CODE,NOMIC,Notelea microcarpa
+C_VSP_CODE,OCSAN,Ocimum sanctum
+C_VSP_CODE,OCSP1,Ocimum species
+C_VSP_CODE,OLPAN,Olea paniculata
+C_VSP_CODE,OMPOP,Omalanthus populifolius
+C_VSP_CODE,OPEXA,Ophiurous exaltatus
+C_VSP_CODE,OPINE,Opuntia inermis
+C_VSP_CODE,OPMON,Opuntia monocantha
+C_VSP_CODE,OPSP1,Opuntia species
+C_VSP_CODE,OPST1,Opuntia stricta
+C_VSP_CODE,OPTOM,Opuntia tomentosa
+C_VSP_CODE,OWACI,Owenia acidula
+C_VSP_CODE,OWVEN,Owenia venosa
+C_VSP_CODE,OXCO1,Oxalis corniculata
+C_VSP_CODE,OXSC1,Oxychloris scariosa
+C_VSP_CODE,OXSP1,Oxalis species
+C_VSP_CODE,PAAC1,Parkinsonia aculeata
+C_VSP_CODE,PAAU1,Pavetta australiensis
+C_VSP_CODE,PABUN,Panicum buncei
+C_VSP_CODE,PACA1,Paspalidium caespitosum
+C_VSP_CODE,PACO1,Paspalidium constrictum
+C_VSP_CODE,PADEC,Panicum decompositum
+C_VSP_CODE,PADI1,Paspalidium distans
+C_VSP_CODE,PAEFF,Panicum effusum
+C_VSP_CODE,PAFOE,Passiflora foetida
+C_VSP_CODE,PAGLO,Paspalidium gloideum
+C_VSP_CODE,PAGR1,Paspalidium gracile
+C_VSP_CODE,PAHYS,Parthenium hysterophorus
+C_VSP_CODE,PAJUB,Paspalidium jubiflorum
+C_VSP_CODE,PALA1,Panicum larcomianum
+C_VSP_CODE,PALA2,Parsonsia lanceolata
+C_VSP_CODE,PAMAX,Panicum maximum var. trichoglume
+C_VSP_CODE,PAMU1,Paraneurachne muelleri
+C_VSP_CODE,PAQUE,Panicum queenslandicum
+C_VSP_CODE,PASP1,Panicum species
+C_VSP_CODE,PASP2,Pandanus species
+C_VSP_CODE,PASP3,Paspalum species
+C_VSP_CODE,PASP4,Paspalidium species
+C_VSP_CODE,PASP5,Parsonsia species
+C_VSP_CODE,PASP6,Passiflora species
+C_VSP_CODE,PASU1,Panicum subxerophilum
+C_VSP_CODE,PATEN,Parsonsia tenuis
+C_VSP_CODE,PAVAG,Paspalum vaginatum
+C_VSP_CODE,PAWHI,Pandanus whitei
+C_VSP_CODE,PEBA1,Petalostigma banksii
+C_VSP_CODE,PECLA,Pennisetum clandestinum
+C_VSP_CODE,PELAB,Petalostyles labicheoides
+C_VSP_CODE,PEPUB,Petalostigma pubescens
+C_VSP_CODE,PEQUA,Petalostigma quadriloculare
+C_VSP_CODE,PERAR,Perotis rara
+C_VSP_CODE,PESP1,Petalostigma species
+C_VSP_CODE,PESP2,Perotis species
+C_VSP_CODE,PESP3,Pennisetum species
+C_VSP_CODE,PHGL1,Phebalium glandulosum
+C_VSP_CODE,PHMIC,Phyllanthus microcladus
+C_VSP_CODE,PIPHY,Pittosporum phylliraeoides
+C_VSP_CODE,PIPRU,Pithecellobium pruinosum
+C_VSP_CODE,PIRAD,Pinus radiata
+C_VSP_CODE,PIREV,Pittosporum revolutum
+C_VSP_CODE,PIRHO,Pittosporum rhombifolium
+C_VSP_CODE,PIUND,Pittosporum undulatum
+C_VSP_CODE,PLCAR,Planchonia careya
+C_VSP_CODE,PLCER,Pleiogynium cerasiferum
+C_VSP_CODE,PLCOT,Planchonella cotinifolia
+C_VSP_CODE,PLEER,Planchonella eerwah
+C_VSP_CODE,PLMYR,Planchonella myrsinoides
+C_VSP_CODE,PLPOH,Planchonella pohlmaniana
+C_VSP_CODE,PLPUN,Plectrachne pungens
+C_VSP_CODE,PLREF,Plagiosetum refractum
+C_VSP_CODE,PLTIM,Pleiogynium timorense
+C_VSP_CODE,POCUN,Polyosma cunninghamii
+C_VSP_CODE,POELE,Polyscias elegans
+C_VSP_CODE,POLO1,Polymeria longifloria
+C_VSP_CODE,POOLE,Portulaca oleracea
+C_VSP_CODE,PRLIG,Premna lignum-vitae
+C_VSP_CODE,PRPAL,Prosopis pallida
+C_VSP_CODE,PRSUB,Prostanthera suborbicularis
+C_VSP_CODE,PSCIN,Psoralea cinerea
+C_VSP_CODE,PSDAP,Psychotria daphnoides
+C_VSP_CODE,PSLON,Psychotria loniceroides
+C_VSP_CODE,PSNIT,Pseudocarpus nitidula
+C_VSP_CODE,PTAQU,Pteridium aquilinum
+C_VSP_CODE,PTESC,Pteridium esculentum
+C_VSP_CODE,PTRED,Pterocaulon redolens
+C_VSP_CODE,PTSER,Pterocaulon serrulatum
+C_VSP_CODE,PTSP1,Pterocaulon species
+C_VSP_CODE,PTSP2,Pteridium species
+C_VSP_CODE,PUCUN,Pultenaea cunninghamii
+C_VSP_CODE,PUEUC,Pultenaea euchila
+C_VSP_CODE,RARUG,Rapistrum rugosum
+C_VSP_CODE,RAVAR,Rapanea variabilis
+C_VSP_CODE,RHAU1,Rhynchosia australis
+C_VSP_CODE,RHMIN,Rhynchosia minima
+C_VSP_CODE,RHPSI,Rhodomyrtus psidioides
+C_VSP_CODE,RHPTE,Rhynchospora pterochaeta
+C_VSP_CODE,RHREP,Phynchelytrum repens
+C_VSP_CODE,RHRHO,Rhodosphaera rhodanthema
+C_VSP_CODE,RHSP1,Rhodamnia species
+C_VSP_CODE,RHSPI,Rhagodia spinescens
+C_VSP_CODE,RIHUM,Rivina humilis
+C_VSP_CODE,RILED,Ricinocarpus ledifolius
+C_VSP_CODE,RISP1,Rivina species
+C_VSP_CODE,RUAUS,Ruellia australis
+C_VSP_CODE,SAAUS,Sarcostemma australe
+C_VSP_CODE,SAKAL,Salsola kali
+C_VSP_CODE,SALA1,Santalum lanceolatum
+C_VSP_CODE,SAREF,Salvia reflexa
+C_VSP_CODE,SASAM,Samanea saman
+C_VSP_CODE,SASP1,Salicornia spp.
+C_VSP_CODE,SASP2,Santalum species
+C_VSP_CODE,SASTI,Sarcopteryx stipitata
+C_VSP_CODE,SCAEM,Scaevola aemula
+C_VSP_CODE,SCFRA,Schizachrium fragile
+C_VSP_CODE,SCSP1,Unknown species
+C_VSP_CODE,SCSP2,Sclerolaena species
+C_VSP_CODE,SCSPI,Scaevola spinescens
+C_VSP_CODE,SCTET,Sclerolaeana tetracuspis
+C_VSP_CODE,SCTR1,Sclerolaena tricuspis
+C_VSP_CODE,SEANC,Seteria anceps
+C_VSP_CODE,SEART,Senna artemisioides
+C_VSP_CODE,SEBAR,Senna barclayana
+C_VSP_CODE,SECAN,Sesbania cannbina
+C_VSP_CODE,SECOR,Senna coronilloides
+C_VSP_CODE,SEJAV,Sesbania javanica
+C_VSP_CODE,SELAU,Senecio lautus
+C_VSP_CODE,SESP1,Senna species
+C_VSP_CODE,SESP2,Sesbania species
+C_VSP_CODE,SESP3,Setaria species
+C_VSP_CODE,SESUR,Setaria surgens
+C_VSP_CODE,SIAU1,Siphonodon australis
+C_VSP_CODE,SICO1,Sida corrugata
+C_VSP_CODE,SICO2,Sida cordifolia
+C_VSP_CODE,SIRHO,Sida rhombifolia
+C_VSP_CODE,SIROH,Sida rohlenae
+C_VSP_CODE,SISP1,Sida species
+C_VSP_CODE,SISP2,Sicyos species
+C_VSP_CODE,SISP3,Sigesbeckia species
+C_VSP_CODE,SISUB,Sida subspicata
+C_VSP_CODE,SLWOO,Sloanea woollsii
+C_VSP_CODE,SOALM,Sorghum almum
+C_VSP_CODE,SOBIC,Sorghum bicolor
+C_VSP_CODE,SOESU,Solanum esuriale
+C_VSP_CODE,SOHAL,Sorghum halepense
+C_VSP_CODE,SONIT,Sorghum nitidum
+C_VSP_CODE,SOOLE,Sonchus oleraceus
+C_VSP_CODE,SOPLU,Sorghum plumosum
+C_VSP_CODE,SOSP1,Solanum species
+C_VSP_CODE,SOSP2,Sonchus species
+C_VSP_CODE,SPACT,Sporobolus actinocladus
+C_VSP_CODE,SPAUS,Sporobolus australasicus
+C_VSP_CODE,SPCAR,Sporobolus caroli
+C_VSP_CODE,SPELO,Sporobolus elongatus
+C_VSP_CODE,SPJUN,Spartothamnella juncea
+C_VSP_CODE,SPMIT,Sporobolus mitchellii
+C_VSP_CODE,SPNEU,Spathia neurosa
+C_VSP_CODE,SPPER,Sporobolus perellii
+C_VSP_CODE,SPSCA,Sporobolus scabridus
+C_VSP_CODE,SPSP1,Sporobolus species
+C_VSP_CODE,SPSP2,Spartothamnella species
+C_VSP_CODE,SPVIR,Sporobolus virginicus
+C_VSP_CODE,STAXI,Strychnos axillaris
+C_VSP_CODE,STGUI,Stylosanthes guianensis
+C_VSP_CODE,STHA1,Stylosanthes hamata
+C_VSP_CODE,STHUM,Stylosanthes humilis
+C_VSP_CODE,STNUT,Stenopetalum nutans
+C_VSP_CODE,STPEN,Streblus pendulinus
+C_VSP_CODE,STQU1,Sterculia quadrifida
+C_VSP_CODE,STRAM,Stipa ramosissima
+C_VSP_CODE,STRUD,Stipa rudis
+C_VSP_CODE,STSC1,Stylosanthes scabra
+C_VSP_CODE,STSP1,Stylobasium spathulatum
+C_VSP_CODE,STSP2,Stylosanthes species
+C_VSP_CODE,SYAUS,Syzygium australe
+C_VSP_CODE,SYFRA,Syzygium francisii
+C_VSP_CODE,SYGLA,Synoum glandulosum
+C_VSP_CODE,SYGLO,Syncarpia glomulifera
+C_VSP_CODE,SYSP1,Syncarpia species
+C_VSP_CODE,TEOB1,Terminalia oblongata
+C_VSP_CODE,TEPL1,Terminalia platyphylla
+C_VSP_CODE,THADV,Thellungia advena
+C_VSP_CODE,THAU1,Themeda australis
+C_VSP_CODE,THAU2,Thesium australe
+C_VSP_CODE,THMIT,Thyridolepis mitchelliana
+C_VSP_CODE,THPAR,Thryptomene parviflora
+C_VSP_CODE,THQUA,Themeda quadrivalis
+C_VSP_CODE,THSP1,Thellungia species
+C_VSP_CODE,THSP2,Themeda species
+C_VSP_CODE,THTRI,Themeda triandra
+C_VSP_CODE,TOAUS,Toona australis
+C_VSP_CODE,TOTEN,Toechina tenax
+C_VSP_CODE,TRAES,Triticum aestivum
+C_VSP_CODE,TRASP,Trema aspera
+C_VSP_CODE,TRAU1,Tragus australianus
+C_VSP_CODE,TRBAS,Triodia basedowii
+C_VSP_CODE,TRCON,Tristania conferta
+C_VSP_CODE,TRLO1,Triodia longiceps
+C_VSP_CODE,TRLOL,Tripogon loliiformis
+C_VSP_CODE,TRMAR,Triodia marginata
+C_VSP_CODE,TRMIT,Triodia mitchelii
+C_VSP_CODE,TRMO1,Triraphis mollis
+C_VSP_CODE,TRPO1,Trianthema Portulacastrum
+C_VSP_CODE,TRPUN,Triodia pungens
+C_VSP_CODE,TRSAU,Tristania sauveolens
+C_VSP_CODE,TRSP1,TRIODIA SPECIES ?
+C_VSP_CODE,TRSP2,Tragus species
+C_VSP_CODE,TRSP3,Trianthema species
+C_VSP_CODE,TRSUA,Trigonella suavissima
+C_VSP_CODE,TRTER,Tribulus terrestris
+C_VSP_CODE,TRTR1,Trianthema triquetra
+C_VSP_CODE,TUBRO,Turraea brownii
+C_VSP_CODE,URMOS,Urochloa mosambicensis
+C_VSP_CODE,URPUL,Urochloa pullans
+C_VSP_CODE,URSP1,Urochloa species
+C_VSP_CODE,VEENC,Verbesina encelioides
+C_VSP_CODE,VEFIL,Vetiveria filipes
+C_VSP_CODE,VESP1,Verbesina species
+C_VSP_CODE,VESP2,Vetiveria species
+C_VSP_CODE,VEVIM,Ventilago viminalis
+C_VSP_CODE,VISAT,Vicia sativa
+C_VSP_CODE,WAFLO,Waterhousia floribunda
+C_VSP_CODE,WASP1,Wahlenbergia species
+C_VSP_CODE,WIMAC,Wilkiea macrophylla
+C_VSP_CODE,XAAUS,Xanthorrhoea australis
+C_VSP_CODE,XAJOH,Xanthorrhoea johnsonii
+C_VSP_CODE,XAMED,Xanthorrhoea media
+C_VSP_CODE,XAPUN,Xanthium pungens
+C_VSP_CODE,XASP1,Xanthorrhoea species
+C_VSP_CODE,XXSPP,Unknown species
+C_VSP_CODE,XYSCO,Xylomelum scottianum
+C_VSP_CODE,XYSP1,Xylomelum species
+C_VSP_CODE,ZABRA,Zanthoxylum brachyacanthum
+C_VSP_CODE,ZIMAU,Ziziphus mauritiana
+C_VSP_CODE,ZYAMM,Zygophyllum ammophilum
+C_VSP_CODE,ZYAPI,Zygophyllum apiculatum
+C_VSP_CODE,ZYSP1,Zygophyllum species
+C_VSTR_CODE,A,Annuals
+C_VSTR_CODE,GR,Ground
+C_VSTR_CODE,LS,Low Shrubs
+C_VSTR_CODE,MS,Medium Shrubs
+C_VSTR_CODE,PG,Perennial Grasses
+C_VSTR_CODE,TR,Tree
+C_VSTR_CODE,TS,Tall Shrubs
+C_VSTR_CODE,CL,Continuum Lower
+C_VSTR_CODE,CM,Continuum Mid
+C_VSTR_CODE,L,Lower
+C_VSTR_CODE,M,Mid
+C_VSTR_CODE,T,Tallest
+C_VSTR_CODE,U,Undescribed
+C_VSTR_COVER_CLASS,D,Closed or dense
+C_VSTR_COVER_CLASS,I,Isolated plants
+C_VSTR_COVER_CLASS,L,Isolated clumps
+C_VSTR_COVER_CLASS,M,Mid-dense
+C_VSTR_COVER_CLASS,S,Sparse
+C_VSTR_COVER_CLASS,V,Very sparse
+C_VSTR_GC,CD,closed chenopod shrubland
+C_VSTR_GC,CI,isolated chenopod shrubs
+C_VSTR_GC,CL,isolated clump of chenopod shrubs
+C_VSTR_GC,CM,chenopod shrubland
+C_VSTR_GC,CS,open chenopod shrubland
+C_VSTR_GC,CV,sparse chenopod shrubland
+C_VSTR_GC,DD,closed sod grassland
+C_VSTR_GC,DI,isolated sod grasses
+C_VSTR_GC,DL,isolated clump of sod grasses
+C_VSTR_GC,DM,sod grassland
+C_VSTR_GC,DS,open sod grassland
+C_VSTR_GC,DV,sparse sod grassland
+C_VSTR_GC,ED,closed fernland
+C_VSTR_GC,EI,isolated ferns
+C_VSTR_GC,EL,isolated clump of ferns
+C_VSTR_GC,EM,fernland
+C_VSTR_GC,ES,open fernland
+C_VSTR_GC,EV,sparse fernland
+C_VSTR_GC,FD,closed forbland
+C_VSTR_GC,FI,isolated forbs
+C_VSTR_GC,FL,isolated clump of forbs
+C_VSTR_GC,FM,forbland
+C_VSTR_GC,FS,open forbland
+C_VSTR_GC,FV,sparse forbland
+C_VSTR_GC,GD,closed grassland
+C_VSTR_GC,GI,isolated grasses
+C_VSTR_GC,GL,isolated clump of tussock grasses
+C_VSTR_GC,GM,grassland
+C_VSTR_GC,GS,open grassland
+C_VSTR_GC,GV,sparse grassland
+C_VSTR_GC,HD,closed hummock grassland
+C_VSTR_GC,HI,isolated hummock grasses
+C_VSTR_GC,HL,isolated clump of hummock grasses
+C_VSTR_GC,HM,hummock grassland
+C_VSTR_GC,HS,open hummock grassland
+C_VSTR_GC,HV,sparse hummock grassland
+C_VSTR_GC,LD,closed vineland
+C_VSTR_GC,LI,isolated vines
+C_VSTR_GC,LL,isolated clump of vines
+C_VSTR_GC,LM,vineland
+C_VSTR_GC,LS,open vineland
+C_VSTR_GC,LV,sparse vineland
+C_VSTR_GC,MD,closed mallee forest
+C_VSTR_GC,MI,isolated mallee trees
+C_VSTR_GC,ML,isolated clump of mallee trees
+C_VSTR_GC,MM,open mallee forest
+C_VSTR_GC,MS,mallee woodland
+C_VSTR_GC,MV,open mallee woodland
+C_VSTR_GC,OD,closed mossland
+C_VSTR_GC,OI,isolated mosses
+C_VSTR_GC,OL,isolated clump of mosses
+C_VSTR_GC,OM,mossland
+C_VSTR_GC,OS,open mossland
+C_VSTR_GC,OV,sparse mossland
+C_VSTR_GC,RD,closed rushland
+C_VSTR_GC,RI,isolated rushes
+C_VSTR_GC,RL,isolated clump of rushes
+C_VSTR_GC,RM,rushland
+C_VSTR_GC,RS,open rushland
+C_VSTR_GC,RV,sparse rushland
+C_VSTR_GC,SD,closed shrubland
+C_VSTR_GC,SI,isolated shrubs
+C_VSTR_GC,SL,isolated clump of shrubs
+C_VSTR_GC,SM,shrubland
+C_VSTR_GC,SS,open shrubland
+C_VSTR_GC,SV,sparse shrubland
+C_VSTR_GC,TD,closed forest
+C_VSTR_GC,TI,isolated trees
+C_VSTR_GC,TL,isolated clump of trees
+C_VSTR_GC,TM,open forest
+C_VSTR_GC,TS,woodland
+C_VSTR_GC,TV,open woodland
+C_VSTR_GC,VD,closed sedgeland
+C_VSTR_GC,VI,isolated sedges
+C_VSTR_GC,VL,isolated clump of sedges
+C_VSTR_GC,VM,sedgeland
+C_VSTR_GC,VS,open sedgeland
+C_VSTR_GC,VV,sparse sedgeland
+C_VSTR_GC,YD,closed mallee shrubland
+C_VSTR_GC,YI,isolated mallee shrubs
+C_VSTR_GC,YL,isolated clump of mallee shrubs
+C_VSTR_GC,YM,mallee shrubland
+C_VSTR_GC,YS,open mallee shrubland
+C_VSTR_GC,YV,sparse mallee shrubland
+C_VSTR_GC,ZD,closed healthland
+C_VSTR_GC,ZI,isolated health shrubs
+C_VSTR_GC,ZL,isolated clump of health shrubs
+C_VSTR_GC,ZM,healthland
+C_VSTR_GC,ZS,open health
+C_VSTR_GC,ZV,sparse health
+C_VSTR_GROWTH_FORM,A,Cycad
+C_VSTR_GROWTH_FORM,C,Chenopod shrub
+C_VSTR_GROWTH_FORM,D,Sod grass
+C_VSTR_GROWTH_FORM,E,Fern
+C_VSTR_GROWTH_FORM,F,Forb
+C_VSTR_GROWTH_FORM,G,Tussock grass
+C_VSTR_GROWTH_FORM,H,Hummock grass
+C_VSTR_GROWTH_FORM,L,Vine
+C_VSTR_GROWTH_FORM,M,Tree mallee
+C_VSTR_GROWTH_FORM,N,Lichen
+C_VSTR_GROWTH_FORM,O,Moss
+C_VSTR_GROWTH_FORM,P,Palm
+C_VSTR_GROWTH_FORM,R,Rush
+C_VSTR_GROWTH_FORM,S,Shrub
+C_VSTR_GROWTH_FORM,T,Tree
+C_VSTR_GROWTH_FORM,V,Sedge
+C_VSTR_GROWTH_FORM,W,Liverwort
+C_VSTR_GROWTH_FORM,X,Xanthorhea
+C_VSTR_GROWTH_FORM,Y,Malle shrub
+C_VSTR_GROWTH_FORM,Z,Heath shrub
+C_CF_ABUN,0,No coarse fragments
+C_CF_ABUN,1,"very few, <2%"
+C_CF_ABUN,2,"few, 2-10%"
+C_CF_ABUN,3,"common, 10-20%"
+C_CF_ABUN,4,"many, 20-50%"
+C_CF_ABUN,5,"abundant, 50-90%"
+C_CF_ABUN,6,"very abundant, >90%"
+C_CF_SIZE,1,"Fine gravelly, 2-6mm"
+C_CF_SIZE,2,"Medium gravelly, 6-20mm"
+C_CF_SIZE,3,"Coarse gravelly, 20-60mm"
+C_CF_SIZE,4,"Cobbly, 60-200mm"
+C_CF_SIZE,5,"Stony, 200-600mm"
+C_CF_SIZE,6,"Bouldery, 600mm-2m"
+C_CF_SIZE,7,"Large Boulders, >2m"
+C_SCF_ABUN,0,No coarse fragments
+C_SCF_ABUN,1,"very few, <2%"
+C_SCF_ABUN,2,"few, 2-10%"
+C_SCF_ABUN,3,"common, 10-20%"
+C_SCF_ABUN,4,"many, 20-50%"
+C_SCF_ABUN,5,"abundant, 50-90%"
+C_SCF_ABUN,6,"very abundant, >90%"
+C_SCF_SIZE,1,"Fine gravelly, 2-6mm"
+C_SCF_SIZE,2,"Medium gravelly, 6-20mm"
+C_SCF_SIZE,3,"Coarse gravelly, 20-60mm"
+C_SCF_SIZE,4,"Cobbly, 60-200mm"
+C_SCF_SIZE,5,"Stony, 200-600mm"
+C_SCF_SIZE,6,"Bouldery, 600mm-2m"
+C_SCF_SIZE,7,"Large Boulders, >2m"
+C_CRACK_WIDTH,1,"Fine, <5mm"
+C_CRACK_WIDTH,2,"Medium, 5-10mm"
+C_CRACK_WIDTH,3,"Coarse, 10-20mm"
+C_CRACK_WIDTH,4,"Very coarse, 20-50mm"
+C_CRACK_WIDTH,5,"Extremely coarse, >50mm"
+C_CUTAC_ABUN,0,No cutans
+C_CUTAC_ABUN,1,"Few, <10% of ped faces or walls coated"
+C_CUTAC_ABUN,2,"Common, 10-50% of ped faces or walls coated"
+C_CUTAC_ABUN,3,"Many, >50% of ped faces or walls coated"
+C_H_BOUND_DISTINCT,A,Abrupt
+C_H_BOUND_DISTINCT,C,Clear
+C_H_BOUND_DISTINCT,D,Diffuse
+C_H_BOUND_DISTINCT,G,Gradual
+C_H_BOUND_DISTINCT,S,Sharp
+C_MOTT_ABUN,0,No mottles
+C_MOTT_ABUN,1,"Very few, <2%"
+C_MOTT_ABUN,2,"Few, 2-10%"
+C_MOTT_ABUN,3,"Common, 10-20%"
+C_MOTT_ABUN,4,"Many, 20-50%"
+C_MOTT_SIZE,1,"Fine, <5mm"
+C_MOTT_SIZE,2,"Medium, 5-15mm"
+C_MOTT_SIZE,3,"Coarse, 15-30mm"
+C_MOTT_SIZE,4,"Very coarse, >30mm"
+C_O_GULLY_DEG,0,No gully erosion
+C_O_GULLY_DEG,1,Minor
+C_O_GULLY_DEG,2,Moderate
+C_O_GULLY_DEG,3,Severe
+C_O_GULLY_DEPTH,1,<1.5 m
+C_O_GULLY_DEPTH,2,1.5-3.0 m
+C_O_GULLY_DEPTH,3,>3 m
+C_O_INUND_DEPTH,1,<50mm
+C_O_INUND_DEPTH,2,50-100mm
+C_O_INUND_DEPTH,3,100-300mm
+C_O_INUND_DEPTH,4,300mm-1m
+C_O_INUND_DEPTH,5,>1m
+C_O_INUND_DUR,1,Less than 1 day
+C_O_INUND_DUR,2,Between 1 and 20 days
+C_O_INUND_DUR,3,Between 20 and 120 days
+C_O_INUND_DUR,4,More than 120 days
+C_O_INUND_RUNOC_VEL,H,High velocity >300mm/s
+C_O_INUND_RUNOC_VEL,L,Low velocity  <300mm/s
+C_O_SB_GRAIC_SIZE,1,<0.06mm
+C_O_SB_GRAIC_SIZE,2,0.06-2mm
+C_O_SB_GRAIC_SIZE,3,>2mm
+C_O_SB_MASS_SPAC_DIS,B,300 mm-1 m
+C_O_SB_MASS_SPAC_DIS,C,<50 mm
+C_O_SB_MASS_SPAC_DIS,F,50-300 mm
+C_O_SB_MASS_SPAC_DIS,M,1-3 m
+C_O_SB_MASS_SPAC_DIS,S,>3 m
+C_PORE_ABUN,0,None
+C_PORE_ABUN,1,"Few, <1 per 100mm2"
+C_PORE_ABUN,2,"Common, 1-5 per 100mm2"
+C_PORE_ABUN,3,"Many, >5 per 100mm2"
+C_PORE_ABUN,4,"Few, <1 per 0.01m2"
+C_PORE_ABUN,5,"Common, 1-5 per 0.01m2"
+C_PORE_ABUN,6,"Many, >5 per 0.01m2"
+C_PORE_DIAMETER,1,"Very fine, 0.075-1mm"
+C_PORE_DIAMETER,2,"Fine, 1-2mm"
+C_PORE_DIAMETER,3,"Medium, 2-5mm"
+C_PORE_DIAMETER,4,"Coarse, >5mm"
+C_RO_ABUN,0,No bedrock exposed
+C_RO_ABUN,1,<2% bedrock exposed
+C_RO_ABUN,2,2-10% bedrock exposed
+C_RO_ABUN,3,10-20% bedrock exposed
+C_RO_ABUN,4,20-50% bedrock exposed
+C_RO_ABUN,5,>50% bedrock exposed
+C_ROOT_ABUN,0,No roots
+C_ROOT_ABUN,1,Few
+C_ROOT_ABUN,2,Common
+C_ROOT_ABUN,3,Many
+C_ROOT_ABUN,4,Abundant
+C_ROOT_SIZE,1,"Very Fine, <1mm"
+C_ROOT_SIZE,2,"Fine, 1-2mm"
+C_ROOT_SIZE,3,"Medium, 2-5mm"
+C_ROOT_SIZE,4,"Coarse, >5mm"
+C_S_MODAL_SLOPE,GE,Gently inclined
+C_S_MODAL_SLOPE,LE,Level
+C_S_MODAL_SLOPE,MO,Moderately inclined
+C_S_MODAL_SLOPE,PR,Precipitous
+C_S_MODAL_SLOPE,ST,Steep
+C_S_MODAL_SLOPE,VG,Very gently inclined
+C_S_MODAL_SLOPE,VS,Very steep
+C_S_RELIEF_CLASS,H,High
+C_S_RELIEF_CLASS,L,Low
+C_S_RELIEF_CLASS,M,Very high
+C_S_RELIEF_CLASS,P,Extremely low
+C_S_RELIEF_CLASS,R,Very low
+C_S_STRM_CH_DTOW,D,Deep
+C_S_STRM_CH_DTOW,M,Moderately deep
+C_S_STRM_CH_DTOW,S,Shallow
+C_S_STRM_CH_DTOW,V,Very shallow
+C_S_STRM_CH_SPACING,AB,Absent or very rare
+C_S_STRM_CH_SPACING,CS,Closely spaced
+C_S_STRM_CH_SPACING,MS,Moderately spaced
+C_S_STRM_CH_SPACING,NU,Numerous
+C_S_STRM_CH_SPACING,SP,Sparse
+C_S_STRM_CH_SPACING,VG,Very closely spaced
+C_S_STRM_CH_SPACING,VW,Very widely spaced
+C_S_STRM_CH_SPACING,WS,Widely spaced
+C_SAMP_SIZE,1,<100g
+C_SAMP_SIZE,2,100-500g
+C_SAMP_SIZE,3,500-1000g
+C_SAMP_SIZE,4,1000-5000g
+C_SAMP_SIZE,5,>5000g
+C_SEG_ABUN,0,No segregations
+C_SEG_ABUN,1,"Very few, <2%"
+C_SEG_ABUN,2,"Few, 2-10%"
+C_SEG_ABUN,3,"Common, 10-20%"
+C_SEG_ABUN,4,"Many, 20-50%"
+C_SEG_ABUN,5,"Very many, >50%"
+C_SEG_SIZE,1,"Fine, <2mm"
+C_SEG_SIZE,2,"Medium, 2-6mm"
+C_SEG_SIZE,3,"Coarse, 6-20mm"
+C_SEG_SIZE,4,"Very coarse, 20-60mm"
+C_SEG_SIZE,5,"Extremely coarse, >60mm"
+C_STR_PED_SIZE,1,<2 mm
+C_STR_PED_SIZE,2,2-5 mm
+C_STR_PED_SIZE,3,5-10 mm
+C_STR_PED_SIZE,4,10-20 mm
+C_STR_PED_SIZE,5,20-50 mm
+C_STR_PED_SIZE,6,50-100 mm
+C_STR_PED_SIZE,7,100-200 mm
+C_STR_PED_SIZE,8,200-500 mm
+C_STR_PED_SIZE,9,>500 mm
+C_VSTR_HEIGHT_CLASS,1,<0.25m
+C_VSTR_HEIGHT_CLASS,2,0.26-0.5m
+C_VSTR_HEIGHT_CLASS,3,0.51-1m
+C_VSTR_HEIGHT_CLASS,4,1.01-3m
+C_VSTR_HEIGHT_CLASS,5,3.01-6m
+C_VSTR_HEIGHT_CLASS,6,6.01-12m
+C_VSTR_HEIGHT_CLASS,7,12.01-20m
+C_VSTR_HEIGHT_CLASS,8,20.01-35m
+C_VSTR_HEIGHT_CLASS,9,>35.01m
