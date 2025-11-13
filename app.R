@@ -39,6 +39,7 @@ source('./parsing.R')
 source('./guiHelpers.R')
 source('./plots.R')
 source('./functions.R')
+source('./StandAloneCode/parseANSISJson.R')
 
 mps <<- read.csv('./schemaFieldMapping2.csv')
 mp <<- unique(mps[mps$Domain!='' & mps$SchemaLocation=='Horizons', ]$Domain )
@@ -53,23 +54,16 @@ devel = T
 
 ui <- fluidPage(
 
-    tags$div(HTML('<img src="./Logos/ANSISwithText.PNG">') ),
+    tags$div(HTML('
+                  <img src="./Logos/TERN_logo-v2.png" height=80px, width=360px>
+
+                  <img style="float: right;" src="./Logos/ANSISwithText.PNG">') ),
 
     tags$head(tags$style(".shiny-notification {position: fixed; top: 20% ;left: 50%")),
 
 
     sidebarLayout(
         sidebarPanel(
-          # tags$head(
-          #   tags$style(type="text/css", "select { max-width: 140px; }"),
-          #   tags$style(type="text/css", ".span4 { max-width: 400px; }"),
-          #   tags$style(type="text/css", ".well { max-width: 390px; }"),
-          #
-          #   tags$style(type="text/css", "select { min-width: 140px; }"),
-          #   tags$style(type="text/css", ".span4 { min-width: 400px; }"),
-          #   tags$style(type="text/css", ".well { min-width: 390px; }")
-          # ),
-
           width=3,
 
       fluidRow(
@@ -152,8 +146,55 @@ ui <- fluidPage(
                       tabPanel("Site Raw CSV",
                                rHandsontableOutput('UI_DataViewer'),
                                ),
-                      tabPanel('JsonView', jsoneditOutput( "jsed", height = '1600px' ) %>% withSpinner(color="#0dc5c1"))
-          )
+                      tabPanel('JsonView', jsoneditOutput( "jsed", height = '1600px' ) %>% withSpinner(color="#0dc5c1")),
+
+                      tabPanel('About', HTML('<div style="max-width: 800px;">
+
+                                        <h2>What is ANSIS</h2><BR>
+                                             <p>The Australian National Soil Information System (<a href="https://ansis.net/" target="_blank"> ANSIS</a>) provides access to nationally consistent soil data and information to support the sustainable management of soil.
+
+                                             ANSIS is the new place to find readily useable Australian soil data and information. </p>
+
+                                             <p>ANSIS is the Australian National Soil Information System. It brings together soil data from across Australia, connecting multiple data sources to provide access to nationally consistent soil data and information.
+                                            ANSIS has been developed through a collaboration between governments, research organisations, industry, the private sector, and the community.
+                                            For more info have a read <a href="https://ansis.net/about/" target="_blank"> here.</a></p>
+
+                                             <p>ANSIS delivers soil data as Javascript Object Notation (JSON) formated files. This data format allows the delivery
+                                             of complex structured information in a lossless form. But..... it can be challenging to manipulate this data into simpler
+                                             formats without coding skills. </p>
+
+                                             <p>That is where this ANSIS Utils comes in .....</p>
+
+
+                                        <h2>How to use this App</h2><BR>
+
+                                            <p>First, you need to go the the <a href="https://portal.ansis.net/" target="_blank">ANSIS Data Portal</a> to query the data you want, and download the JSON file it generates.</p>
+
+                                            <p>ANSIS Utils allows you to upload an ANSIS JSON query response
+                                                and parse it in to other formats as well as visualise the soil profile information.</p>
+
+                                             <p>Simply click on the browse button in the top left corner to find the ANSIS JSON reponse file to upload
+                                             (or drag it to the text box with file Explorer). The App will then parse the json into a number of simple formats.</p>
+
+                                             <p>Select a soil site from the "Sites" drop down list to view the soil site description in plain english.</p>
+
+                                             <p>The tabs along the top of the App allow you to view the ANSIS query response in a range of formats.</p>
+
+                                             <p>Use the "Data Downloads" drop down list to select components of the ANSIS query response to download as csv files
+                                             or a geoJson of site locations.</p>
+
+                                              <h2>Acknowledgements</h2><BR>
+                                              <UL>
+
+                                              <li>ANSISUtils is powered by TERN.</li>
+
+                                              <li>ANSIS : When using data from ANSIS please include this acknoweldgement - "ANSIS has been supported by funding through the Australian Government Natural Heritage Trust (Department of Agriculture, Fisheries and Forestry) in collaboration with CSIRO."</li>
+                                              </UL>
+
+                                             </div>'
+
+                                             ))
+                      )
         )
     )
 )
@@ -604,6 +645,10 @@ else{
     updateSelectInput(session, "wgtSiteIDs", choices=names(RV$CurrentANSISResults))
   })
 
+
+
+####  Data Downloads   ##################################
+
   output$wgtDownloadCSV <- downloadHandler(
 
     filename = function() {
@@ -672,7 +717,7 @@ else{
       }
       else if(input$wgtDownloadOption=='All of Current Site as CSV'){
         #dfDenorm <- RV$CurrentANSISResults[[input$wgtSiteIDs]]$data
-        sdf <- makeSiteCSV(RV$CurrentANSISResults[[input$wgtSiteIDs]])
+        sdf <- makeSiteCSV(sl = RV$CurrentANSISResults[[input$wgtSiteIDs]])
         write.csv( sdf, file, quote = F, row.names = F)
       }
       else if(input$wgtDownloadOption=='All Site Data as CSV'){
@@ -706,12 +751,12 @@ else{
       # fn <- 'C:/temp/willonew.json'
        #fn <- 'C:/temp/onefromeachState.json'
        #fn <- 'C:/Users/sea084/Downloads/230348919aea3646c017e1cc89b4093cc874c9c03ea359955cf371deaa16b584Standardised (1).json'
-       # fn <- 'C:/Projects/ANSIS/ANSISAPI/QueryResponses/4NTSites.json'
+       # fn <- 'C:/Projects/ANSIS/ANSISAPI/QueryResponses/4_ANSIS_Sites.json'
        # fn <- 'C:/Projects/ANSIS/ANSISAPI/QueryResponses/DarlingDowns.json'
        # fn <- 'C:/Users/sea084/OneDrive - CSIRO/RossRCode/Git/Shiny/Apps/ShowANSISSites2/DemoData/224_ANSIS_Sites.json'
 
 
-       jL <- openANSISJson(fn)
+       jL <- openANSISJson(jsnFile = fn)
 
 
        RV$CurrentANSISResults <- jL$dfDenorm
