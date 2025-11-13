@@ -184,12 +184,13 @@ ui <- fluidPage(
                                              or a geoJson of site locations.</p>
 
                                               <h2>Acknowledgements</h2><BR>
-                                              <UL>
 
-                                              <li>ANSISUtils is powered by TERN.</li>
 
-                                              <li>ANSIS : When using data from ANSIS please include this acknoweldgement - "ANSIS has been supported by funding through the Australian Government Natural Heritage Trust (Department of Agriculture, Fisheries and Forestry) in collaboration with CSIRO."</li>
-                                              </UL>
+                                             <p> ANSISUtils is powered by TERN. </p>
+                                              <br>
+                                              <p>ANSIS : When using data from ANSIS please include this acknoweldgement :- </p><br><p>"ANSIS has been supported by funding through the Australian Government Natural Heritage Trust (Department of Agriculture, Fisheries and Forestry) in collaboration with CSIRO."</p>
+                                              <p>Partners :  CSIRO, Corangamite CMA, Glenelg Hopkins CMA, Monash University, Sydney University, Federation University, NSW Govt, NT Govt, Qld Govt, SA Govt, Tas Govt, Vic Govt, WA Govt </p>
+
 
                                              </div>'
 
