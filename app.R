@@ -55,9 +55,9 @@ devel = T
 ui <- fluidPage(
 
     tags$div(HTML('
-                  <img src="./Logos/TERN_logo-v2.png" height=80px, width=360px>
+                  <a href="https://www.tern.org.au//" target="_blank"><img src="./Logos/TERN_logo-v2.png" height=80px, width=360px></a>
 
-                  <img style="float: right;" src="./Logos/ANSISwithText.PNG">') ),
+                  <a href="https://ansis.net/" target="_blank"><img style="float: right;" src="./Logos/ANSISwithText.PNG"></a>') ),
 
     tags$head(tags$style(".shiny-notification {position: fixed; top: 20% ;left: 50%")),
 
@@ -189,7 +189,7 @@ ui <- fluidPage(
                                              <p> ANSISUtils is powered by TERN. </p>
                                               <br>
                                               <p>ANSIS : When using data from ANSIS please include this acknoweldgement :- </p><br><p>"ANSIS has been supported by funding through the Australian Government Natural Heritage Trust (Department of Agriculture, Fisheries and Forestry) in collaboration with CSIRO."</p>
-                                              <p>Partners :  CSIRO, Corangamite CMA, Glenelg Hopkins CMA, Monash University, Sydney University, Federation University, NSW Govt, NT Govt, Qld Govt, SA Govt, Tas Govt, Vic Govt, WA Govt </p>
+                                              <p>Partners :  CSIRO, Corangamite CMA, Glenelg Hopkins CMA, Monash University, Sydney University, Federation University, NSW Govt, NT Govt, Qld Govt, SA Govt, Tas Govt, Vic Govt, WA Govt. </p>
 
 
                                              </div>'
